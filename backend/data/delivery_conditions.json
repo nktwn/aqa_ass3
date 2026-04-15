@@ -1,0 +1,32 @@
+[
+    {
+        "condition_id": 1,
+        "minimum_free_delivery_amount": 50000,
+        "delivery_fee": 4000,
+        "order_amount": 30000
+    },
+    {
+        "condition_id": 2,
+        "minimum_free_delivery_amount": 75000,
+        "delivery_fee": 5000,
+        "order_amount": 50000
+    },
+    {
+        "condition_id": 3,
+        "minimum_free_delivery_amount": 100000,
+        "delivery_fee": 6000,
+        "order_amount": 70000
+    },
+    {
+        "condition_id": 4,
+        "minimum_free_delivery_amount": 150000,
+        "delivery_fee": 7500,
+        "order_amount": 100000
+    },
+    {
+        "condition_id": 5,
+        "minimum_free_delivery_amount": 200000,
+        "delivery_fee": 10000,
+        "order_amount": 150000
+    }
+]

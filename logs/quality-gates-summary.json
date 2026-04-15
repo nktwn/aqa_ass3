@@ -1,0 +1,51 @@
+{
+  "generatedAt": "2026-04-14T14:39:19.318Z",
+  "overallPass": true,
+  "gates": [
+    {
+      "id": "QG-MID-001",
+      "criterion": "Backend Go test pass rate",
+      "threshold": ">= 95%",
+      "actual": "100%",
+      "passed": true,
+      "rationale": "Unit and integration evidence must stay mostly green to trust backend coverage outputs."
+    },
+    {
+      "id": "QG-MID-002",
+      "criterion": "Critical non-runtime failures",
+      "threshold": "0",
+      "actual": "0",
+      "passed": true,
+      "rationale": "Blocking failures in high-risk flows should not be masked by unrelated infrastructure constraints."
+    },
+    {
+      "id": "QG-MID-003",
+      "criterion": "Average high-risk backend coverage",
+      "threshold": ">= 20%",
+      "actual": "21.07%",
+      "passed": true,
+      "rationale": "Midterm coverage should materially improve visibility across the five highest-risk modules."
+    },
+    {
+      "id": "QG-MID-004",
+      "criterion": "Observed flaky rate",
+      "threshold": "<= 5%",
+      "actual": "0%",
+      "passed": true,
+      "rationale": "Empirical analysis becomes unreliable when too many tests oscillate across runs."
+    },
+    {
+      "id": "QG-MID-005",
+      "criterion": "Non-runtime smoke pass rate",
+      "threshold": ">= 85%",
+      "actual": "100%",
+      "passed": true,
+      "rationale": "Smoke feedback should remain useful even when optional live services are not enabled."
+    }
+  ],
+  "assessment": {
+    "thresholdsTooStrictOrLenient": "The thresholds are balanced: strict enough to catch regressions without blocking the repo on known runtime-dependent API gaps.",
+    "failureCause": "The remaining observed failures are dominated by infrastructure/runtime availability rather than functional regressions in mock-backed flows.",
+    "insufficientTests": "Yes. At least one high-risk module still has less than 10% backend coverage, which means the test portfolio is still thin in those areas."
+  }
+}

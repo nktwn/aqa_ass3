@@ -1,0 +1,103 @@
+volumes:
+  postgres_volume:
+  prometheus_data:
+  grafana_data:
+
+services:
+  pg:
+    image: postgres:14-alpine3.17
+    environment:
+      - "POSTGRES_DB=${PG_DATABASE_NAME}"
+      - "POSTGRES_USER=${PG_USER}"
+      - "POSTGRES_PASSWORD=${PG_PASSWORD}"
+    volumes:
+      - postgres_volume:/var/lib/postgresql/data
+    networks:
+      - diplom-net
+  migrator:
+    build:
+      context: .
+      dockerfile: migration.Dockerfile
+    restart: on-failure
+    networks:
+      - diplom-net
+  data-seeder:
+    build:
+      context: ./data
+      dockerfile: Dockerfile
+    env_file:
+      - .env
+    environment:
+      PGHOST: pg
+      PGPORT: 5432
+      PGDATABASE: ${PG_DATABASE_NAME}
+      PGUSER: ${PG_USER}
+      PGPASSWORD: ${PG_PASSWORD}
+    depends_on:
+      pg:
+        condition: service_started
+      migrator:
+        condition: service_completed_successfully
+    networks:
+      - diplom-net
+  redis:
+    image: redis:7-alpine
+    ports:
+      - "${REDIS_PORT}:6379"
+    networks:
+      - diplom-net
+    command: ["redis-server", "--appendonly", "yes", "--requirepass", "${REDIS_PASSWORD}"]
+  prometheus:
+    image: prom/prometheus:v2.45.0
+    volumes:
+      - ./prometheus:/etc/prometheus
+      - prometheus_data:/prometheus
+    command:
+      - '--config.file=/etc/prometheus/prometheus.yml'
+      - '--storage.tsdb.path=/prometheus'
+      - '--web.console.libraries=/usr/share/prometheus/console_libraries'
+      - '--web.console.templates=/usr/share/prometheus/consoles'
+    ports:
+      - "9090:9090"
+    networks:
+      - diplom-net
+    restart: always
+#  grafana:
+#    image: grafana/grafana:10.0.0
+#    volumes:
+#      - grafana_data:/var/lib/grafana
+#      - ./grafana/provisioning:/etc/grafana/provisioning
+#      - ./grafana/dashboards:/var/lib/grafana/dashboards
+#    environment:
+#      - GF_SECURITY_ADMIN_USER=${GRAFANA_ADMIN_USER:-admin}
+#      - GF_SECURITY_ADMIN_PASSWORD=${GRAFANA_ADMIN_PASSWORD:-admin}
+#      - GF_USERS_ALLOW_SIGN_UP=false
+#    ports:
+#      - "3000:3000"
+#    networks:
+#      - diplom-net
+#    restart: always
+#    depends_on:
+#      - prometheus
+  app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "8080:8080"
+    volumes:
+      - "./.env:/root/.env"
+    depends_on:
+      - pg
+      - redis
+    restart: on-failure
+    networks:
+      - diplom-net
+    env_file:
+      - .env
+    environment:
+      REDIS_HOST: redis
+
+networks:
+  diplom-net:
+    driver: bridge

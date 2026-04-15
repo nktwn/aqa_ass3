@@ -1,0 +1,8 @@
+"metric","value","notes"
+"High-risk average backend coverage","21.07%","Derived from logs/go-coverage.out"
+"Detected defects","0","Derived from Playwright JSON reports"
+"Critical non-runtime pass rate","100%","Runtime-dependent live API cases excluded from blocking gate evaluation"
+"Flaky rate","0%","Across all parsed Playwright test results"
+"Current execution time","169.61s","Aggregated from parsed Playwright reports"
+"Previous execution time","0s","Derived from prior Assignment 2 execution table"
+"Pipeline runtime","213.91s","Playwright durations plus Go test elapsed time"

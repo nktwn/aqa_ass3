@@ -1,0 +1,7 @@
+"Aspect","Planned (A1)","Actual (A2/Midterm)","Gap"
+"High-risk focus","Auth, cart, checkout, orders, catalog should be covered first","All five remain primary focus; backend and Playwright coverage extended in midterm","Coverage depth still uneven across those modules"
+"Risk evidence","Risk scores based on inspection","Risk scores updated from failures, coverage gaps, slow tests, and runtime constraints","Empirical evidence still limited when local browser execution is blocked"
+"Automation depth","Smoke-first strategy with early critical-path tests","Backend unit/integration plus Playwright E2E and API layers now exist","Frontend component-level unit coverage is still missing"
+"Coverage visibility","Qualitative automation scope","Real Go coverage and coverage-gap tables now generated","All five high-risk backend modules remain below 70%"
+"CI/CD","Basic CI expected after Assignment 2","Workflow now runs tests, coverage, metrics, quality gates, and artifact upload","Live API still depends on Docker runtime readiness"
+"Quality gates","Planned thresholds and release checks","Five measurable gates enforced programmatically","Thresholds are incremental rather than release-hardening strict"

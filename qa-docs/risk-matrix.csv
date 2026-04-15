@@ -1,0 +1,14 @@
+module,description,failure_scenario,business_impact,probability_score,impact_score,risk_score,priority,rationale
+Authentication and authorization,"Login, registration, JWT, role protection","Users cannot sign in or protected routes leak access","Revenue loss and security exposure",4,5,20,High,"All protected flows depend on it"
+Cart management,"Add/remove items, totals, quantities","Cart totals or items are wrong, or cart is unavailable","Direct conversion loss",4,5,20,High,"Critical purchase path"
+Checkout and payment initiation,"Address selection, validation, payment link generation","Payment cannot start or wrong delivery data is used","Immediate revenue loss and abandoned orders",4,5,20,High,"Multi-step flow with external dependency"
+Order lifecycle,"Order creation, retrieval, cancellation, status updates","Orders are missing, duplicated, or stuck","Fulfillment and reconciliation issues",4,5,20,High,"Core post-purchase operation"
+Product catalog and listing,"Homepage featured products, catalog listing, pagination, filtering","Customers cannot discover products","Reduced conversion and discoverability",4,4,16,High,"Primary browse entry point"
+Product detail and favorites,"Product page, favorites, reviews","Product data is incomplete or favorites fail","Medium conversion and retention impact",3,4,12,Medium,"Important but not always blocking"
+User profile and address book,"Profile update and delivery address storage","Users cannot maintain delivery details","Checkout friction and support load",3,4,12,Medium,"Address data feeds checkout"
+Search and filters,"Search, filter, sort state","Catalog narrowing is ineffective","Lower product findability",3,3,9,Medium,"UX degradation without full checkout outage"
+Notifications,"Unread counts and mark-as-read","Users miss updates or counts are wrong","Limited direct revenue impact",2,3,6,Low,"Supporting feature"
+Contracts and signatures,"Contract retrieval and signature workflow","Required signatures block fulfillment","Fulfillment delay and support escalation",3,4,12,Medium,"Important in order flow"
+Admin product management,"Admin CRUD for products","Admins cannot maintain catalog or access control fails","Operational delay or security issue",2,4,8,Medium,"Operationally important"
+Observability and metrics,"Prometheus, Swagger, QA evidence","Regression diagnosis is slower","Longer incident resolution time",2,3,6,Low,"Indirect customer impact"
+

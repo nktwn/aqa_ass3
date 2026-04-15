@@ -1,0 +1,76 @@
+name: CD
+
+on:
+  push:
+    branches: [ main, master ]
+  pull_request:
+    branches: [ main, master ]
+
+env:
+  REGISTRY: "188.227.35.6:5000"
+  IMAGE_NAME: "diploma-server"
+  CONTAINER_NAME: "diploma-container"
+
+jobs:
+  image-build-and-push:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout master
+        uses: actions/checkout@v3
+
+      - name: Configure Docker Daemon for HTTP Registry
+        run: |
+          sudo ls /etc/docker/
+          echo '{ "insecure-registries":["188.227.35.6:5000"] }' | sudo tee /etc/docker/daemon.json
+          sudo cat /etc/docker/daemon.json
+          sudo systemctl restart docker
+      #- name: Login to Docker Registry
+      # run: docker login -u ${{ secrets.REGISTRY_USERNAME }} -p ${{ secrets.REGISTRY_PASSWORD }} $REGISTRY
+
+
+      - name: Build Docker Image
+        run: |
+          TAG_NAME=$(echo $GITHUB_SHA | head -c7)
+          docker build --no-cache -t $REGISTRY/$IMAGE_NAME:$TAG_NAME -f Dockerfile .
+      - name: Push Docker Image
+        run: |
+          TAG_NAME=$(echo $GITHUB_SHA | head -c7)
+          docker push $REGISTRY/$IMAGE_NAME:$TAG_NAME
+
+
+  deploy-image:
+    runs-on: ubuntu-latest
+    needs: image-build-and-push
+
+    steps:
+      - name: Set up SSH key
+        run: |
+          echo "${{ secrets.SSH_PRIVATE_KEY }}" > id_rsa.pem
+          chmod 400 id_rsa.pem
+
+      - name: Connect to server and deploy
+        run: |
+          TAG_NAME_NEW=$(echo $GITHUB_SHA | head -c7)
+          echo $TAG_NAME_NEW
+          ssh -i id_rsa.pem -o StrictHostKeyChecking=no root@${{ secrets.SERVER_HOST }} "
+            cd diploma 
+            pwd
+            touch todo.txt
+
+            # Stop and remove containers, networks, etc.
+            docker-compose down || true
+
+            # Stop existing container and delete images
+            docker ps -a --filter "ancestor=188.227.35.6:5000/diploma-server" --format "{{.ID}}" | xargs docker rm || true
+            docker rmi diploma-server
+
+            #
+            sed -i "s/^TAG_NAME=.*/TAG_NAME=${TAG_NAME_NEW}/" .env
+            echo $TAG_NAME_NEW
+            
+            docker pull 188.227.35.6:5000/diploma-server:$TAG_NAME_NEW || true
+
+            docker-compose up -d
+
+          "

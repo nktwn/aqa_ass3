@@ -1,0 +1,3242 @@
+[
+    {
+        "id": 1,
+        "name": "Палочки хлебные МакМастер Гриссини сдобные, 100 г",
+        "image_url": "https://e-catalog.gov.kz/media/products/1091093/D093D180D0B8D181D181D0B8D0BDD0B820D0BFD0B0D0BBD0BED187D0BAD0B8.jpg",
+        "gtin": 2870008118117,
+        "min_price": 1181,
+        "created_at": null,
+        "updated_at": null,
+        "supplier_id": 1
+    },
+    {
+        "id": 2,
+        "name": "Смесь колбасная нежная Sofra Low-protein Sausage Mix низкобелковая без глютена, 180 г",
+        "image_url": "https://e-catalog.gov.kz/media/products/1091092/D0A1D0BCD0B5D181D18C20D0BAD0BED0BBD0B1D0B0D181D0BDD0B0D18F.png",
+        "gtin": 2870008118100,
+        "min_price": 1049,
+        "created_at": null,
+        "updated_at": null,
+        "supplier_id": 2
+    },
+    {
+        "id": 3,
+        "name": "Картофельное пюре МакМастер низкобелковое с овощами, 140 г",
+        "image_url": "https://e-catalog.gov.kz/media/products/1091090/hmxNkdPgQOLZlFb2JyrcJ3u5Dv3JF4y7dRIoEOTf.jpg",
+        "gtin": 2870008118087,
+        "min_price": 3380,
+        "created_at": null,
+        "updated_at": null,
+        "supplier_id": 1
+    },
+    {
+        "id": 4,
+        "name": "Молочный напиток Vitaflo ProZero безбелковый, 1 л",
+        "image_url": "https://e-catalog.gov.kz/media/products/1091054/D09FD180D0BED0B7D0B5D180D0BE201000.jpg",
+        "gtin": 2870008117721,
+        "min_price": 4841,
+        "created_at": null,
+        "updated_at": null,
+        "supplier_id": 3
+    },
+    {
+        "id": 5,
+        "name": "Напиток Нутриген сухой с молочным вкусом безбелковый 400 г",
+        "image_url": "https://e-catalog.gov.kz/media/products/1091049/D09DD183D182D180D0B8D0B3D0B5D0BD.jpg",
+        "gtin": 2870008117677,
+        "min_price": 3495,
+        "created_at": null,
+        "updated_at": null,
+        "supplier_id": 4
+    },
+    {
+        "id": 6,
+        "name": "Бисквитные безглютеновые пирожные Dr. Schar Pausa Ciok, 350 г, 10 шт/уп",
+        "image_url": "https://e-catalog.gov.kz/media/products/1091033/Schar-Pausa-Ciok-Confezione-da-350gr-Bottega-senza-Glutine-685.jpg",
+        "gtin": 2870008117516,
+        "min_price": 1440,
+        "created_at": null,
+        "updated_at": null,
+        "supplier_id": 5
+    },
+    {
+        "id": 7,
+        "name": "Зелёный горошек Bonduelle Classique Нежный, 800 г",
+        "image_url": "https://e-catalog.gov.kz/media/products/1090934/D091D0B5D0B7D18BD0BCD18FD0BDD0BDD18BD0B9.png",
+        "gtin": 2870008116526,
+        "min_price": 2996,
+        "created_at": null,
+        "updated_at": null,
+        "supplier_id": 6
+    },
+    {
+        "id": 8,
+        "name": "Каша Milupa lp-fruity Груша низкобелковая, 300 г",
+        "image_url": "https://e-catalog.gov.kz/media/products/1090864/Nutricia-Milupa-lp-fruity-Birne-2.jpg",
+        "gtin": 2870008115826,
+        "min_price": 3258,
+        "created_at": null,
+        "updated_at": null,
+        "supplier_id": 7
+    },
+    {
+        "id": 9,
+        "name": "Низкобелковый заменитель рыбы Taranis, 248 г",
+        "image_url": "https://e-catalog.gov.kz/media/products/1090861/Eiweissarmer-Fleisch-Ersatz-Taranis.png",
+        "gtin": 2870008115796,
+        "min_price": 1439,
+        "created_at": null,
+        "updated_at": null,
+        "supplier_id": 8
+    },
+    {
+        "id": 10,
+        "name": "Сясное ассорти Loprofin Zum Aufschneiden Paprikalyoner Art, с низким содержанием белка, 195 г",
+        "image_url": "https://e-catalog.gov.kz/media/products/1090860/Nutricia-Loprofin-Zum-Aufschneiden-Bratwurst-Art-2.jpg",
+        "gtin": 2870008115789,
+        "min_price": 1878,
+        "created_at": null,
+        "updated_at": null,
+        "supplier_id": 9
+    },
+    {
+        "id": 11,
+        "name": "Низкобелковый заменитель мяса Taranis, 248 г",
+        "image_url": "https://e-catalog.gov.kz/media/products/1090857/Eiweissarmer-Fisch-Ersatz-Taranis.png",
+        "gtin": 2870008115758,
+        "min_price": 3921,
+        "created_at": null,
+        "updated_at": null,
+        "supplier_id": 8
+    },
+    {
+        "id": 12,
+        "name": "Хлеб низкобелковый Flavis Pan carre, 300 г",
+        "image_url": "https://e-catalog.gov.kz/media/products/1090848/6949.500.png",
+        "gtin": 2870008115666,
+        "min_price": 2343,
+        "created_at": null,
+        "updated_at": null,
+        "supplier_id": 10
+    },
+    {
+        "id": 13,
+        "name": "Шоколадная паста Sofra Chocolate Spread низкобелковая, 300 г",
+        "image_url": "https://e-catalog.gov.kz/media/products/1090847/7634.500.png",
+        "gtin": 2870008115659,
+        "min_price": 1107,
+        "created_at": null,
+        "updated_at": null,
+        "supplier_id": 2
+    },
+    {
+        "id": 14,
+        "name": "Мармелад Okovital Bio-Fruit-Frites безглютеновый, 150 г",
+        "image_url": "https://e-catalog.gov.kz/media/products/1090846/Oekovital-Bio-Frutti-Worms.jpg",
+        "gtin": 2870008115642,
+        "min_price": 2368,
+        "created_at": null,
+        "updated_at": null,
+        "supplier_id": 11
+    },
+    {
+        "id": 15,
+        "name": "Замороженный стейк форели, 1 кг",
+        "image_url": "https://e-catalog.gov.kz/media/products/1090740/WhatsApp20Image202024-02-0120at2012.14.592028129.jpeg",
+        "gtin": 2870008114584,
+        "min_price": 1486,
+        "created_at": null,
+        "updated_at": null,
+        "supplier_id": 12
+    },
+    {
+        "id": 16,
+        "name": "Шоколадные ложечки Sofra низкобелковые, 60 г",
+        "image_url": "https://e-catalog.gov.kz/media/products/1090715/7706.500.png",
+        "gtin": 2870008114331,
+        "min_price": 1212,
+        "created_at": null,
+        "updated_at": null,
+        "supplier_id": 2
+    },
+    {
+        "id": 17,
+        "name": "Шоколадные звери на палочке Huber низкобелковые, 60 г",
+        "image_url": "https://e-catalog.gov.kz/media/products/1090712/Lutscher-eiweissarm.jpg",
+        "gtin": 2870008114300,
+        "min_price": 3152,
+        "created_at": null,
+        "updated_at": null,
+        "supplier_id": 13
+    },
+    {
+        "id": 18,
+        "name": "Шоколад Huber Schokovani низкобелковый, с кокосом, 80г",
+        "image_url": "https://e-catalog.gov.kz/media/products/1090706/Kokosina-eiweissarm.jpg",
+        "gtin": 2870008114249,
+        "min_price": 4398,
+        "created_at": null,
+        "updated_at": null,
+        "supplier_id": 13
+    },
+    {
+        "id": 19,
+        "name": "Шоколад Huber Schokovani низкобелковый, ванильный, 80 г",
+        "image_url": "https://e-catalog.gov.kz/media/products/1090703/Schokovani-eiweissarm.jpg",
+        "gtin": 2870008114218,
+        "min_price": 1702,
+        "created_at": null,
+        "updated_at": null,
+        "supplier_id": 13
+    },
+    {
+        "id": 20,
+        "name": "Взбитые сливки Schlagfix веганские, 200 мл",
+        "image_url": "https://e-catalog.gov.kz/media/products/1090667/LeHA-Schlagfix-universelle-Schlagcreme-spruehfertig.jpg",
+        "gtin": 2870008113853,
+        "min_price": 2416,
+        "created_at": null,
+        "updated_at": null,
+        "supplier_id": 14
+    },
+    {
+        "id": 21,
+        "name": "Молочный напиток Vitaflo ProZero безбелковый, 250 мл",
+        "image_url": "https://e-catalog.gov.kz/media/products/1090665/Vitaflo-ProZero-eiweissfreies-Getraenk-250ml.jpg",
+        "gtin": 2870008113839,
+        "min_price": 2037,
+        "created_at": null,
+        "updated_at": null,
+        "supplier_id": 3
+    },
+    {
+        "id": 22,
+        "name": "Молочный напиток Vitaflo ProZero Chocolate безбелковый, 250 мл",
+        "image_url": "https://e-catalog.gov.kz/media/products/1090661/Vitaflo-PROZERO-Schokolade-250ml.png",
+        "gtin": 2870008113792,
+        "min_price": 3649,
+        "created_at": null,
+        "updated_at": null,
+        "supplier_id": 3
+    },
+    {
+        "id": 23,
+        "name": "Универсальный крем Schlagfix Universal Whipped Cream, с низким содержанием белка, 200 мл",
+        "image_url": "https://e-catalog.gov.kz/media/products/1090656/LeHA-Schlagfix-universelle-Schlagcreme.jpg",
+        "gtin": 2870008113747,
+        "min_price": 4222,
+        "created_at": null,
+        "updated_at": null,
+        "supplier_id": 14
+    },
+    {
+        "id": 24,
+        "name": "Молоко с низким содержанием белка Taranis Dalia, 200 мл",
+        "image_url": "https://e-catalog.gov.kz/media/products/1090651/Dalia-Taranis.png",
+        "gtin": 2870008113693,
+        "min_price": 4598,
+        "created_at": null,
+        "updated_at": null,
+        "supplier_id": 8
+    },
+    {
+        "id": 25,
+        "name": "Жидкий напиток с низким содержанием белка Loprofin LQ, 200 мл",
+        "image_url": "https://e-catalog.gov.kz/media/products/1090643/Nutricia-Loprofin-drink-LQ.jpg",
+        "gtin": 2870008113617,
+        "min_price": 4691,
+        "created_at": null,
+        "updated_at": null,
+        "supplier_id": 9
+    },
+    {
+        "id": 26,
+        "name": "Молоко сухое Milupa lp-drink Choco низкобелковое, 375 г",
+        "image_url": "https://e-catalog.gov.kz/media/products/1090638/Milupa-lp-drink-choco.jpg",
+        "gtin": 2870008113563,
+        "min_price": 868,
+        "created_at": null,
+        "updated_at": null,
+        "supplier_id": 7
+    },
+    {
+        "id": 27,
+        "name": "Молоко сухое Milupa lp-drink низкобелковое, 400 г",
+        "image_url": "https://e-catalog.gov.kz/media/products/1090633/Milupa-lp-drink.jpg",
+        "gtin": 2870008113518,
+        "min_price": 562,
+        "created_at": null,
+        "updated_at": null,
+        "supplier_id": 7
+    },
+    {
+        "id": 28,
+        "name": "Сосиски Loprofin Metzgers Beste Fränkische Art, 222 г",
+        "image_url": "https://e-catalog.gov.kz/media/products/1090629/Nutricia-Loprofin-Metzgers-Beste-Fraenkische-Art.jpg",
+        "gtin": 2870008113471,
+        "min_price": 505,
+        "created_at": null,
+        "updated_at": null,
+        "supplier_id": 9
+    },
+    {
+        "id": 29,
+        "name": "Сосиски Loprofin zum Aufschneiden Lyoner Art, 195 г",
+        "image_url": "https://e-catalog.gov.kz/media/products/1090623/Nutricia-Loprofin-Zum-Aufschneiden-Lyoner-Art.jpg",
+        "gtin": 2870008113419,
+        "min_price": 4650,
+        "created_at": null,
+        "updated_at": null,
+        "supplier_id": 9
+    },
+    {
+        "id": 30,
+        "name": "Сосиски Loprofin Metzgers Beste Wiener Art, 204 г",
+        "image_url": "https://e-catalog.gov.kz/media/products/1090617/Nutricia-Loprofin-Metzgers-Beste-Wiener-Art.jpg",
+        "gtin": 2870008113358,
+        "min_price": 4485,
+        "created_at": null,
+        "updated_at": null,
+        "supplier_id": 9
+    },
+    {
+        "id": 31,
+        "name": "Вода питьевая Miglior газированная, стеклянная бутылка, 750 мл",
+        "image_url": "https://e-catalog.gov.kz/media/products/1090372/07_glass_GAZ.jpg",
+        "gtin": 2870008110906,
+        "min_price": 2154,
+        "created_at": null,
+        "updated_at": null,
+        "supplier_id": 15
+    },
+    {
+        "id": 32,
+        "name": "Вода питьевая Miglior негазированная, стеклянная бутылка, 750 мл",
+        "image_url": "https://e-catalog.gov.kz/media/products/1090371/07_glass_NE_GAZ.jpg",
+        "gtin": 2870008110890,
+        "min_price": 2306,
+        "created_at": null,
+        "updated_at": null,
+        "supplier_id": 16
+    },
+    {
+        "id": 33,
+        "name": "Кофе растворимый Ambassador Platinum 47,5 г",
+        "image_url": "https://e-catalog.gov.kz/media/products/1090096/6696258785.jpg",
+        "gtin": 2870008108149,
+        "min_price": 875,
+        "created_at": null,
+        "updated_at": null,
+        "supplier_id": 17
+    },
+    {
+        "id": 34,
+        "name": "Кофе растворимый Ambassador Platinum 95 г",
+        "image_url": "https://e-catalog.gov.kz/media/products/1090094/6696258785.jpg",
+        "gtin": 2870008108125,
+        "min_price": 4058,
+        "created_at": null,
+        "updated_at": null,
+        "supplier_id": 17
+    },
+    {
+        "id": 35,
+        "name": "Кофе растворимый Ambassador Platinum 190 г",
+        "image_url": "https://e-catalog.gov.kz/media/products/1090091/6696258785.jpg",
+        "gtin": 2870008108095,
+        "min_price": 4621,
+        "created_at": null,
+        "updated_at": null,
+        "supplier_id": 17
+    },
+    {
+        "id": 36,
+        "name": "Кофе растворимый Черная карта Exclusive Brasilia 95 г",
+        "image_url": "https://e-catalog.gov.kz/media/products/1090087/ru_pim_186403001001_01.png",
+        "gtin": 2870008108057,
+        "min_price": 2590,
+        "created_at": null,
+        "updated_at": null,
+        "supplier_id": 18
+    },
+    {
+        "id": 37,
+        "name": "Кофе растворимый Черная карта Exclusive Brasilia 47,5 г",
+        "image_url": "https://e-catalog.gov.kz/media/products/1090086/6278547276.jpg",
+        "gtin": 2870008108040,
+        "min_price": 2694,
+        "created_at": null,
+        "updated_at": null,
+        "supplier_id": 18
+    },
+    {
+        "id": 38,
+        "name": "Вафли без глютена Dr. Schar \"Wafers al limone\" кукурузные с лимонно-кремовой начинкой, 125 г",
+        "image_url": "https://e-catalog.gov.kz/media/products/1090044/D092D0B0D184D0BBD0B820D18120D0BBD0B8D0BCD0BED0BDD0BED0BC.jpg",
+        "gtin": 2870008107623,
+        "min_price": 1864,
+        "created_at": null,
+        "updated_at": null,
+        "supplier_id": 19
+    },
+    {
+        "id": 39,
+        "name": "Сазан замороженный ТОО \"Тілекші\", 1 кг",
+        "image_url": "https://e-catalog.gov.kz/media/products/1089990/xWPV4xTSqjqdNOVcKwMMx8YEHM4sTq4XlOw4pyEY.jpg",
+        "gtin": 2870008107081,
+        "min_price": 2576,
+        "created_at": null,
+        "updated_at": null,
+        "supplier_id": 20
+    },
+    {
+        "id": 40,
+        "name": "Смесь NAN (Nestle) Expert Pro Кисломолочная, для детей с 0-12 месяцев, 400 г",
+        "image_url": "https://e-catalog.gov.kz/media/products/1089920/nan200-12.png",
+        "gtin": 2870008106381,
+        "min_price": 2749,
+        "created_at": null,
+        "updated_at": null,
+        "supplier_id": 21
+    },
+    {
+        "id": 41,
+        "name": "Томатная паста Масло-Дел \"Томатный Рай\" 1000 гр",
+        "image_url": "https://e-catalog.gov.kz/media/products/1089382/52zEWtnF9DuSVbNuwIT0UMnraOBtIpk03gykeTaH.png",
+        "gtin": 2870008101003,
+        "min_price": 3803,
+        "created_at": null,
+        "updated_at": null,
+        "supplier_id": 22
+    },
+    {
+        "id": 42,
+        "name": "Сливки Молочный Гостинец 33% 1 л",
+        "image_url": "https://e-catalog.gov.kz/media/products/1089215/L0eq8MP8WLGtkP7yBUmTLaAkAnTUXcCYxVaajmv3.jpg",
+        "gtin": 2870008099331,
+        "min_price": 2229,
+        "created_at": null,
+        "updated_at": null,
+        "supplier_id": 23
+    },
+    {
+        "id": 43,
+        "name": "кенийский чай",
+        "image_url": "https://e-catalog.gov.kz/media/products/1089210/photo_2023-03-14_13-40-28.jpg",
+        "gtin": 2870008099287,
+        "min_price": 1317,
+        "created_at": null,
+        "updated_at": null,
+        "supplier_id": 24
+    },
+    {
+        "id": 44,
+        "name": "Крыло цыпленка бройлера UKPF замороженное, 1 кг",
+        "image_url": "https://e-catalog.gov.kz/media/products/1089130/D091D0B5D0B720D0BDD0B0D0B7D0B2D0B0D0BDD0B8D18F.jpg",
+        "gtin": 2870008098488,
+        "min_price": 539,
+        "created_at": null,
+        "updated_at": null,
+        "supplier_id": 25
+    },
+    {
+        "id": 45,
+        "name": "Вода питьевая ТОО \"DEMDE (ДЕМДЕ)\" кристалл water негазированная, 19 л",
+        "image_url": "https://e-catalog.gov.kz/media/products/1089045/7f546847-a6dd-44da-b0b5-3f6fad0b252a.jpg",
+        "gtin": 2870008097634,
+        "min_price": 1990,
+        "created_at": null,
+        "updated_at": null,
+        "supplier_id": 26
+    },
+    {
+        "id": 46,
+        "name": "Вода артезианская Miglior газированная, ПЭТ, 1.5 л",
+        "image_url": "https://e-catalog.gov.kz/media/products/1089040/1_5_gaz.jpg",
+        "gtin": 2870008097580,
+        "min_price": 666,
+        "created_at": null,
+        "updated_at": null,
+        "supplier_id": 27
+    },
+    {
+        "id": 47,
+        "name": "Вода артезианская Miglior негазированная, ПЭТ, 1.5 л",
+        "image_url": "https://e-catalog.gov.kz/media/products/1089038/1_5_ne_gaz.jpg",
+        "gtin": 2870008097566,
+        "min_price": 918,
+        "created_at": null,
+        "updated_at": null,
+        "supplier_id": 27
+    },
+    {
+        "id": 48,
+        "name": "Пельмени говяжьи ИП \"Диларам\" Asad, 1 кг",
+        "image_url": "https://e-catalog.gov.kz/media/products/1088886/WhatsApp20Image202024-01-2520at2014.39.57.jpeg",
+        "gtin": 2870008096040,
+        "min_price": 952,
+        "created_at": null,
+        "updated_at": null,
+        "supplier_id": 28
+    },
+    {
+        "id": 49,
+        "name": "Творог ТОО \"Уштобе-Айдын\" 9% 250 г",
+        "image_url": "https://e-catalog.gov.kz/media/products/1088211/H2pAp0fa1vg2EEOHKfKy3E92ZWxJwxvltoySLjef.jpg",
+        "gtin": 2870008089295,
+        "min_price": 3154,
+        "created_at": null,
+        "updated_at": null,
+        "supplier_id": 29
+    },
+    {
+        "id": 50,
+        "name": "Творог ТОО \"Уштобе-Айдын\" нежирный, 250 г",
+        "image_url": "https://e-catalog.gov.kz/media/products/1088209/lSzFMO0h539I3NgDl8FXBnqAm0rFmBYqfvcskZbw.jpg",
+        "gtin": 2870008089271,
+        "min_price": 966,
+        "created_at": null,
+        "updated_at": null,
+        "supplier_id": 29
+    },
+    {
+        "id": 51,
+        "name": "Творог ТОО \"Уштобе-Айдын\" Крестьянский 5%, 250 г",
+        "image_url": "https://e-catalog.gov.kz/media/products/1088204/oVcqXrRH0YFgTsxdrKXCkb1XyHWTNYJN3nqEbdA1.jpg",
+        "gtin": 2870008089226,
+        "min_price": 1817,
+        "created_at": null,
+        "updated_at": null,
+        "supplier_id": 29
+    },
+    {
+        "id": 52,
+        "name": "Напиток кисломолочный ТОО \"Уштобе-Айдын\" Снежок 2.5% 1 л",
+        "image_url": "https://e-catalog.gov.kz/media/products/1088180/ylOyL3O8DI2bMNGfGSppXIFQjiucI9lsq6Mxkasu.jpg",
+        "gtin": 2870008088984,
+        "min_price": 3778,
+        "created_at": null,
+        "updated_at": null,
+        "supplier_id": 29
+    },
+    {
+        "id": 53,
+        "name": "Кефир ТОО \"Уштобе-Айдын\" 2.5% 1 л",
+        "image_url": "https://e-catalog.gov.kz/media/products/1088179/aiS310p4pDdZYIx6imlQ8lK14bfMy8nQ0w0qoQCS.jpg",
+        "gtin": 2870008088977,
+        "min_price": 1456,
+        "created_at": null,
+        "updated_at": null,
+        "supplier_id": 29
+    },
+    {
+        "id": 54,
+        "name": "Молоко ТОО \"Уштобе-Айдын\" пастеризованное 3.2% 1 л",
+        "image_url": "https://e-catalog.gov.kz/media/products/1088177/D0BCD0BED0BB203.2.jpeg",
+        "gtin": 2870008088953,
+        "min_price": 2329,
+        "created_at": null,
+        "updated_at": null,
+        "supplier_id": 29
+    },
+    {
+        "id": 55,
+        "name": "Молоко ТОО \"Уштобе-Айдын\" пастеризованное, 2.5% 1 л",
+        "image_url": "https://e-catalog.gov.kz/media/products/1088176/lwkDvMkjS1BRocy7K09v1lWY9mUFfKCwS0G6nLIX.jpg",
+        "gtin": 2870008088946,
+        "min_price": 2786,
+        "created_at": null,
+        "updated_at": null,
+        "supplier_id": 29
+    },
+    {
+        "id": 56,
+        "name": "Молоко концентрированное стерилизованное Глубокое 8.6%, 300 г",
+        "image_url": "https://e-catalog.gov.kz/media/products/1088014/1.jpg",
+        "gtin": 2870008087321,
+        "min_price": 1188,
+        "created_at": null,
+        "updated_at": null,
+        "supplier_id": 30
+    },
+    {
+        "id": 57,
+        "name": "Булочки без глютена Schar \"Bon Matín\" 200 г",
+        "image_url": "https://e-catalog.gov.kz/media/products/1087988/bonmatin.jpg",
+        "gtin": 2870008087062,
+        "min_price": 3155,
+        "created_at": null,
+        "updated_at": null,
+        "supplier_id": 5
+    },
+    {
+        "id": 58,
+        "name": "Хлеб без глютена Dr. Schar \"Pan Blanco\" белый, 250 г",
+        "image_url": "https://e-catalog.gov.kz/media/products/1087979/panblanco.jpg",
+        "gtin": 2870008086973,
+        "min_price": 1755,
+        "created_at": null,
+        "updated_at": null,
+        "supplier_id": 5
+    },
+    {
+        "id": 59,
+        "name": "Хрустящие безглютеновые хлебцы Dr. Schar \"Fette Croccanti\" 150 гр",
+        "image_url": "https://e-catalog.gov.kz/media/products/1087780/EzjbfyJDFnzfaVo4UF6gj1d56dV6ohSvOZQWTxQO.jpg",
+        "gtin": 2870008084986,
+        "min_price": 1258,
+        "created_at": null,
+        "updated_at": null,
+        "supplier_id": 5
+    },
+    {
+        "id": 60,
+        "name": "Печенье без глютена Dr. Schar Савоярди Savoiardi, 200 гр",
+        "image_url": "https://e-catalog.gov.kz/media/products/1087775/eQOhRzYnTV7q1EalteEpRTOTuLzonFWUB9F4ZK6t.jpg",
+        "gtin": 2870008084931,
+        "min_price": 4040,
+        "created_at": null,
+        "updated_at": null,
+        "supplier_id": 19
+    },
+    {
+        "id": 61,
+        "name": "Вафли без глютена Dr. Schar \"Snack\" в шоколаде без глютена с лесными орехами, 105 г",
+        "image_url": "https://e-catalog.gov.kz/media/products/1087773/kIrtpkYDBGMAdO7FH7qKO6u59ztcgJw6UZjfuvQB.jpg",
+        "gtin": 2870008084917,
+        "min_price": 4814,
+        "created_at": null,
+        "updated_at": null,
+        "supplier_id": 19
+    },
+    {
+        "id": 62,
+        "name": "Вафли без глютена Dr. Schar Quadritos, с какао, покрытые горьким шоколадом 40 гр",
+        "image_url": "https://e-catalog.gov.kz/media/products/1087769/oXCacHrXUqh0vE7rXVPalIp4k6Ajiee3muwq3yrU.jpg",
+        "gtin": 2870008084870,
+        "min_price": 689,
+        "created_at": null,
+        "updated_at": null,
+        "supplier_id": 19
+    },
+    {
+        "id": 63,
+        "name": "Лаваш Dr. Schar \"Wraps\" без глютена, 160 гр",
+        "image_url": "https://e-catalog.gov.kz/media/products/1087763/CSNWWhUt8Pr0fvNUh2GCSJc0N0OlrUau54CoQWUh.jpg",
+        "gtin": 2870008084818,
+        "min_price": 3448,
+        "created_at": null,
+        "updated_at": null,
+        "supplier_id": 5
+    },
+    {
+        "id": 64,
+        "name": "Мука Цесна Пшеничная, высший сорт, 50 кг",
+        "image_url": "https://e-catalog.gov.kz/media/products/1087597/4.jpg",
+        "gtin": 2870008083156,
+        "min_price": 4981,
+        "created_at": null,
+        "updated_at": null,
+        "supplier_id": 31
+    },
+    {
+        "id": 65,
+        "name": "Курага ООО \"Садон и Ко\" 5 кг",
+        "image_url": "https://e-catalog.gov.kz/media/products/1087583/ZNb5Cbu4mVJ2o34RTbgUbWWsf3gMZlUqGXNsCxNy.jpg",
+        "gtin": 2870008083019,
+        "min_price": 3435,
+        "created_at": null,
+        "updated_at": null,
+        "supplier_id": 32
+    },
+    {
+        "id": 66,
+        "name": "Вода артезианская Miglior, газированная, стеклянная бутылка, 0,5 л",
+        "image_url": "https://e-catalog.gov.kz/media/products/1087115/05_glass_GAZ.jpg",
+        "gtin": 2870008078336,
+        "min_price": 4328,
+        "created_at": null,
+        "updated_at": null,
+        "supplier_id": 27
+    },
+    {
+        "id": 67,
+        "name": "Вода артезианская Miglior газированная, стеклянная бутылка, 0.25 л",
+        "image_url": "https://e-catalog.gov.kz/media/products/1087111/025_glass_GAZ.jpg",
+        "gtin": 2870008078299,
+        "min_price": 4291,
+        "created_at": null,
+        "updated_at": null,
+        "supplier_id": 27
+    },
+    {
+        "id": 68,
+        "name": "Вода артезианская Miglior газированная, ПЭТ, 1 л",
+        "image_url": "https://e-catalog.gov.kz/media/products/1087109/1L_gaz.jpg",
+        "gtin": 2870008078275,
+        "min_price": 1217,
+        "created_at": null,
+        "updated_at": null,
+        "supplier_id": 27
+    },
+    {
+        "id": 69,
+        "name": "Вода артезианская Miglior газированная, ПЭТ, 0.5 л",
+        "image_url": "https://e-catalog.gov.kz/media/products/1087106/05_gaz.jpg",
+        "gtin": 2870008078244,
+        "min_price": 678,
+        "created_at": null,
+        "updated_at": null,
+        "supplier_id": 27
+    },
+    {
+        "id": 70,
+        "name": "Молоко Natige 2.5% пастеризованное, 1000 мл фин/пак",
+        "image_url": "https://e-catalog.gov.kz/media/products/1086840/Io56fubtRFNeP7q35uRnxVsbk48FMI8pbYoH3G84.jpg",
+        "gtin": 2870008075588,
+        "min_price": 1709,
+        "created_at": null,
+        "updated_at": null,
+        "supplier_id": 33
+    },
+    {
+        "id": 71,
+        "name": "Молоко Natige 2.5% пастеризованное, 500 мл фин/пак",
+        "image_url": "https://e-catalog.gov.kz/media/products/1086837/EzYRWlu8fIxMDxVtmYjsbvtjVKPWBaexsuAVUWzB.jpg",
+        "gtin": 2870008075557,
+        "min_price": 4474,
+        "created_at": null,
+        "updated_at": null,
+        "supplier_id": 33
+    },
+    {
+        "id": 72,
+        "name": "Чайный напиток \"Шалфей\"",
+        "image_url": "https://e-catalog.gov.kz/media/products/1086470/1.jpg",
+        "gtin": 2870008071887,
+        "min_price": 2396,
+        "created_at": null,
+        "updated_at": null,
+        "supplier_id": 34
+    },
+    {
+        "id": 73,
+        "name": "Чайный напиток \"Шиповник\"",
+        "image_url": "https://e-catalog.gov.kz/media/products/1086469/1.jpg",
+        "gtin": 2870008071870,
+        "min_price": 1939,
+        "created_at": null,
+        "updated_at": null,
+        "supplier_id": 34
+    },
+    {
+        "id": 74,
+        "name": "Чайный напиток \"Гинкго Билоба\"",
+        "image_url": "https://e-catalog.gov.kz/media/products/1086468/1.jpg",
+        "gtin": 2870008071863,
+        "min_price": 872,
+        "created_at": null,
+        "updated_at": null,
+        "supplier_id": 34
+    },
+    {
+        "id": 75,
+        "name": "Чайный напиток \"Каркаде\"",
+        "image_url": "https://e-catalog.gov.kz/media/products/1086467/1.jpg",
+        "gtin": 2870008071856,
+        "min_price": 2680,
+        "created_at": null,
+        "updated_at": null,
+        "supplier_id": 34
+    },
+    {
+        "id": 76,
+        "name": "Консервы мясные СПК \"Айбек\" Сыбага Каша перловая с говядиной, 325 г",
+        "image_url": "https://e-catalog.gov.kz/media/products/1086457/x7XIhfyZZ4ceMTmcHdC6KY7T6uvekm7oFmj8ghIr.jpg",
+        "gtin": 2870008071757,
+        "min_price": 1308,
+        "created_at": null,
+        "updated_at": null,
+        "supplier_id": 35
+    },
+    {
+        "id": 77,
+        "name": "Консервы мясные СПК \"Айбек\" Сыбага Каша гречневая с говядиной, 325 г",
+        "image_url": "https://e-catalog.gov.kz/media/products/1086450/AwqvsyETMYeBQyhqhv9QUJ6BKjXO5AGEfzdntL8Q.jpg",
+        "gtin": 2870008071689,
+        "min_price": 4323,
+        "created_at": null,
+        "updated_at": null,
+        "supplier_id": 35
+    },
+    {
+        "id": 78,
+        "name": "Молоко ТОО \"Ак-Булак продукт\" пастеризованное 3.2%, 1 л",
+        "image_url": "https://e-catalog.gov.kz/media/products/1085888/phL188WjLF72UF1Pj0z2sur2uKiMhtm9muvqa3f7.jpg",
+        "gtin": 2870008066067,
+        "min_price": 4782,
+        "created_at": null,
+        "updated_at": null,
+        "supplier_id": 36
+    },
+    {
+        "id": 79,
+        "name": "Кефир ТОО \"Уштобе-Айдын\" йодированный 2.5% 1 л",
+        "image_url": "https://e-catalog.gov.kz/media/products/1085755/b5rckWQqwk2AVu8hmVCFF54DNSR3M6mFsNt3vWnc.jpg",
+        "gtin": 2870008064735,
+        "min_price": 1209,
+        "created_at": null,
+        "updated_at": null,
+        "supplier_id": 29
+    },
+    {
+        "id": 80,
+        "name": "Молоко ТОО \"Уштобе-Айдын\" пастеризованное йодированное 2.5% 1 л",
+        "image_url": "https://e-catalog.gov.kz/media/products/1085752/4mrgpG1j3FGMDnxmnVyDHTgK0vCOQlc375dz5lLH.jpg",
+        "gtin": 2870008064704,
+        "min_price": 2099,
+        "created_at": null,
+        "updated_at": null,
+        "supplier_id": 29
+    },
+    {
+        "id": 81,
+        "name": "Батон ИП \"Баширов А.К.\" из пшеничной муки, 400 г",
+        "image_url": "https://e-catalog.gov.kz/media/products/1085739/D0B1D0B0D182D0BED0BD.jpeg",
+        "gtin": 2870008064575,
+        "min_price": 2364,
+        "created_at": null,
+        "updated_at": null,
+        "supplier_id": 37
+    },
+    {
+        "id": 82,
+        "name": "Хлеб ИП \"Баширов А.К.\" из муки пшеничной, высший сорт, 650 г",
+        "image_url": "https://e-catalog.gov.kz/media/products/1085736/D185D0BBD0B5D0B120D0B7D0B0D0B2D0BED0B4D181D0BAD0BED0B9.jpeg",
+        "gtin": 2870008064544,
+        "min_price": 1641,
+        "created_at": null,
+        "updated_at": null,
+        "supplier_id": 37
+    },
+    {
+        "id": 83,
+        "name": "Молочная смесь Mami Lac Extra Care, для детей 0-12 месяцев, 400 г",
+        "image_url": "https://e-catalog.gov.kz/media/products/1085292/Mami20Lac200-12.jpeg",
+        "gtin": 2870008060102,
+        "min_price": 1598,
+        "created_at": null,
+        "updated_at": null,
+        "supplier_id": 38
+    },
+    {
+        "id": 84,
+        "name": "Молочная смесь Mami Lac 2 Extra Care, для детей 6-12 месяцев, 400 г",
+        "image_url": "https://e-catalog.gov.kz/media/products/1085289/Mamilac202.jpeg",
+        "gtin": 2870008060072,
+        "min_price": 1974,
+        "created_at": null,
+        "updated_at": null,
+        "supplier_id": 38
+    },
+    {
+        "id": 85,
+        "name": "Молочная смесь Mami Lac 1 Extra Care, для детей 0-6 месяцев, 400 г",
+        "image_url": "https://e-catalog.gov.kz/media/products/1085288/Mamilac201.jpeg",
+        "gtin": 2870008060065,
+        "min_price": 1798,
+        "created_at": null,
+        "updated_at": null,
+        "supplier_id": 38
+    },
+    {
+        "id": 86,
+        "name": "Пельмени говяжьи ИП \"Диларам\" Asad, 900 г",
+        "image_url": "https://e-catalog.gov.kz/media/products/1085268/WhatsApp20Image202024-01-1120at2014.44.12.jpeg",
+        "gtin": 2870008059861,
+        "min_price": 2990,
+        "created_at": null,
+        "updated_at": null,
+        "supplier_id": 28
+    },
+    {
+        "id": 87,
+        "name": "Напиток кисломолочный Exponenta Bio-Skyr Дыня-Канталупа обезжиренный с высоким содержанием белка, 500 г",
+        "image_url": "https://e-catalog.gov.kz/media/products/1085254/a8fcc46414d9be284653daeb5405456f.png",
+        "gtin": 2870008059724,
+        "min_price": 4533,
+        "created_at": null,
+        "updated_at": null,
+        "supplier_id": 39
+    },
+    {
+        "id": 88,
+        "name": "Напиток кисломолочный Exponenta High-Pro с высоким содержанием белка, 250 г",
+        "image_url": "https://e-catalog.gov.kz/media/products/1085252/D0BDD0B0D182D183D180D0B0D0BBD18CD0BDD18BD0B9.png",
+        "gtin": 2870008059700,
+        "min_price": 3565,
+        "created_at": null,
+        "updated_at": null,
+        "supplier_id": 39
+    },
+    {
+        "id": 89,
+        "name": "Кофе растворимый Nescafe Classic 250 г, вакуумная упаковка",
+        "image_url": "https://e-catalog.gov.kz/media/products/1085171/oi8OdyXAuyHULtAqhOuaWxQbYJRDvkkgsSKnMfst.jpg",
+        "gtin": 2870008058895,
+        "min_price": 1563,
+        "created_at": null,
+        "updated_at": null,
+        "supplier_id": 40
+    },
+    {
+        "id": 90,
+        "name": "Дрожжи Воронежские сухие, 500 г",
+        "image_url": "https://e-catalog.gov.kz/media/products/1085156/oUw921P9oDNuBI6FJXnh23H9EJUUPHxkzSGL3wu1.jpg",
+        "gtin": 2870008058741,
+        "min_price": 1093,
+        "created_at": null,
+        "updated_at": null,
+        "supplier_id": 41
+    },
+    {
+        "id": 91,
+        "name": "Сахар свекловичный ООО \"Балашовский сахарный комбинат\" 1 кг",
+        "image_url": "https://e-catalog.gov.kz/media/products/1085147/D181D0B0D185D0B0D18020D180D0B0D0B7D0B2D0B5D181D0BDD0BED0B9202.jpg",
+        "gtin": 2870008058659,
+        "min_price": 1057,
+        "created_at": null,
+        "updated_at": null,
+        "supplier_id": 42
+    },
+    {
+        "id": 92,
+        "name": "Крупа горох ТОО \"Мибеко\" колотый , класс 1, 25 кг",
+        "image_url": "https://e-catalog.gov.kz/media/products/1085142/D0B3D0BED180D0BED1852025D0BAD0B3.jpg",
+        "gtin": 2870008058604,
+        "min_price": 2680,
+        "created_at": null,
+        "updated_at": null,
+        "supplier_id": 43
+    },
+    {
+        "id": 93,
+        "name": "Крупа манная ТОО \"Мибеко\" высший сорт, 25 кг",
+        "image_url": "https://e-catalog.gov.kz/media/products/1085139/D0BAD180D183D0BFD0B020D0BCD0B0D0BDD0BDD0B0D18F.jpg",
+        "gtin": 2870008058574,
+        "min_price": 3686,
+        "created_at": null,
+        "updated_at": null,
+        "supplier_id": 43
+    },
+    {
+        "id": 94,
+        "name": "Крупа овсяная ТОО \"Мибеко\" высший сорт, 25 кг",
+        "image_url": "https://e-catalog.gov.kz/media/products/1085137/D0BAD180D183D0BFD0B020D0BED0B2D181D18FD0BDD0B0D18F.jpg",
+        "gtin": 2870008058550,
+        "min_price": 2915,
+        "created_at": null,
+        "updated_at": null,
+        "supplier_id": 43
+    },
+    {
+        "id": 95,
+        "name": "Крупа ячневая ТОО \"Мибеко\" высший сорт, 25 кг",
+        "image_url": "https://e-catalog.gov.kz/media/products/1085135/D0BAD180D183D0BFD0B020D18FD187D0BDD0B5D0B2D0B0D18F.jpg",
+        "gtin": 2870008058536,
+        "min_price": 4868,
+        "created_at": null,
+        "updated_at": null,
+        "supplier_id": 43
+    },
+    {
+        "id": 96,
+        "name": "Крупа пшеничная ТОО \"Мибеко\" крупная, 25 кг",
+        "image_url": "https://e-catalog.gov.kz/media/products/1085134/D0BAD180D183D0BFD0B020D0BFD188D0B5D0BDD0B8D187D0BDD0B0D18F.jpg",
+        "gtin": 2870008058529,
+        "min_price": 3990,
+        "created_at": null,
+        "updated_at": null,
+        "supplier_id": 43
+    },
+    {
+        "id": 97,
+        "name": "Крупа пшенная ТОО \"Мибеко\" шлифованное, высший сорт, 25 кг",
+        "image_url": "https://e-catalog.gov.kz/media/products/1085132/FQkZmOCgYj9B11NJk8CFMkWndEXhzyEpqA06nTnH.jpg",
+        "gtin": 2870008058505,
+        "min_price": 2721,
+        "created_at": null,
+        "updated_at": null,
+        "supplier_id": 43
+    },
+    {
+        "id": 98,
+        "name": "Крупа гречневая ТОО \"Мибеко\" высший сорт, 25 кг",
+        "image_url": "https://e-catalog.gov.kz/media/products/1085128/D0B3D180D0B5D187D0BAD0B0.jpg",
+        "gtin": 2870008058468,
+        "min_price": 3969,
+        "created_at": null,
+        "updated_at": null,
+        "supplier_id": 43
+    },
+    {
+        "id": 99,
+        "name": "Рис ТОО \"Аза-Мир\" шлифованный, 25 кг",
+        "image_url": "https://e-catalog.gov.kz/media/products/1085123/D180D0B8D181.jpg",
+        "gtin": 2870008058413,
+        "min_price": 3418,
+        "created_at": null,
+        "updated_at": null,
+        "supplier_id": 44
+    },
+    {
+        "id": 100,
+        "name": "Макароны Белес \"Рожок рифленый\" 5 кг",
+        "image_url": "https://e-catalog.gov.kz/media/products/1085117/cLKIzPrDy1OQTjGPAEIuFoMOaS1SsqW2nJhwjg4P.png",
+        "gtin": 2870008058352,
+        "min_price": 3045,
+        "created_at": null,
+        "updated_at": null,
+        "supplier_id": 45
+    },
+    {
+        "id": 101,
+        "name": "Компотная смесь из сухофруктов ООО \"Садон и Ко\", 10 кг",
+        "image_url": "https://e-catalog.gov.kz/media/products/1085057/NAmMKEqJRXCsUhCcQ9sUHSLTNad4dgEn1CT8cKBD.jpg",
+        "gtin": 2870008057751,
+        "min_price": 2178,
+        "created_at": null,
+        "updated_at": null,
+        "supplier_id": 32
+    },
+    {
+        "id": 102,
+        "name": "Колбаса ТОО \"Жаиық Агро LTD\" Сервелат Финский особый, 400 г",
+        "image_url": "https://e-catalog.gov.kz/media/products/1085056/zQyfSJ3agjaSmWQuZbCupIVVc2bkT1Zf3GjdkGhg.jpg",
+        "gtin": 2870008057744,
+        "min_price": 4594,
+        "created_at": null,
+        "updated_at": null,
+        "supplier_id": 46
+    },
+    {
+        "id": 103,
+        "name": "Кефир Foodmaster 2.3%, 1 л",
+        "image_url": "https://e-catalog.gov.kz/media/products/1085055/00m0tlIcwVjAWXBngAmURufAkyqjcVykkHwTkb4O.jpg",
+        "gtin": 2870008057737,
+        "min_price": 4481,
+        "created_at": null,
+        "updated_at": null,
+        "supplier_id": 47
+    },
+    {
+        "id": 104,
+        "name": "Сыр ООО \"Юговской Комбинат молочных продуктов\" Тильзитер 45%, 3 кг",
+        "image_url": "https://e-catalog.gov.kz/media/products/1085054/D181D18BD1802045.jpg",
+        "gtin": 2870008057720,
+        "min_price": 671,
+        "created_at": null,
+        "updated_at": null,
+        "supplier_id": 48
+    },
+    {
+        "id": 105,
+        "name": "Творог КФХ Бурцев А.К. 9%, 3 кг",
+        "image_url": "https://e-catalog.gov.kz/media/products/1085053/VqP0umNCmtzM04C1pBqDLkUfmuRwjUQNIy41cieh.jpg",
+        "gtin": 2870008057713,
+        "min_price": 1181,
+        "created_at": null,
+        "updated_at": null,
+        "supplier_id": 49
+    },
+    {
+        "id": 106,
+        "name": "Сметана ИП Хаустов А.И. \"Красава\" 20%, 3 кг",
+        "image_url": "https://e-catalog.gov.kz/media/products/1085052/OfESaZZi8VD2fdGZ82YHMJFgcarVJDbR3EmZjs3I.jpg",
+        "gtin": 2870008057706,
+        "min_price": 3697,
+        "created_at": null,
+        "updated_at": null,
+        "supplier_id": 50
+    },
+    {
+        "id": 107,
+        "name": "Картофель КХ \"Урожай\", 1 кг",
+        "image_url": "https://e-catalog.gov.kz/media/products/1085047/Xnr0lswwRA1lbI1IhHtnuexF3mrxvqvxfX8D6SLZ.jpg",
+        "gtin": 2870008057652,
+        "min_price": 3438,
+        "created_at": null,
+        "updated_at": null,
+        "supplier_id": 51
+    },
+    {
+        "id": 108,
+        "name": "Капуста белокочанная КХ \"Урожай\", 1 кг",
+        "image_url": "https://e-catalog.gov.kz/media/products/1085043/D0BAD0B0D0BFD183D181D182D0B0.jpg",
+        "gtin": 2870008057614,
+        "min_price": 671,
+        "created_at": null,
+        "updated_at": null,
+        "supplier_id": 51
+    },
+    {
+        "id": 109,
+        "name": "Яйцо куриное, столовое 1 категории ТОО «Уральская птицефабрика»",
+        "image_url": "https://e-catalog.gov.kz/media/products/1085037/D18FD0B9D186D0BE.jpg",
+        "gtin": 2870008057553,
+        "min_price": 3873,
+        "created_at": null,
+        "updated_at": null,
+        "supplier_id": 52
+    },
+    {
+        "id": 110,
+        "name": "Томатное пюре Sterilgarda Passata di Pomodoro 1000 г",
+        "image_url": "https://e-catalog.gov.kz/media/products/1084825/5.jpg",
+        "gtin": 2870008055436,
+        "min_price": 674,
+        "created_at": null,
+        "updated_at": null,
+        "supplier_id": 53
+    },
+    {
+        "id": 111,
+        "name": "Ассам чай",
+        "image_url": "https://e-catalog.gov.kz/media/products/1084417/9f52e2b0848d89fe7555b32a101d8ed1.jpg",
+        "gtin": 2870008051353,
+        "min_price": 1182,
+        "created_at": null,
+        "updated_at": null,
+        "supplier_id": 54
+    },
+    {
+        "id": 112,
+        "name": "Картофель сорт Гала, 1 кг",
+        "image_url": "https://e-catalog.gov.kz/media/products/1084363/xWrcbNOVGz53dF2FyrFveQrdn2F49H5ecCCn424B.jpg",
+        "gtin": 2870008050813,
+        "min_price": 3639,
+        "created_at": null,
+        "updated_at": null,
+        "supplier_id": 55
+    },
+    {
+        "id": 113,
+        "name": "Молоко Айсу 3.2%, 1 л",
+        "image_url": "https://e-catalog.gov.kz/media/products/1084137/D0BCD0BED0BBD0BED0BAD0BE_3_2-removebg-preview.png",
+        "gtin": 2870008048551,
+        "min_price": 2138,
+        "created_at": null,
+        "updated_at": null,
+        "supplier_id": 56
+    },
+    {
+        "id": 114,
+        "name": "Молоко Айсу, 2.5%, 1 л, фин-пак",
+        "image_url": "https://e-catalog.gov.kz/media/products/1084135/D09CD0BED0BBD0BED0BAD0BE2022C5.jpg",
+        "gtin": 2870008048537,
+        "min_price": 3679,
+        "created_at": null,
+        "updated_at": null,
+        "supplier_id": 56
+    },
+    {
+        "id": 115,
+        "name": "Кефир Айсу 2.5%, 1 л, фин-пак",
+        "image_url": "https://e-catalog.gov.kz/media/products/1084133/D09AD0B5D184D0B8D1802022C5.jpg",
+        "gtin": 2870008048513,
+        "min_price": 1576,
+        "created_at": null,
+        "updated_at": null,
+        "supplier_id": 56
+    },
+    {
+        "id": 116,
+        "name": "Сметана Айсу 25%, 1000 г",
+        "image_url": "https://e-catalog.gov.kz/media/products/1084132/D181D0BCD0B5D182D0B0D0BDD0B0-removebg-preview.png",
+        "gtin": 2870008048506,
+        "min_price": 2389,
+        "created_at": null,
+        "updated_at": null,
+        "supplier_id": 56
+    },
+    {
+        "id": 117,
+        "name": "Консервы мясные СПК \"Айбек\" Сыбага Каша рисовая с говядиной, 325 г",
+        "image_url": "https://e-catalog.gov.kz/media/products/1084076/aGSc3PyUejvlLdHJxnRMb2Mgee6TwLc4lQVV7zZR.jpg",
+        "gtin": 2870008047943,
+        "min_price": 1148,
+        "created_at": null,
+        "updated_at": null,
+        "supplier_id": 35
+    },
+    {
+        "id": 118,
+        "name": "Консервы мясные СПК \"Айбек\" Тушеное мясо из говядины Premium Sybaga, 325 г",
+        "image_url": "https://e-catalog.gov.kz/media/products/1084069/wpcJLz0AcP8u67eHvViGxFWoGqkvQl2ecKl0Xe5F.jpg",
+        "gtin": 2870008047875,
+        "min_price": 2421,
+        "created_at": null,
+        "updated_at": null,
+        "supplier_id": 35
+    },
+    {
+        "id": 119,
+        "name": "Вода питьевая \"Северная роса\" негазированная, 18.9 л",
+        "image_url": "https://e-catalog.gov.kz/media/products/1083493/M6sQosSUO9szGthP4un0X59Z8nsp8r23S2QJ5y37.jpg",
+        "gtin": 2870008042115,
+        "min_price": 520,
+        "created_at": null,
+        "updated_at": null,
+        "supplier_id": 57
+    },
+    {
+        "id": 120,
+        "name": "Консервы мясные СПК \"Айбек\" \"Конина тушеная Сыбаға\", высший сорт, 325 г",
+        "image_url": "https://e-catalog.gov.kz/media/products/1083327/fvUZZAFIWE85RLcrtYuctr5P54M3mUM9aEjzZzoA.jpg",
+        "gtin": 2870008040456,
+        "min_price": 4921,
+        "created_at": null,
+        "updated_at": null,
+        "supplier_id": 35
+    },
+    {
+        "id": 121,
+        "name": "Консервы мясные СПК \"Айбек\" \"Баранина тушеная Сыбаға\", высший сорт, 325 г",
+        "image_url": "https://e-catalog.gov.kz/media/products/1083324/D091D0B0D180D0B0D0BDD0B8D0BDD0B0.jpg",
+        "gtin": 2870008040425,
+        "min_price": 3148,
+        "created_at": null,
+        "updated_at": null,
+        "supplier_id": 35
+    },
+    {
+        "id": 122,
+        "name": "Клюква сушеная Семушка, 0.5 кг",
+        "image_url": "https://e-catalog.gov.kz/media/products/1083318/N30CG2SLCCiH2N6QypdGfPAqU19BXpdJvyiJza9n.png",
+        "gtin": 2870008040364,
+        "min_price": 3876,
+        "created_at": null,
+        "updated_at": null,
+        "supplier_id": 58
+    },
+    {
+        "id": 123,
+        "name": "Консервы мясные СПК \"Айбек\" \"Говядина тушеная Сыбаға\", высший сорт, 325 г",
+        "image_url": "https://e-catalog.gov.kz/media/products/1083258/T4gSrnIhcTm3f1nxTsWZUSzlMDvxnaN2J4B2hA8L.jpg",
+        "gtin": 2870008039764,
+        "min_price": 3054,
+        "created_at": null,
+        "updated_at": null,
+        "supplier_id": 35
+    },
+    {
+        "id": 124,
+        "name": "Новогодний подарок ООО \"Золотое Кольцо-Подарки\" Аметистовый дракон Премиум, 1000 гр",
+        "image_url": "https://e-catalog.gov.kz/media/products/1083064/D0B0D0BCD0B5D182D0B8D18120D0B4D180D0B0D0BAD0BED0BD20D0BAD0B0D180D182D0B_e6Kg7Dw.jpg",
+        "gtin": 2870008037821,
+        "min_price": 3417,
+        "created_at": null,
+        "updated_at": null,
+        "supplier_id": 59
+    },
+    {
+        "id": 125,
+        "name": "Соевый Соус Sen Soy \"Классический\" 1 л",
+        "image_url": "https://e-catalog.gov.kz/media/products/1082881/00432079.n_1.png",
+        "gtin": 2870008035995,
+        "min_price": 3902,
+        "created_at": null,
+        "updated_at": null,
+        "supplier_id": 60
+    },
+    {
+        "id": 126,
+        "name": "Филе грудки индейки охлажденное, 1 кг",
+        "image_url": "https://e-catalog.gov.kz/media/products/1082880/23d2db70661ae68fb3c5e8d8d3a2480c.jpeg",
+        "gtin": 2870008035988,
+        "min_price": 2767,
+        "created_at": null,
+        "updated_at": null,
+        "supplier_id": 61
+    },
+    {
+        "id": 127,
+        "name": "Скумбрия свежемороженая, с головой, 1 кг",
+        "image_url": "https://e-catalog.gov.kz/media/products/1082878/d4b1c72ec752ad9eaecbaab87da56f96.jpeg",
+        "gtin": 2870008035964,
+        "min_price": 2794,
+        "created_at": null,
+        "updated_at": null,
+        "supplier_id": 12
+    },
+    {
+        "id": 128,
+        "name": "Батон сдобный КХ \"Чернояров А.В.\" 1 кг",
+        "image_url": "https://e-catalog.gov.kz/media/products/1082717/vt1zkRMms3lYyVOBIcyLh5jD7npTUWpIZUgnHz75.jpg",
+        "gtin": 2870008034356,
+        "min_price": 3143,
+        "created_at": null,
+        "updated_at": null,
+        "supplier_id": 62
+    },
+    {
+        "id": 129,
+        "name": "Хлеб КХ \"Чернояров А.В.\" ржано-пшеничный украинский, 1 кг",
+        "image_url": "https://e-catalog.gov.kz/media/products/1082715/dURxG7fCFrTkMwpDc17MkTyrw7S3uhKwHPnjuKMY.jpg",
+        "gtin": 2870008034332,
+        "min_price": 4153,
+        "created_at": null,
+        "updated_at": null,
+        "supplier_id": 62
+    },
+    {
+        "id": 130,
+        "name": "Хлеб КХ \"Чернояров А.В.\" из муки пшеничной, высший сорт, 1 кг",
+        "image_url": "https://e-catalog.gov.kz/media/products/1082713/UrFoSApZsjOHjC0F40mI1DN3a28zkfrN4TPUDVEZ.jpg",
+        "gtin": 2870008034318,
+        "min_price": 3073,
+        "created_at": null,
+        "updated_at": null,
+        "supplier_id": 62
+    },
+    {
+        "id": 131,
+        "name": "Молоко ультрапастиризованное Milkavita 3,6-4,2% TBS 1 л",
+        "image_url": "https://e-catalog.gov.kz/media/products/1082691/D09CD0BED0BBD0BED0BAD0BE-D09CD0B8D0BBD0BAD0B0D0B2D0B8D182D0B0-D0A2D091D_2pJczkc.jpg",
+        "gtin": 2870008034097,
+        "min_price": 1939,
+        "created_at": null,
+        "updated_at": null,
+        "supplier_id": 63
+    },
+    {
+        "id": 132,
+        "name": "Йогурт Моя Славита \"Бэль New\" Черника-мюсли, 370 г",
+        "image_url": "https://e-catalog.gov.kz/media/products/1082666/50df523cd1a6e19b1e25534901107a2b.jpg",
+        "gtin": 2870008033847,
+        "min_price": 3598,
+        "created_at": null,
+        "updated_at": null,
+        "supplier_id": 64
+    },
+    {
+        "id": 133,
+        "name": "Молоко Садовое 3,2% 900 мл",
+        "image_url": "https://e-catalog.gov.kz/media/products/1082287/3.220D0BCD0BED0BBD0BED0BAD0BE.jpg",
+        "gtin": 2870008030051,
+        "min_price": 1235,
+        "created_at": null,
+        "updated_at": null,
+        "supplier_id": 65
+    },
+    {
+        "id": 134,
+        "name": "Молоко Садовое 2,5% 900 мл",
+        "image_url": "https://e-catalog.gov.kz/media/products/1082285/import_files_2c_2c09f19b027f11eb80c4ac1f6bba4f3f_dc03295e20eb11eb80caac_lFTaxgv.jpg",
+        "gtin": 2870008030037,
+        "min_price": 2371,
+        "created_at": null,
+        "updated_at": null,
+        "supplier_id": 65
+    },
+    {
+        "id": 135,
+        "name": "Новогодний набор Яшкино \"Домик\" ЯН003, 250 г",
+        "image_url": "https://e-catalog.gov.kz/media/products/1082231/D18FD1883.jpg",
+        "gtin": 2870008029499,
+        "min_price": 4485,
+        "created_at": null,
+        "updated_at": null,
+        "supplier_id": 66
+    },
+    {
+        "id": 136,
+        "name": "Новогодний набор Яшкино \"Сумочка\" ЯН008 оранжевая, 400 г",
+        "image_url": "https://e-catalog.gov.kz/media/products/1082230/D18FD1881.jpg",
+        "gtin": 2870008029482,
+        "min_price": 2546,
+        "created_at": null,
+        "updated_at": null,
+        "supplier_id": 66
+    },
+    {
+        "id": 137,
+        "name": "Сыр Щучинский филиал ОАО \"Молочный Мир\" Черный Монарх с ароматом топленого молока 45% брус 3 кг",
+        "image_url": "https://e-catalog.gov.kz/media/products/1082145/Q0UhnqxvK3iBgFXBwMTIQ5QK5XXRUuYS3edFrVJu.jpg",
+        "gtin": 2870008028638,
+        "min_price": 1833,
+        "created_at": null,
+        "updated_at": null,
+        "supplier_id": 67
+    },
+    {
+        "id": 138,
+        "name": "Сыр Щучинский филиал ОАО \"Молочный Мир\" Барин с ароматом топленого молока 45% брус 3 кг",
+        "image_url": "https://e-catalog.gov.kz/media/products/1082108/D0B1D0B0D180D0B8D0BD_360x240_9ff.png",
+        "gtin": 2870008028263,
+        "min_price": 2477,
+        "created_at": null,
+        "updated_at": null,
+        "supplier_id": 67
+    },
+    {
+        "id": 139,
+        "name": "Сыр Щучинский филиал ОАО \"Молочный Мир\" Блэк Принц Люкс с ароматом топленого молока 50% брус 3,5 кг",
+        "image_url": "https://e-catalog.gov.kz/media/products/1082097/D0B1D0BBD18DD0BA20D0BFD180D0B8D0BDD18620D0BBD18ED0BAD18120D0BDD0BED0B2222.jpg",
+        "gtin": 2870008028157,
+        "min_price": 1771,
+        "created_at": null,
+        "updated_at": null,
+        "supplier_id": 67
+    },
+    {
+        "id": 140,
+        "name": "Молоко питьевое ОАО \"Бабушкина крынка\" 3,2%, 1 л",
+        "image_url": "https://e-catalog.gov.kz/media/products/1081906/D091D09A20D09CD0BED0BBD0BED0BAD0BE2032C2201D0BB20thumb_1943_570_540_0_0_auto.png",
+        "gtin": 2870008026245,
+        "min_price": 1705,
+        "created_at": null,
+        "updated_at": null,
+        "supplier_id": 68
+    },
+    {
+        "id": 141,
+        "name": "Сметана Свежие новости 22 % 380 г",
+        "image_url": "https://e-catalog.gov.kz/media/products/1081893/D091D09A20D181D0BCD0B5D182D0B0D0BDD0B02038020D0B3.204102.png",
+        "gtin": 2870008026115,
+        "min_price": 970,
+        "created_at": null,
+        "updated_at": null,
+        "supplier_id": 69
+    },
+    {
+        "id": 142,
+        "name": "Сметана Свежие новости 22 % 180 г",
+        "image_url": "https://e-catalog.gov.kz/media/products/1081891/D091D09A20D181D0BCD0B5D182D0B0D0BDD0B02018020D0B3D180.203102-600x450.png",
+        "gtin": 2870008026092,
+        "min_price": 1661,
+        "created_at": null,
+        "updated_at": null,
+        "supplier_id": 69
+    },
+    {
+        "id": 143,
+        "name": "Кефир Свежие новости 2,5 % 900 г",
+        "image_url": "https://e-catalog.gov.kz/media/products/1081887/kefir_2.5_9002028129.png",
+        "gtin": 2870008026054,
+        "min_price": 1010,
+        "created_at": null,
+        "updated_at": null,
+        "supplier_id": 69
+    },
+    {
+        "id": 144,
+        "name": "Йогурт Zvonka Ананас-манго 2,0% 300 г",
+        "image_url": "https://e-catalog.gov.kz/media/products/1081880/anasmangoqog.jpg",
+        "gtin": 2870008025989,
+        "min_price": 2985,
+        "created_at": null,
+        "updated_at": null,
+        "supplier_id": 70
+    },
+    {
+        "id": 145,
+        "name": "Йогурт для детей ОАО \"Бабушкина крынка\" Банан 2,0 % 150 г",
+        "image_url": "https://e-catalog.gov.kz/media/products/1081875/D0B1D0B0D0BDD0B0D0BD.png",
+        "gtin": 2870008025934,
+        "min_price": 4176,
+        "created_at": null,
+        "updated_at": null,
+        "supplier_id": 68
+    },
+    {
+        "id": 146,
+        "name": "Йогурт Zvonka Клубника-грейпфрут 1% 800 г",
+        "image_url": "https://e-catalog.gov.kz/media/products/1081872/D091D09A20D099D0BED0B3D183D180D18220D0BAD0BBD183D0B1D0BDD0B8D187D0B5D0B_TMj2wHC.png",
+        "gtin": 2870008025903,
+        "min_price": 4810,
+        "created_at": null,
+        "updated_at": null,
+        "supplier_id": 70
+    },
+    {
+        "id": 147,
+        "name": "Йогурт Eco Greco Греческий чернослив-злаки, 1.5 %, 800 г",
+        "image_url": "https://e-catalog.gov.kz/media/products/1081866/D099D0BED0B3D183D180D182_D0ADD0BAD0BE-D0B3D180D0B5D0BAD0BE_-D187D0B5D18_iZBZjSn.png",
+        "gtin": 2870008025842,
+        "min_price": 1199,
+        "created_at": null,
+        "updated_at": null,
+        "supplier_id": 71
+    },
+    {
+        "id": 148,
+        "name": "Молочная смесь Nestle Nan на козьем молоке (с рождения), 400 г",
+        "image_url": "https://e-catalog.gov.kz/media/products/1081311/D09AD0BED0B7D18CD0B520D0BCD0BED0BBD0BED0BAD0BE201.png",
+        "gtin": 2870008020298,
+        "min_price": 3004,
+        "created_at": null,
+        "updated_at": null,
+        "supplier_id": 72
+    },
+    {
+        "id": 149,
+        "name": "Сосиски Брестский мясокомбинат Никольские 720 г",
+        "image_url": "https://e-catalog.gov.kz/media/products/1081292/D0A1D0BED181D0B8D181D0BAD0B82072020D0B3D18020D09DD0B8D0BAD0BED0BBD18CD1_tmXzsfN.jpg",
+        "gtin": 2870008020106,
+        "min_price": 3381,
+        "created_at": null,
+        "updated_at": null,
+        "supplier_id": 73
+    },
+    {
+        "id": 150,
+        "name": "Сосиски Брестский мясокомбинат Докторские 700 г",
+        "image_url": "https://e-catalog.gov.kz/media/products/1081268/D0A1D0BED181D0B8D181D0BAD0B820D0B4D0BED0BAD182D0BED180D181D0BAD0B8D0B52002C8.jpg",
+        "gtin": 2870008019865,
+        "min_price": 1559,
+        "created_at": null,
+        "updated_at": null,
+        "supplier_id": 73
+    },
+    {
+        "id": 151,
+        "name": "Колбаса варено-копченая Белорусская традиция Салями Брестская 500 г",
+        "image_url": "https://e-catalog.gov.kz/media/products/1081039/D098D0A420D09AD0BED0BBD0B1D0B0D181D0B020D0A1D0B0D0BBD18FD0BCD0B820D091D_tmcTLAr.jpg",
+        "gtin": 2870008017571,
+        "min_price": 4315,
+        "created_at": null,
+        "updated_at": null,
+        "supplier_id": 74
+    },
+    {
+        "id": 152,
+        "name": "Колбаса варено-копченая Белорусская традиция Салями Белорусская 500 г",
+        "image_url": "https://e-catalog.gov.kz/media/products/1081037/D098D0A420D09AD0BED0BBD0B1D0B0D181D0B020D092D0BAD183D181D0BDD0B0D18F20D_C8G9DwN.jpg",
+        "gtin": 2870008017557,
+        "min_price": 2150,
+        "created_at": null,
+        "updated_at": null,
+        "supplier_id": 74
+    },
+    {
+        "id": 153,
+        "name": "Сардельки Брестский мясокомбинат Шпикачки Купеческие 2 кг",
+        "image_url": "https://e-catalog.gov.kz/media/products/1081029/D0A8D0BFD0B8D0BAD0B0D187D0BAD0B820D09AD0A3D09FD095D0A7.jpg",
+        "gtin": 2870008017472,
+        "min_price": 994,
+        "created_at": null,
+        "updated_at": null,
+        "supplier_id": 73
+    },
+    {
+        "id": 154,
+        "name": "Сардельки Брестский мясокомбинат Свиные вкусные 480 г",
+        "image_url": "https://e-catalog.gov.kz/media/products/1081010/D0A1D0B0D180D0B4.20D0A1D092D098D09DD0ABD09520D0B2D0BAD183D181D0BDD18BD0B5.jpg",
+        "gtin": 2870008017281,
+        "min_price": 3240,
+        "created_at": null,
+        "updated_at": null,
+        "supplier_id": 73
+    },
+    {
+        "id": 155,
+        "name": "Сардельки Брестский Мясокомбинат \"Колобок с сыром\" 850 г",
+        "image_url": "https://e-catalog.gov.kz/media/products/1080991/D09AD0BED0BBD0BED0B1D0BED0BA2020D18120D181D18BD180D0BED0BC202085020D0B3_2OXrGLU.jpg",
+        "gtin": 2870008017090,
+        "min_price": 2855,
+        "created_at": null,
+        "updated_at": null,
+        "supplier_id": 73
+    },
+    {
+        "id": 156,
+        "name": "Сардельки Брестский Мясокомбинат \"Колобок с сыром\" 1,8 кг",
+        "image_url": "https://e-catalog.gov.kz/media/products/1080984/D09AD0BED0BBD0BED0B1D0BED0BA2020D18120D181D18BD180D0BED0BC2020180020D0B_RbkiDLq.jpg",
+        "gtin": 2870008017021,
+        "min_price": 3890,
+        "created_at": null,
+        "updated_at": null,
+        "supplier_id": 73
+    },
+    {
+        "id": 157,
+        "name": "Сардельки Брестский мясокомбинат Докторские 800 г",
+        "image_url": "https://e-catalog.gov.kz/media/products/1080971/D0A1D0B0D180D0B4D0B5D0BBD18CD0BAD0B820D094D0BED0BAD182D0BED180D181D0BAD0B8D0B5.jpg",
+        "gtin": 2870008016895,
+        "min_price": 3760,
+        "created_at": null,
+        "updated_at": null,
+        "supplier_id": 73
+    },
+    {
+        "id": 158,
+        "name": "Шоколадный батончик KDV Джумка с воздушной кукурузой, 15 шт по 37 г",
+        "image_url": "https://e-catalog.gov.kz/media/products/1080958/GhtXjCRFo6T9sKh8zrFDctwFocErNP1BxYiMCMXC.jpg",
+        "gtin": 2870008016765,
+        "min_price": 2414,
+        "created_at": null,
+        "updated_at": null,
+        "supplier_id": 75
+    },
+    {
+        "id": 159,
+        "name": "Батончик KDV \"Cornline\" из цельных злаков с кокосом, 18 шт по 30 г",
+        "image_url": "https://e-catalog.gov.kz/media/products/1080944/kX6ydNBiFfz9Ac7qxFmSdPwMSorXafoMFXIsJAes.jpg",
+        "gtin": 2870008016628,
+        "min_price": 2518,
+        "created_at": null,
+        "updated_at": null,
+        "supplier_id": 75
+    },
+    {
+        "id": 160,
+        "name": "Ветчина вареная Брестский мясокомбинат Нежная с филе 480 г",
+        "image_url": "https://e-catalog.gov.kz/media/products/1080919/D092D0B5D182D187D0B8D0BDD0B020D09DD095D096D09DD090D0AF20D18120D184D0B8D_KozijIX.jpg",
+        "gtin": 2870008016376,
+        "min_price": 4102,
+        "created_at": null,
+        "updated_at": null,
+        "supplier_id": 73
+    },
+    {
+        "id": 161,
+        "name": "Сыр Брест-Литовск Великокняжеский с ароматом топленого молока полутвердый 46%, 3,5 кг",
+        "image_url": "https://e-catalog.gov.kz/media/products/1080904/D091D180D0B5D181D182-D09BD0B8D182D0BED0B2D181D0BA20D092D0B5D0BBD0B8D0BA_DTw0V9Q.jpg",
+        "gtin": 2870008016222,
+        "min_price": 561,
+        "created_at": null,
+        "updated_at": null,
+        "supplier_id": 76
+    },
+    {
+        "id": 162,
+        "name": "Ветчина вареная Брестский мясокомбинат Миланская 450 г",
+        "image_url": "https://e-catalog.gov.kz/media/products/1080885/J4WkBno91PBZiYEWJPTRvJnp7ju5A9JppyW7GvUK.jpg",
+        "gtin": 2870008016031,
+        "min_price": 3383,
+        "created_at": null,
+        "updated_at": null,
+        "supplier_id": 73
+    },
+    {
+        "id": 163,
+        "name": "Ветчина вареная Брестский мясокомбинат Балерон Нежный 450 г",
+        "image_url": "https://e-catalog.gov.kz/media/products/1080854/D091D0B0D0BBD0B5D180D0BED0BD20D0BDD0B5D0B6D0BDD18BD0B92045020D0B3D180.jpg",
+        "gtin": 2870008015720,
+        "min_price": 1251,
+        "created_at": null,
+        "updated_at": null,
+        "supplier_id": 73
+    },
+    {
+        "id": 164,
+        "name": "Конфеты Mamba фрумеладки Фруктовый микс, 72 г",
+        "image_url": "https://e-catalog.gov.kz/media/products/1080846/D0BCD0B0D0BCD0B1D0B0.jpg",
+        "gtin": 2870008015645,
+        "min_price": 3317,
+        "created_at": null,
+        "updated_at": null,
+        "supplier_id": 77
+    },
+    {
+        "id": 165,
+        "name": "Колбаса варено-копченая Брестский мясокомбинат Сервелат с коньяком 370 г",
+        "image_url": "https://e-catalog.gov.kz/media/products/1080817/D0A1D0B5D180D0B2D0B5D0BBD0B0D18220D18120D0BAD0BED0BDD18CD18FD0BAD0BED0BC.jpg",
+        "gtin": 2870008015355,
+        "min_price": 1553,
+        "created_at": null,
+        "updated_at": null,
+        "supplier_id": 73
+    },
+    {
+        "id": 166,
+        "name": "Колбаса Брестский мясокомбинат Сервелат \"Дворянский гостинец\" 370 г",
+        "image_url": "https://e-catalog.gov.kz/media/products/1080745/D0A1D0B5D180D0B2D0B5D0BBD0B0D18220D0B4D0B2D0BED180D18FD0BDD181D0BAD0B8D_NXvNWB7.jpg",
+        "gtin": 2870008014631,
+        "min_price": 2484,
+        "created_at": null,
+        "updated_at": null,
+        "supplier_id": 73
+    },
+    {
+        "id": 167,
+        "name": "Колбаса варено-копченая Брестский мясокомбинат Сервелат вкусный с телятиной 240 г",
+        "image_url": "https://e-catalog.gov.kz/media/products/1080737/Hdahb4B0Y6cWWT6zW8WZJRy0rabiTdhkC2iYmkbv.png",
+        "gtin": 2870008014556,
+        "min_price": 4187,
+        "created_at": null,
+        "updated_at": null,
+        "supplier_id": 73
+    },
+    {
+        "id": 168,
+        "name": "Колбаса варено-копченая Брестский мясокомбинат Сервелат вкусный с телятиной 220 г",
+        "image_url": "https://e-catalog.gov.kz/media/products/1080734/SHDbbI6DQ14BLqMps8D6VUdEAVmO9224bINYdKPR.png",
+        "gtin": 2870008014525,
+        "min_price": 4383,
+        "created_at": null,
+        "updated_at": null,
+        "supplier_id": 73
+    },
+    {
+        "id": 169,
+        "name": "Масло ГП “Мозырские молочные продукты” сладкосливочное \"Крестьянское\" несоленое 72,5 %, 20 кг",
+        "image_url": "https://e-catalog.gov.kz/media/products/1080696/1uvO9PV8l3M7xNxomoMw6G9gcARxZIIxI016sBhV.jpg",
+        "gtin": 2870008014143,
+        "min_price": 1272,
+        "created_at": null,
+        "updated_at": null,
+        "supplier_id": 78
+    },
+    {
+        "id": 170,
+        "name": "Масло сливочное Брест-Литовск из свежих сливок, 82.5%, 1 кг",
+        "image_url": "https://e-catalog.gov.kz/media/products/1080692/D0A1D090D09220D09CD0B0D181D0BBD0BE201000D0B32C20D09CD094D09620822C5.jpg",
+        "gtin": 2870008014105,
+        "min_price": 811,
+        "created_at": null,
+        "updated_at": null,
+        "supplier_id": 79
+    },
+    {
+        "id": 171,
+        "name": "Шоколадный батончик Ulker Albeni, 40 г",
+        "image_url": "https://e-catalog.gov.kz/media/products/1080657/Mub1vvY6nTMpbC257bqPYgAQPCFPbjxlzeCMQdfC.jpg",
+        "gtin": 2870008013757,
+        "min_price": 4011,
+        "created_at": null,
+        "updated_at": null,
+        "supplier_id": 80
+    },
+    {
+        "id": 172,
+        "name": "Новогодний подарок Баян Сулу Дино 1000 г",
+        "image_url": "https://e-catalog.gov.kz/media/products/1080646/zz75sjFQhWwnNmNJLiFv1f1CGVlceMWby1FpfUEC.png",
+        "gtin": 2870008013641,
+        "min_price": 4412,
+        "created_at": null,
+        "updated_at": null,
+        "supplier_id": 81
+    },
+    {
+        "id": 173,
+        "name": "Новогодний подарок Баян Сулу Навстречу радости 700 г",
+        "image_url": "https://e-catalog.gov.kz/media/products/1080643/F6zlnNfCfw1PIkv0cw85dOzxAznGY8W8qI8pIM4v.png",
+        "gtin": 2870008013610,
+        "min_price": 4213,
+        "created_at": null,
+        "updated_at": null,
+        "supplier_id": 81
+    },
+    {
+        "id": 174,
+        "name": "Колбаса Брестский мясокомбинат Сервелат Венгерский 240 г",
+        "image_url": "https://e-catalog.gov.kz/media/products/1080605/D0A1D0B5D180D0B2D0B5D0BBD0B0D18220D0B2D0B5D0BDD0B3D0B5D180D181D0BAD0B8D_SijRTiM.jpg",
+        "gtin": 2870008013238,
+        "min_price": 2273,
+        "created_at": null,
+        "updated_at": null,
+        "supplier_id": 73
+    },
+    {
+        "id": 175,
+        "name": "Колбаса полукпченая Брестский мясокомбинат Кубанская 3,8 кг",
+        "image_url": "https://e-catalog.gov.kz/media/products/1080604/D091D0A0D095D0A1D0A220D09AD0BED0BBD0B1D0B0D181D0B020D09AD0A3D091D090D09_xTnpX7L.jpg",
+        "gtin": 2870008013221,
+        "min_price": 850,
+        "created_at": null,
+        "updated_at": null,
+        "supplier_id": 73
+    },
+    {
+        "id": 176,
+        "name": "Колбаса Брестский мясокомбинат С Телятиной 650 г",
+        "image_url": "https://e-catalog.gov.kz/media/products/1080603/D091D0A0D095D0A1D0A220D09AD0BED0BBD0B1D0B0D181D0B020D18120D182D0B5D0BBD_jRFTmUD.jpg",
+        "gtin": 2870008013214,
+        "min_price": 3087,
+        "created_at": null,
+        "updated_at": null,
+        "supplier_id": 73
+    },
+    {
+        "id": 177,
+        "name": "Колбаса вареная Брестский мясокомбинат Докторская 400 г",
+        "image_url": "https://e-catalog.gov.kz/media/products/1080543/D094D0BED0BAD182D0BED180D181D0BAD0B0D18F2040020D0B3D180.jpg",
+        "gtin": 2870008012613,
+        "min_price": 3626,
+        "created_at": null,
+        "updated_at": null,
+        "supplier_id": 73
+    },
+    {
+        "id": 178,
+        "name": "Колбаса вареная Брестский мясокомбинат Докторская Прима, 800 г",
+        "image_url": "https://e-catalog.gov.kz/media/products/1080538/D091D0A0D095D0A1D0A220D09AD0BED0BBD0B1D0B0D181D0B020D094D09ED09AD0A2D09_8owgH01.jpg",
+        "gtin": 2870008012569,
+        "min_price": 2453,
+        "created_at": null,
+        "updated_at": null,
+        "supplier_id": 73
+    },
+    {
+        "id": 179,
+        "name": "Колбаса вареная Брестский мясокомбинат Докторская Ароматная 400 г",
+        "image_url": "https://e-catalog.gov.kz/media/products/1080537/D091D0A0D095D0A1D0A220D09AD0BED0BBD0B1D0B0D181D0B020D094D09ED09AD0A2D09_kRNDLjA.jpg",
+        "gtin": 2870008012552,
+        "min_price": 1594,
+        "created_at": null,
+        "updated_at": null,
+        "supplier_id": 73
+    },
+    {
+        "id": 180,
+        "name": "Колбаса вареная Брестский мясокомбинат Докторская с маслицем 400 г",
+        "image_url": "https://e-catalog.gov.kz/media/products/1080535/D091D0A0D095D0A1D0A220D09AD0BED0BBD0B1D0B0D181D0B020D094D09ED09AD0A2D09_7GXgAEj.jpg",
+        "gtin": 2870008012538,
+        "min_price": 4346,
+        "created_at": null,
+        "updated_at": null,
+        "supplier_id": 73
+    },
+    {
+        "id": 181,
+        "name": "Новогодний подарок Баян Сулу Три кота 300 г",
+        "image_url": "https://e-catalog.gov.kz/media/products/1079788/tri-kota_01.png",
+        "gtin": 2870008005066,
+        "min_price": 3281,
+        "created_at": null,
+        "updated_at": null,
+        "supplier_id": 81
+    },
+    {
+        "id": 182,
+        "name": "Новогодний подарок Баян Сулу Символ года 300 г",
+        "image_url": "https://e-catalog.gov.kz/media/products/1079786/simvol-goda_01.png",
+        "gtin": 2870008005042,
+        "min_price": 3968,
+        "created_at": null,
+        "updated_at": null,
+        "supplier_id": 81
+    },
+    {
+        "id": 183,
+        "name": "Новогодний подарок Баян Сулу Простоквашино 1200 г",
+        "image_url": "https://e-catalog.gov.kz/media/products/1079783/prostokvashino_01.png",
+        "gtin": 2870008005011,
+        "min_price": 3775,
+        "created_at": null,
+        "updated_at": null,
+        "supplier_id": 81
+    },
+    {
+        "id": 184,
+        "name": "Новогодний подарок Баян Сулу Почта 300 г",
+        "image_url": "https://e-catalog.gov.kz/media/products/1079781/pochta_01.png",
+        "gtin": 2870008004991,
+        "min_price": 3404,
+        "created_at": null,
+        "updated_at": null,
+        "supplier_id": 81
+    },
+    {
+        "id": 185,
+        "name": "Новогодний подарок Баян Сулу Пчта с открыткой 700 г",
+        "image_url": "https://e-catalog.gov.kz/media/products/1079779/pochta-s-otkryitkoy_01.png",
+        "gtin": 2870008004977,
+        "min_price": 1237,
+        "created_at": null,
+        "updated_at": null,
+        "supplier_id": 81
+    },
+    {
+        "id": 186,
+        "name": "Новогодний подарок Баян Сулу Подарки от дракоши, 700 г",
+        "image_url": "https://e-catalog.gov.kz/media/products/1079769/podarki-ot-drakoshi_01.png",
+        "gtin": 2870008004878,
+        "min_price": 1784,
+        "created_at": null,
+        "updated_at": null,
+        "supplier_id": 81
+    },
+    {
+        "id": 187,
+        "name": "Новогодний подарок Баян Сулу Новогодний праздник, 200 г",
+        "image_url": "https://e-catalog.gov.kz/media/products/1079767/novogodniy-prazdnik_01.png",
+        "gtin": 2870008004854,
+        "min_price": 2825,
+        "created_at": null,
+        "updated_at": null,
+        "supplier_id": 81
+    },
+    {
+        "id": 188,
+        "name": "Новогодний подарок Баян Сулу Новогодний переполох 2024, 300 г",
+        "image_url": "https://e-catalog.gov.kz/media/products/1079761/novogodniy-perepoloh_01.png",
+        "gtin": 2870008004793,
+        "min_price": 1297,
+        "created_at": null,
+        "updated_at": null,
+        "supplier_id": 81
+    },
+    {
+        "id": 189,
+        "name": "Новогодний подарок Баян Сулу Новогодние традиции, 700 г",
+        "image_url": "https://e-catalog.gov.kz/media/products/1079748/novogodnie-tradicii_01.png",
+        "gtin": 2870008004663,
+        "min_price": 4087,
+        "created_at": null,
+        "updated_at": null,
+        "supplier_id": 81
+    },
+    {
+        "id": 190,
+        "name": "Новогодний подарок Баян Сулу Новогоднее собрание, 200 г",
+        "image_url": "https://e-catalog.gov.kz/media/products/1079746/novogodnee-sobranie_01.png",
+        "gtin": 2870008004649,
+        "min_price": 1297,
+        "created_at": null,
+        "updated_at": null,
+        "supplier_id": 81
+    },
+    {
+        "id": 191,
+        "name": "Новогодний подарок Баян Сулу \"Новогоднее кафе\" 500 г",
+        "image_url": "https://e-catalog.gov.kz/media/products/1079632/novogodnee-kafe_01.png",
+        "gtin": 2870008003505,
+        "min_price": 3783,
+        "created_at": null,
+        "updated_at": null,
+        "supplier_id": 81
+    },
+    {
+        "id": 192,
+        "name": "Новогодний подарок Баян Сулу \"Мой любимый зоопарк\" 1000 гр",
+        "image_url": "https://e-catalog.gov.kz/media/products/1079631/moy-lyubimyiy-zoopark_01.png",
+        "gtin": 2870008003499,
+        "min_price": 1700,
+        "created_at": null,
+        "updated_at": null,
+        "supplier_id": 81
+    },
+    {
+        "id": 193,
+        "name": "Новогодний подарок Баян Сулу Милые волшебники 1200 г",
+        "image_url": "https://e-catalog.gov.kz/media/products/1079630/milyie-volshebniki_01.png",
+        "gtin": 2870008003482,
+        "min_price": 1961,
+        "created_at": null,
+        "updated_at": null,
+        "supplier_id": 81
+    },
+    {
+        "id": 194,
+        "name": "Новогодний подарок Баян Сулу Книга \"Новогодний холодильник\" 500 г",
+        "image_url": "https://e-catalog.gov.kz/media/products/1079625/kniga-holodilnik_01.png",
+        "gtin": 2870008003437,
+        "min_price": 1022,
+        "created_at": null,
+        "updated_at": null,
+        "supplier_id": 81
+    },
+    {
+        "id": 195,
+        "name": "Новогодний подарок Баян Сулу Дракоша 500 г",
+        "image_url": "https://e-catalog.gov.kz/media/products/1079624/drakosha_01.png",
+        "gtin": 2870008003420,
+        "min_price": 596,
+        "created_at": null,
+        "updated_at": null,
+        "supplier_id": 81
+    },
+    {
+        "id": 196,
+        "name": "Новогодний подарок Баян Сулу Домик 200 г",
+        "image_url": "https://e-catalog.gov.kz/media/products/1079620/domik_01.png",
+        "gtin": 2870008003383,
+        "min_price": 3514,
+        "created_at": null,
+        "updated_at": null,
+        "supplier_id": 81
+    },
+    {
+        "id": 197,
+        "name": "Новогодний подарок Баян Сулу Диско Санта, 300 г",
+        "image_url": "https://e-catalog.gov.kz/media/products/1079615/disko-santa_01.png",
+        "gtin": 2870008003338,
+        "min_price": 4149,
+        "created_at": null,
+        "updated_at": null,
+        "supplier_id": 81
+    },
+    {
+        "id": 198,
+        "name": "Новогодний подарок Mondelez International Большой новогодний микс, 430 г",
+        "image_url": "https://e-catalog.gov.kz/media/products/1079458/tobl.png",
+        "gtin": 2870008001761,
+        "min_price": 2775,
+        "created_at": null,
+        "updated_at": null,
+        "supplier_id": 82
+    },
+    {
+        "id": 199,
+        "name": "Новогодний подарок Баян Сулу Винтаж, 500 г",
+        "image_url": "https://e-catalog.gov.kz/media/products/1079284/vintazh_01.png",
+        "gtin": 2870008000023,
+        "min_price": 1265,
+        "created_at": null,
+        "updated_at": null,
+        "supplier_id": 81
+    },
+    {
+        "id": 200,
+        "name": "Сметана ТОО «Текели ГМЗ» 20% весовая, 1 кг",
+        "image_url": "https://e-catalog.gov.kz/media/products/1079272/DQ4oY91yK2wPcY0nf7xJDd7SrNNGSfMrolFNpx4o.jpg",
+        "gtin": 2870007999908,
+        "min_price": 3642,
+        "created_at": null,
+        "updated_at": null,
+        "supplier_id": 83
+    },
+    {
+        "id": 201,
+        "name": "Кефир йодированный ТОО «Текели ГМЗ» 2,5%, 1 л",
+        "image_url": "https://e-catalog.gov.kz/media/products/1079263/6bjrKaB7NhSS142FyHOcQgD7H5JNigdlyOkda4n1.webp",
+        "gtin": 2870007999816,
+        "min_price": 4206,
+        "created_at": null,
+        "updated_at": null,
+        "supplier_id": 83
+    },
+    {
+        "id": 202,
+        "name": "Новогодний подарок Kinder Mix домик, 199 г",
+        "image_url": "https://e-catalog.gov.kz/media/products/1079219/Mix_199g_front.jpg",
+        "gtin": 2870007999373,
+        "min_price": 4459,
+        "created_at": null,
+        "updated_at": null,
+        "supplier_id": 84
+    },
+    {
+        "id": 203,
+        "name": "Печенье Сладонеж Сгущёнкино раздолье, 5 кг",
+        "image_url": "https://e-catalog.gov.kz/media/products/1079095/l0NAsBqCH1McRx7Bs9cY3zb60JE56e2UwlYgh7VS.jpg",
+        "gtin": 2870007998130,
+        "min_price": 3519,
+        "created_at": null,
+        "updated_at": null,
+        "supplier_id": 85
+    },
+    {
+        "id": 204,
+        "name": "Вафли Сладонеж Ретро-Сладонеж с арахисом, 500 г",
+        "image_url": "https://e-catalog.gov.kz/media/products/1079094/5Cs9WRg9ywVtjTh1GL7UrkyJaW94sOgubSV6hdoF.png",
+        "gtin": 2870007998123,
+        "min_price": 2286,
+        "created_at": null,
+        "updated_at": null,
+        "supplier_id": 85
+    },
+    {
+        "id": 205,
+        "name": "Вафли Сладонеж Ретро-Сладонеж со вкусом пломбира, 500 г",
+        "image_url": "https://e-catalog.gov.kz/media/products/1079090/AszoTU2tUueh5rjiPVRnaFpO4Gx7ejxitIuIkmnH.jpg",
+        "gtin": 2870007998086,
+        "min_price": 816,
+        "created_at": null,
+        "updated_at": null,
+        "supplier_id": 85
+    },
+    {
+        "id": 206,
+        "name": "Вафли Сладонеж Ретро-Сладонеж со вкусом лимона, 500 г",
+        "image_url": "https://e-catalog.gov.kz/media/products/1079080/yEdL8Vbn4hCWkJrJBQJ99DqfngVaU97EBAhJgui2.jpg",
+        "gtin": 2870007997980,
+        "min_price": 2497,
+        "created_at": null,
+        "updated_at": null,
+        "supplier_id": 85
+    },
+    {
+        "id": 207,
+        "name": "Шоколадное печенье Сладонеж Bang Bang с молочной начинкой, 4 кг",
+        "image_url": "https://e-catalog.gov.kz/media/products/1079067/3OtMyBa59zg5SiUPH6rSuvFpyx2Pzgr9iIu1xWp8.jpg",
+        "gtin": 2870007997850,
+        "min_price": 4305,
+        "created_at": null,
+        "updated_at": null,
+        "supplier_id": 85
+    },
+    {
+        "id": 208,
+        "name": "Печенье Сладонеж К кофе со вкусом шоколада, 5 кг",
+        "image_url": "https://e-catalog.gov.kz/media/products/1079066/D184D0BED182D0BE.jpg",
+        "gtin": 2870007997843,
+        "min_price": 1414,
+        "created_at": null,
+        "updated_at": null,
+        "supplier_id": 85
+    },
+    {
+        "id": 209,
+        "name": "Новогодний адвент-календарь Kinder Mix Киндер Микс 3D Поезд, 221 г",
+        "image_url": "https://e-catalog.gov.kz/media/products/1078607/5.jpeg",
+        "gtin": 2870007993258,
+        "min_price": 686,
+        "created_at": null,
+        "updated_at": null,
+        "supplier_id": 84
+    },
+    {
+        "id": 210,
+        "name": "Новогодний подарок Common Market \"Mega Astana\" 2000 г",
+        "image_url": "https://e-catalog.gov.kz/media/products/1078456/Mega20Astana.png",
+        "gtin": 2870007991742,
+        "min_price": 2359,
+        "created_at": null,
+        "updated_at": null,
+        "supplier_id": 86
+    },
+    {
+        "id": 211,
+        "name": "Сок Сады Придонья яблоко прямого отжима от 6 месяцев, 200 мл",
+        "image_url": "https://e-catalog.gov.kz/media/products/1061236/rSaUQYctQkuv7zLkYNbN4VAUQgmUtyZhQUHa4bvS.png",
+        "gtin": 2870007819541,
+        "min_price": 3989,
+        "created_at": null,
+        "updated_at": null,
+        "supplier_id": 87
+    },
+    {
+        "id": 212,
+        "name": "Новогодний подарок Comon Market \"Mega Moscow\" 2023, 900 г",
+        "image_url": "https://e-catalog.gov.kz/media/products/1060785/Mega20Moscow.png",
+        "gtin": 2870007815031,
+        "min_price": 4808,
+        "created_at": null,
+        "updated_at": null,
+        "supplier_id": 86
+    },
+    {
+        "id": 213,
+        "name": "Новогодний подарок Comon Market \"Mega Paris\" 2023, 900 г",
+        "image_url": "https://e-catalog.gov.kz/media/products/1060784/_Mega20Paris_.png",
+        "gtin": 2870007815024,
+        "min_price": 1347,
+        "created_at": null,
+        "updated_at": null,
+        "supplier_id": 86
+    },
+    {
+        "id": 214,
+        "name": "Новогодний подарок Comon Market \"Mega Astana\" 2023, 900 г",
+        "image_url": "https://e-catalog.gov.kz/media/products/1060781/Mega20Astana.png",
+        "gtin": 2870007814997,
+        "min_price": 1312,
+        "created_at": null,
+        "updated_at": null,
+        "supplier_id": 86
+    },
+    {
+        "id": 215,
+        "name": "Новогодний подарок Comon Market \"Mega London\" 2023, 900 г",
+        "image_url": "https://e-catalog.gov.kz/media/products/1060779/Mega20London.png",
+        "gtin": 2870007814973,
+        "min_price": 3575,
+        "created_at": null,
+        "updated_at": null,
+        "supplier_id": 86
+    },
+    {
+        "id": 216,
+        "name": "Новогодний подарок Торговый дом \"Дилявер\" Тотоша 200 гр",
+        "image_url": "https://e-catalog.gov.kz/media/products/1060744/totoshka-litso.png",
+        "gtin": 2870007814621,
+        "min_price": 949,
+        "created_at": null,
+        "updated_at": null,
+        "supplier_id": 88
+    },
+    {
+        "id": 217,
+        "name": "Новогодний подарок Рахат \"Исполни мечту\", 2000 гр",
+        "image_url": "https://e-catalog.gov.kz/media/products/1060737/D098D181D0BFD0BED0BBD0BDD0B820D0BCD0B5D187D182D183.png",
+        "gtin": 2870007814553,
+        "min_price": 2421,
+        "created_at": null,
+        "updated_at": null,
+        "supplier_id": 89
+    },
+    {
+        "id": 218,
+        "name": "Пирожное Дымка \"Вафельное\" с орехами, 75 г",
+        "image_url": "https://e-catalog.gov.kz/media/products/1060594/XLSE35mfLJWM9lyYsdJB4x9LCuNtBFtG7ONrZbB0.jpg",
+        "gtin": 2870007813129,
+        "min_price": 739,
+        "created_at": null,
+        "updated_at": null,
+        "supplier_id": 90
+    },
+    {
+        "id": 219,
+        "name": "Драже Дымка \"Лимонное\" сахарное, 4 кг",
+        "image_url": "https://e-catalog.gov.kz/media/products/1060593/kFh4NX9a7DhwNgFxqYWJ8fz3lQ2htwBKJsUmri7d.jpg",
+        "gtin": 2870007813112,
+        "min_price": 663,
+        "created_at": null,
+        "updated_at": null,
+        "supplier_id": 90
+    },
+    {
+        "id": 220,
+        "name": "Драже Дымка \"Семечки в цветной глазури\" ядровое, 1000 г",
+        "image_url": "https://e-catalog.gov.kz/media/products/1060592/OmfgGpSHfKRvgGJlqwTbSInGouZCxKW2egNz146i.jpg",
+        "gtin": 2870007813105,
+        "min_price": 1361,
+        "created_at": null,
+        "updated_at": null,
+        "supplier_id": 90
+    },
+    {
+        "id": 221,
+        "name": "Драже Дымка \"Арахис в порошке какао\" ядровое, 1000 г",
+        "image_url": "https://e-catalog.gov.kz/media/products/1060591/egln10wD3Zb4Z78P1JVwbRj5iS3Axl0lswGTWsIX.jpg",
+        "gtin": 2870007813099,
+        "min_price": 4725,
+        "created_at": null,
+        "updated_at": null,
+        "supplier_id": 90
+    },
+    {
+        "id": 222,
+        "name": "Мармелад Дымка \"Лимонный\" 2 Н, 2 кг",
+        "image_url": "https://e-catalog.gov.kz/media/products/1060590/9cfHfoZSB0F0dQ58gZrv1dN87tsHJq2ywrMiIf2b.png",
+        "gtin": 2870007813082,
+        "min_price": 3028,
+        "created_at": null,
+        "updated_at": null,
+        "supplier_id": 90
+    },
+    {
+        "id": 223,
+        "name": "Мармелад Дымка \"Апельсиновый\", 2 кг",
+        "image_url": "https://e-catalog.gov.kz/media/products/1060589/dssRDyEi1SPRz6HGogAxUPQyIyEY2l69xHISgnK1.png",
+        "gtin": 2870007813075,
+        "min_price": 3898,
+        "created_at": null,
+        "updated_at": null,
+        "supplier_id": 90
+    },
+    {
+        "id": 224,
+        "name": "Мармелад Дымка \"Ассорти\" 2 Н, 2 кг",
+        "image_url": "https://e-catalog.gov.kz/media/products/1060588/FF1kFzPMM1pGIjbs2I35cmuk0xRcOotBBq17DuHf.png",
+        "gtin": 2870007813068,
+        "min_price": 2087,
+        "created_at": null,
+        "updated_at": null,
+        "supplier_id": 90
+    },
+    {
+        "id": 225,
+        "name": "Мармелад Дымка \"Мур-мелад\" Микс, 50 г",
+        "image_url": "https://e-catalog.gov.kz/media/products/1060587/OYoDk3bGLKF4YESSZn738igxcaUeIDnvPDHeucpR.png",
+        "gtin": 2870007813051,
+        "min_price": 1322,
+        "created_at": null,
+        "updated_at": null,
+        "supplier_id": 90
+    },
+    {
+        "id": 226,
+        "name": "Ирис Дымка \"Сгущенное молоко\" тираженный полутвердый, 255 г",
+        "image_url": "https://e-catalog.gov.kz/media/products/1060586/7H7BMqKdKF0XirJKDZT87I3fZPXISGULdoWVgxJT.jpg",
+        "gtin": 2870007813044,
+        "min_price": 1724,
+        "created_at": null,
+        "updated_at": null,
+        "supplier_id": 90
+    },
+    {
+        "id": 227,
+        "name": "Ирис Дымка \"Молочно-ореховый\" тираженный полутвердый, 240 г",
+        "image_url": "https://e-catalog.gov.kz/media/products/1060585/7Wam2LOvajykPHFVSEbkVIhCsaKVsbbLKrdq3aiA.jpg",
+        "gtin": 2870007813037,
+        "min_price": 2182,
+        "created_at": null,
+        "updated_at": null,
+        "supplier_id": 90
+    },
+    {
+        "id": 228,
+        "name": "Печенье Дымка Кольцо с орехом 225 гр",
+        "image_url": "https://e-catalog.gov.kz/media/products/1060584/D0BAD0BED0BBD18CD186D0BE20D18120D0BED180D0B5D185D0BED0BC20D184D0B0D181.jpg",
+        "gtin": 2870007813020,
+        "min_price": 4803,
+        "created_at": null,
+        "updated_at": null,
+        "supplier_id": 90
+    },
+    {
+        "id": 229,
+        "name": "Печенье Дымка Слободка целинная 500 гр",
+        "image_url": "https://e-catalog.gov.kz/media/products/1060583/D181D0BBD0BED0B1D0BED0B4D0BAD0B020D186D0B5D0BBD0B8D0BDD0BDD0B0D18F.jpg",
+        "gtin": 2870007813013,
+        "min_price": 3466,
+        "created_at": null,
+        "updated_at": null,
+        "supplier_id": 90
+    },
+    {
+        "id": 230,
+        "name": "Сушка Дымка Маленькая с маком 500 гр",
+        "image_url": "https://e-catalog.gov.kz/media/products/1060582/D0BCD0B0D0BBD0B5D0BDD18CD0BAD0B0D18F20D18120D0BCD0B0D0BAD0BED0BC20500D0B3D180.jpg",
+        "gtin": 2870007813006,
+        "min_price": 4359,
+        "created_at": null,
+        "updated_at": null,
+        "supplier_id": 90
+    },
+    {
+        "id": 231,
+        "name": "Сушки Дымка \"Звездочка\", 500 г",
+        "image_url": "https://e-catalog.gov.kz/media/products/1060581/PHFkv8LrIsEUVCm6HbsBTV2b32ek9cfozDjrcLn9.png",
+        "gtin": 2870007812993,
+        "min_price": 2843,
+        "created_at": null,
+        "updated_at": null,
+        "supplier_id": 90
+    },
+    {
+        "id": 232,
+        "name": "Сушки Дымка \"Крошечная\", 500 г",
+        "image_url": "https://e-catalog.gov.kz/media/products/1060580/pIGAshE5A4Me7IEy4u2lQApRLbUd9xCqZpFTPaeN.png",
+        "gtin": 2870007812986,
+        "min_price": 2195,
+        "created_at": null,
+        "updated_at": null,
+        "supplier_id": 90
+    },
+    {
+        "id": 233,
+        "name": "Сушка Дымка Стайка рыбок 500 гр",
+        "image_url": "https://e-catalog.gov.kz/media/products/1060579/D181D182D0B0D0B9D0BAD0B020D180D18BD0B1D0BED0BA20500D0B3D180.jpg",
+        "gtin": 2870007812979,
+        "min_price": 2256,
+        "created_at": null,
+        "updated_at": null,
+        "supplier_id": 90
+    },
+    {
+        "id": 234,
+        "name": "Сушки Дымка \"Стайка рыбок\", 200 г",
+        "image_url": "https://e-catalog.gov.kz/media/products/1060578/3Ju6Kk3WdKFjaoS9m7Z8NGUN3wTkwnrXiglCYO22.png",
+        "gtin": 2870007812962,
+        "min_price": 4002,
+        "created_at": null,
+        "updated_at": null,
+        "supplier_id": 90
+    },
+    {
+        "id": 235,
+        "name": "Сушки Дымка \"Крошечная\", 200 г",
+        "image_url": "https://e-catalog.gov.kz/media/products/1060577/Cfp3mQNpdU5d6U5Rj3JR7UVLb6jRTLMGCPArh6o3.png",
+        "gtin": 2870007812955,
+        "min_price": 2026,
+        "created_at": null,
+        "updated_at": null,
+        "supplier_id": 90
+    },
+    {
+        "id": 236,
+        "name": "Сушка Дымка Звёздочка 200 гр",
+        "image_url": "https://e-catalog.gov.kz/media/products/1060576/D0B7D0B2D0B5D0B7D0B4D0BED187D0BAD0B020200D0B3D180.jpg",
+        "gtin": 2870007812948,
+        "min_price": 4489,
+        "created_at": null,
+        "updated_at": null,
+        "supplier_id": 90
+    },
+    {
+        "id": 237,
+        "name": "Новогодний подарок Баян Сулу \"Лучший праздник\", 1000 гр",
+        "image_url": "https://e-catalog.gov.kz/media/products/1060353/luchshiy-prazdnik.png",
+        "gtin": 2870007810715,
+        "min_price": 4282,
+        "created_at": null,
+        "updated_at": null,
+        "supplier_id": 81
+    },
+    {
+        "id": 238,
+        "name": "Новогодний подарок Баян Сулу Весёлая семейка \"Три кота\", 1000 гр",
+        "image_url": "https://e-catalog.gov.kz/media/products/1060349/tri-kota-veselaya-simeyka.png",
+        "gtin": 2870007810678,
+        "min_price": 1709,
+        "created_at": null,
+        "updated_at": null,
+        "supplier_id": 81
+    },
+    {
+        "id": 239,
+        "name": "Новогодний подарок Баян Сулу \"В гостях у Деда Мороза\" 2024, 1500 гр",
+        "image_url": "https://e-catalog.gov.kz/media/products/1060346/v-gostyah-u-deda-moroza.png",
+        "gtin": 2870007810647,
+        "min_price": 4464,
+        "created_at": null,
+        "updated_at": null,
+        "supplier_id": 81
+    },
+    {
+        "id": 240,
+        "name": "Новогодний подарок Баян Сулу \"Дом Деда Мороза\", 1500 г",
+        "image_url": "https://e-catalog.gov.kz/media/products/1060344/dom-deda-moroza.png",
+        "gtin": 2870007810623,
+        "min_price": 4227,
+        "created_at": null,
+        "updated_at": null,
+        "supplier_id": 81
+    },
+    {
+        "id": 241,
+        "name": "Новогодний подарок Баян Сулу \"Портфель\" 2024, 2000 гр",
+        "image_url": "https://e-catalog.gov.kz/media/products/1060341/portfel_D0B1D0B0D18FD0BD20D181D183D0BBD183.png",
+        "gtin": 2870007810593,
+        "min_price": 3121,
+        "created_at": null,
+        "updated_at": null,
+        "supplier_id": 81
+    },
+    {
+        "id": 242,
+        "name": "Новогодний подарок Баян Сулу \"Новогодний вечер\", 2 кг",
+        "image_url": "https://e-catalog.gov.kz/media/products/1060316/NY20D0BDD0BED0B2D0BED0B3D0BED0B4D0BDD0B8D0B920D0B2D0B5D187D0B5D180.png",
+        "gtin": 2870007810340,
+        "min_price": 3632,
+        "created_at": null,
+        "updated_at": null,
+        "supplier_id": 81
+    },
+    {
+        "id": 243,
+        "name": "Сметана Айсу 25%, 500 г",
+        "image_url": "https://e-catalog.gov.kz/media/products/1060054/D0A1D0BCD0B5D182D0B0D0BDD0B02025.jpg",
+        "gtin": 2870007807722,
+        "min_price": 4612,
+        "created_at": null,
+        "updated_at": null,
+        "supplier_id": 56
+    },
+    {
+        "id": 244,
+        "name": "Сметана Айсу 20%, 500 г",
+        "image_url": "https://e-catalog.gov.kz/media/products/1060053/D0A1D0BCD0B5D182D0B0D0BDD0B02020.jpg",
+        "gtin": 2870007807715,
+        "min_price": 2060,
+        "created_at": null,
+        "updated_at": null,
+        "supplier_id": 56
+    },
+    {
+        "id": 245,
+        "name": "Кефир Айсу 3.2%, 1000 г",
+        "image_url": "https://e-catalog.gov.kz/media/products/1060049/D09AD0B5D184D0B8D180.jpg",
+        "gtin": 2870007807678,
+        "min_price": 1651,
+        "created_at": null,
+        "updated_at": null,
+        "supplier_id": 56
+    },
+    {
+        "id": 246,
+        "name": "Новогодний подарок Бабаевский Шоколадная фабрика, 1500 г",
+        "image_url": "https://e-catalog.gov.kz/media/products/1060033/8dx6bh4htz3w9xr9r472399a062vxbmg.jpg",
+        "gtin": 2870007807517,
+        "min_price": 1253,
+        "created_at": null,
+        "updated_at": null,
+        "supplier_id": 91
+    },
+    {
+        "id": 247,
+        "name": "Рис Ярмарка длиннозерный 700 г",
+        "image_url": "https://e-catalog.gov.kz/media/products/1060031/01_Rice20dlinnozerniy.png",
+        "gtin": 2870007807494,
+        "min_price": 4048,
+        "created_at": null,
+        "updated_at": null,
+        "supplier_id": 92
+    },
+    {
+        "id": 248,
+        "name": "Новогодний подарок Рахат \"Подарок от Рахат\" 2024 год, 2.5 кг",
+        "image_url": "https://e-catalog.gov.kz/media/products/1059994/D0BFD0BED0B4D0B0D180D0BED0BA20D0BED18220D180D0B0D185D0B0D182.jpg",
+        "gtin": 2870007807128,
+        "min_price": 4368,
+        "created_at": null,
+        "updated_at": null,
+        "supplier_id": 89
+    },
+    {
+        "id": 249,
+        "name": "Хлопья овсяные Ярмарка Геркулес 400 г",
+        "image_url": "https://e-catalog.gov.kz/media/products/1059979/03_Hlopja20gerkules_back.jpg",
+        "gtin": 2870007806978,
+        "min_price": 3409,
+        "created_at": null,
+        "updated_at": null,
+        "supplier_id": 92
+    },
+    {
+        "id": 250,
+        "name": "Хлопья Ярмарка овсяные мелкие 350 г",
+        "image_url": "https://e-catalog.gov.kz/media/products/1059978/01_Hlopia20ovsanie.jpg",
+        "gtin": 2870007806961,
+        "min_price": 4354,
+        "created_at": null,
+        "updated_at": null,
+        "supplier_id": 92
+    },
+    {
+        "id": 251,
+        "name": "Чечевица Ярмарка красная колотая 700 г",
+        "image_url": "https://e-catalog.gov.kz/media/products/1059973/02_Chechevitsa20krasnaya20kolotaya_face.png",
+        "gtin": 2870007806916,
+        "min_price": 1724,
+        "created_at": null,
+        "updated_at": null,
+        "supplier_id": 92
+    },
+    {
+        "id": 252,
+        "name": "Крупа пшеничная Ярмарка 600 г",
+        "image_url": "https://e-catalog.gov.kz/media/products/1059971/01_Phenicnaja.jpg",
+        "gtin": 2870007806893,
+        "min_price": 3493,
+        "created_at": null,
+        "updated_at": null,
+        "supplier_id": 92
+    },
+    {
+        "id": 253,
+        "name": "Полента Ярмарка кукурузная манка 600 г",
+        "image_url": "https://e-catalog.gov.kz/media/products/1059969/03_POLENTA_back.png",
+        "gtin": 2870007806879,
+        "min_price": 3024,
+        "created_at": null,
+        "updated_at": null,
+        "supplier_id": 92
+    },
+    {
+        "id": 254,
+        "name": "Крупа манная Ярмарка 600 г",
+        "image_url": "https://e-catalog.gov.kz/media/products/1059965/01_Mannaja.jpg",
+        "gtin": 2870007806831,
+        "min_price": 2241,
+        "created_at": null,
+        "updated_at": null,
+        "supplier_id": 92
+    },
+    {
+        "id": 255,
+        "name": "Крупа гречневая Ярмарка ядрица фермерская 700 г",
+        "image_url": "https://e-catalog.gov.kz/media/products/1059957/01_Grechka20yadritsya.png",
+        "gtin": 2870007806756,
+        "min_price": 3202,
+        "created_at": null,
+        "updated_at": null,
+        "supplier_id": 92
+    },
+    {
+        "id": 256,
+        "name": "Горох Ярмарка колотый 700 г",
+        "image_url": "https://e-catalog.gov.kz/media/products/1059956/01_Goroh_kolotiy.png",
+        "gtin": 2870007806749,
+        "min_price": 3024,
+        "created_at": null,
+        "updated_at": null,
+        "supplier_id": 92
+    },
+    {
+        "id": 257,
+        "name": "Булгур Ярмарка крупа из пшеницы 700 г",
+        "image_url": "https://e-catalog.gov.kz/media/products/1059953/01_Bulgur20krupa.png",
+        "gtin": 2870007806718,
+        "min_price": 2589,
+        "created_at": null,
+        "updated_at": null,
+        "supplier_id": 92
+    },
+    {
+        "id": 258,
+        "name": "Пряники Дымка Ананасовое кольцо 400 гр",
+        "image_url": "https://e-catalog.gov.kz/media/products/1059859/Gl1y9dOCOTVwfd1egRC5pZZg3M9GCrpGGTxgD3Yf.jpg",
+        "gtin": 2870007805773,
+        "min_price": 1874,
+        "created_at": null,
+        "updated_at": null,
+        "supplier_id": 90
+    },
+    {
+        "id": 259,
+        "name": "Пряники Дымка Коврижка с черной смородиной 300 г",
+        "image_url": "https://e-catalog.gov.kz/media/products/1059858/kt35fQlPttWDpZb2bEQl50FjQ4dhNvNqT3klccEp.jpg",
+        "gtin": 2870007805766,
+        "min_price": 1053,
+        "created_at": null,
+        "updated_at": null,
+        "supplier_id": 90
+    },
+    {
+        "id": 260,
+        "name": "Пряники Дымка Северные заварные 300 г",
+        "image_url": "https://e-catalog.gov.kz/media/products/1059857/D181D0B5D0B2D0B5D180D0BDD18BD0B5.jpg",
+        "gtin": 2870007805759,
+        "min_price": 1555,
+        "created_at": null,
+        "updated_at": null,
+        "supplier_id": 90
+    },
+    {
+        "id": 261,
+        "name": "Пряники Дымка Вятский пряник с яблочным повидлом 3 кг",
+        "image_url": "https://e-catalog.gov.kz/media/products/1059856/UaJX1eoPswn2FnTe4nFVH24Sxwu8pwv1QApw5m2P.png",
+        "gtin": 2870007805742,
+        "min_price": 3267,
+        "created_at": null,
+        "updated_at": null,
+        "supplier_id": 90
+    },
+    {
+        "id": 262,
+        "name": "Пряники Дымка Коврижка с черной смородиной 2.7 кг",
+        "image_url": "https://e-catalog.gov.kz/media/products/1059855/D0BAD0BED0B2D180D0B8D0B6D0BAD0B0.jpg",
+        "gtin": 2870007805735,
+        "min_price": 526,
+        "created_at": null,
+        "updated_at": null,
+        "supplier_id": 90
+    },
+    {
+        "id": 263,
+        "name": "Пряники Дымка заварные Ананасовое кольцо 2.2 кг",
+        "image_url": "https://e-catalog.gov.kz/media/products/1059854/S2yxXyjqgRHwwDwqgDg2Slf7ymWPBQHVDPPvWwjH.png",
+        "gtin": 2870007805728,
+        "min_price": 2109,
+        "created_at": null,
+        "updated_at": null,
+        "supplier_id": 90
+    },
+    {
+        "id": 264,
+        "name": "Пряники Дымка заварные Пряник-Зебряник 4 кг",
+        "image_url": "https://e-catalog.gov.kz/media/products/1059853/D0BFD180D18FD0BDD0B8D0BA20D0B7D0B5D0B1D180D18FD0BDD0B8D0BA.jpg",
+        "gtin": 2870007805711,
+        "min_price": 2419,
+        "created_at": null,
+        "updated_at": null,
+        "supplier_id": 90
+    },
+    {
+        "id": 265,
+        "name": "Пряники Дымка заварные На домашней сметанке 4 кг",
+        "image_url": "https://e-catalog.gov.kz/media/products/1059852/at5JhFqXcffQziSsL0YvkJ5KL2cies3j8su0EZBn.png",
+        "gtin": 2870007805704,
+        "min_price": 2933,
+        "created_at": null,
+        "updated_at": null,
+        "supplier_id": 90
+    },
+    {
+        "id": 266,
+        "name": "Пряники Дымка Комсомольские 4 кг",
+        "image_url": "https://e-catalog.gov.kz/media/products/1059851/D0BAD0BED0BCD181D0BED0BCD0BED0BBD18CD181D0BAD0B8D0B5.jpg",
+        "gtin": 2870007805698,
+        "min_price": 2799,
+        "created_at": null,
+        "updated_at": null,
+        "supplier_id": 90
+    },
+    {
+        "id": 267,
+        "name": "Пряники Дымка заварные Классические 4 кг",
+        "image_url": "https://e-catalog.gov.kz/media/products/1059850/D0BFD180D18FD0BDD0B8D0BAD0B820D0BAD0BBD0B0D181D181D0B8D187D0B5D181D0BAD0B8D0B5.jpg",
+        "gtin": 2870007805681,
+        "min_price": 3355,
+        "created_at": null,
+        "updated_at": null,
+        "supplier_id": 90
+    },
+    {
+        "id": 268,
+        "name": "Вафли Дымка Мамины Ладошки с молочной карамелью 225 г",
+        "image_url": "https://e-catalog.gov.kz/media/products/1059849/D0BCD0BB20D0BAD0B0D180D0B0D0BCD0B5D0BBD18C.jpg",
+        "gtin": 2870007805674,
+        "min_price": 3744,
+        "created_at": null,
+        "updated_at": null,
+        "supplier_id": 90
+    },
+    {
+        "id": 269,
+        "name": "Вафли Дымка Мамины Ладошки с вареной сгущенкой 225 г",
+        "image_url": "https://e-catalog.gov.kz/media/products/1059848/D0BCD0BB20D181D0B3D183D189.jpg",
+        "gtin": 2870007805667,
+        "min_price": 1353,
+        "created_at": null,
+        "updated_at": null,
+        "supplier_id": 90
+    },
+    {
+        "id": 270,
+        "name": "Вафли Дымка Веселая тёлочка шоколадно-молочные 150 г",
+        "image_url": "https://e-catalog.gov.kz/media/products/1059847/D0B2D18220D188D0BED0BA20D0BCD0BED0BB.jpg",
+        "gtin": 2870007805650,
+        "min_price": 2118,
+        "created_at": null,
+        "updated_at": null,
+        "supplier_id": 90
+    },
+    {
+        "id": 271,
+        "name": "Вафли Дымка Веселая тёлочка творожные 150 г",
+        "image_url": "https://e-catalog.gov.kz/media/products/1059846/D0B2D18220D182D0B2D0BED180D0BED0B6D0BD.jpg",
+        "gtin": 2870007805643,
+        "min_price": 1503,
+        "created_at": null,
+        "updated_at": null,
+        "supplier_id": 90
+    },
+    {
+        "id": 272,
+        "name": "Вафли Дымка Веселая тёлочка сметанный крем 150 г",
+        "image_url": "https://e-catalog.gov.kz/media/products/1059845/D0B2D18220D181D0BCD0B5D182D0B0D0BD20D0BAD180D0B5D0BC.jpg",
+        "gtin": 2870007805636,
+        "min_price": 638,
+        "created_at": null,
+        "updated_at": null,
+        "supplier_id": 90
+    },
+    {
+        "id": 273,
+        "name": "Вафли Дымка Веселая тёлочка сливочные 150 г",
+        "image_url": "https://e-catalog.gov.kz/media/products/1059844/D0B2D18220D181D0BBD0B8D0B2D0BED187D0BD.jpg",
+        "gtin": 2870007805629,
+        "min_price": 4489,
+        "created_at": null,
+        "updated_at": null,
+        "supplier_id": 90
+    },
+    {
+        "id": 274,
+        "name": "Вафли Дымка Веселая тёлочка сгущенное молоко 150 г",
+        "image_url": "https://e-catalog.gov.kz/media/products/1059843/D0B2D18220D181D0B3D183D189D0B5D0BDD0BAD0B0.jpg",
+        "gtin": 2870007805612,
+        "min_price": 868,
+        "created_at": null,
+        "updated_at": null,
+        "supplier_id": 90
+    },
+    {
+        "id": 275,
+        "name": "Вафли с жировыми начинками Дымка к кофе топленое молоко 200 г",
+        "image_url": "https://e-catalog.gov.kz/media/products/1059842/D0BA20D0BAD0BED184D0B520D0B2D0B0D184D0BBD0B8.jpg",
+        "gtin": 2870007805605,
+        "min_price": 1799,
+        "created_at": null,
+        "updated_at": null,
+        "supplier_id": 90
+    },
+    {
+        "id": 276,
+        "name": "Вафли Дымка с жировыми начинками Пломбир 200 гр",
+        "image_url": "https://e-catalog.gov.kz/media/products/1059841/D0BFD0BBD0BED0BCD0B1D0B8D18020D0B2D0B0D184D0BBD0B8.jpg",
+        "gtin": 2870007805599,
+        "min_price": 3969,
+        "created_at": null,
+        "updated_at": null,
+        "supplier_id": 90
+    },
+    {
+        "id": 277,
+        "name": "Вафли Дымка с жировыми начинками Вареная сгущенка 200 гр",
+        "image_url": "https://e-catalog.gov.kz/media/products/1059840/D0B2D0B0D180D0B5D0BDD0B0D18F20D181D0B3D183D189.jpg",
+        "gtin": 2870007805582,
+        "min_price": 4263,
+        "created_at": null,
+        "updated_at": null,
+        "supplier_id": 90
+    },
+    {
+        "id": 278,
+        "name": "Вафли Дымка Вау-Вафля! медовые 30 г, 90 шт в упаковке",
+        "image_url": "https://e-catalog.gov.kz/media/products/1059839/D0B2D0B0D18320D0B2D0B0D184D0BBD18F20D0BCD0B5D0B4D0BED0B2D18BD0B5.jpg",
+        "gtin": 2870007805575,
+        "min_price": 887,
+        "created_at": null,
+        "updated_at": null,
+        "supplier_id": 90
+    },
+    {
+        "id": 279,
+        "name": "Вафли Дымка Вау-Вафля! с вареной сгущенкой 30 г, 90 шт в упаковке",
+        "image_url": "https://e-catalog.gov.kz/media/products/1059838/D0B2D0B0D18320D0B2D0B0D184D0BBD18F2022C7.jpg",
+        "gtin": 2870007805568,
+        "min_price": 4701,
+        "created_at": null,
+        "updated_at": null,
+        "supplier_id": 90
+    },
+    {
+        "id": 280,
+        "name": "Вафли Дымка Вау-Вафля! с вареной сгущенкой 75 г, 24 шт в упаковке",
+        "image_url": "https://e-catalog.gov.kz/media/products/1059837/CUa7gLJkJ5VcseFfwcky8zYrWeuhc8Xt4vYDyslD.jpg",
+        "gtin": 2870007805551,
+        "min_price": 1265,
+        "created_at": null,
+        "updated_at": null,
+        "supplier_id": 90
+    },
+    {
+        "id": 281,
+        "name": "Крекер Дымка Здрава ржаной 2.6 кг",
+        "image_url": "https://e-catalog.gov.kz/media/products/1059835/D0B7D0B4D180D0B0D0B2D0B020D180D0B6D0B0D0BDD0BED0B9.jpg",
+        "gtin": 2870007805537,
+        "min_price": 1192,
+        "created_at": null,
+        "updated_at": null,
+        "supplier_id": 90
+    },
+    {
+        "id": 282,
+        "name": "Крекер Дымка Кремделисс сливочный крем 3.1 кг",
+        "image_url": "https://e-catalog.gov.kz/media/products/1059834/D0BAD180D0B5D0BCD0B4D0B5D0BBD0B8D181D18120D181D0BBD0B8D0B2D0BED187D0BDD18BD0B9.jpg",
+        "gtin": 2870007805520,
+        "min_price": 735,
+        "created_at": null,
+        "updated_at": null,
+        "supplier_id": 90
+    },
+    {
+        "id": 283,
+        "name": "Крекер Дымка Кремделисс клубничный крем 3.1 кг",
+        "image_url": "https://e-catalog.gov.kz/media/products/1059833/D0BAD180D0B5D0BCD0B4D0B5D0BBD0B8D181D18120D0BAD0BBD183D0B1D0BDD0B8D0BAD0B0.jpg",
+        "gtin": 2870007805513,
+        "min_price": 3649,
+        "created_at": null,
+        "updated_at": null,
+        "supplier_id": 90
+    },
+    {
+        "id": 284,
+        "name": "Крекер Дымка Здрава Стайка рыбок 5 кг",
+        "image_url": "https://e-catalog.gov.kz/media/products/1059832/D0BAD180D0B5D0BAD0B5D18020D180D18BD0B1D0BAD0B0.jpg",
+        "gtin": 2870007805506,
+        "min_price": 4418,
+        "created_at": null,
+        "updated_at": null,
+        "supplier_id": 90
+    },
+    {
+        "id": 285,
+        "name": "Крекеры Дымка Здрава Стайка рыбок с солью 5 кг",
+        "image_url": "https://e-catalog.gov.kz/media/products/1059831/D0BAD180D0B5D0BAD0B5D18020D180D18BD0B1D0BAD0B820D181D0BED0BBD18C.jpg",
+        "gtin": 2870007805490,
+        "min_price": 3169,
+        "created_at": null,
+        "updated_at": null,
+        "supplier_id": 90
+    },
+    {
+        "id": 286,
+        "name": "Печенье глазированное Дымка Овсяное по-царски 2.3 кг",
+        "image_url": "https://e-catalog.gov.kz/media/products/1059830/D0BED0B2D181D18FD0BDD0BED0B520D0B220D0B3D0BBD0B0D0B7D183D180D0B8.jpg",
+        "gtin": 2870007805483,
+        "min_price": 766,
+        "created_at": null,
+        "updated_at": null,
+        "supplier_id": 90
+    },
+    {
+        "id": 287,
+        "name": "Печенье Дымка Кольцо с семенами льна и кунжута 2.4 кг",
+        "image_url": "https://e-catalog.gov.kz/media/products/1059829/D0BAD0BED0BBD18CD186D0BE20D18120D181D0B5D0BCD0B5D0BDD0B0D0BCD0B8.jpg",
+        "gtin": 2870007805476,
+        "min_price": 1865,
+        "created_at": null,
+        "updated_at": null,
+        "supplier_id": 90
+    },
+    {
+        "id": 288,
+        "name": "Печенье Дымка Каравайчик в глазури 3 кг",
+        "image_url": "https://e-catalog.gov.kz/media/products/1059828/D0BAD0B0D180D0B0D0B2D0B0D0B9D187D0B8D0BA20D0B220D0B3D0BBD0B0D0B7D183D180D0B8.jpg",
+        "gtin": 2870007805469,
+        "min_price": 3443,
+        "created_at": null,
+        "updated_at": null,
+        "supplier_id": 90
+    },
+    {
+        "id": 289,
+        "name": "Печенье Дымка Каравайчик с семенами льна и кунжута 2.6 кг",
+        "image_url": "https://e-catalog.gov.kz/media/products/1059827/D0BAD0B0D180D0B0D0B2D0B0D0B9D187D0B8D0BA20D18120D181D0B5D0BCD0B5D0BDD0B_3VGuVqr.jpg",
+        "gtin": 2870007805452,
+        "min_price": 2894,
+        "created_at": null,
+        "updated_at": null,
+        "supplier_id": 90
+    },
+    {
+        "id": 290,
+        "name": "Печенье Дымка Каравайчик с орехами 2.6 кг",
+        "image_url": "https://e-catalog.gov.kz/media/products/1059826/D0BAD0B0D180D0B0D0B2D0B0D0B9D187D0B8D0BA20D18120D0BED180D0B5D185D0BED0BC.jpg",
+        "gtin": 2870007805445,
+        "min_price": 3071,
+        "created_at": null,
+        "updated_at": null,
+        "supplier_id": 90
+    },
+    {
+        "id": 291,
+        "name": "Печенье Дымка Каравайчик 2.6 кг",
+        "image_url": "https://e-catalog.gov.kz/media/products/1059825/D0BAD0B0D180D0B0D0B2D0B0D0B9D187D0B8D0BA.jpg",
+        "gtin": 2870007805438,
+        "min_price": 4566,
+        "created_at": null,
+        "updated_at": null,
+        "supplier_id": 90
+    },
+    {
+        "id": 292,
+        "name": "Печенье Дымка Здрава Полезное с изюмом 4 кг",
+        "image_url": "https://e-catalog.gov.kz/media/products/1059824/D0B7D0B4D180D0B0D0B2D0B020D18120D0B8D0B7D18ED0BCD0BED0BC.jpg",
+        "gtin": 2870007805421,
+        "min_price": 3318,
+        "created_at": null,
+        "updated_at": null,
+        "supplier_id": 90
+    },
+    {
+        "id": 293,
+        "name": "Печенье Дымка Здрава мультизлаковое 4.4 кг",
+        "image_url": "https://e-catalog.gov.kz/media/products/1059823/D0B7D0B4D180D0B0D0B2D0B020D0BCD183D0BBD18CD182D0B8D0B7D0BBD0B0D0BAD0BED_tOEUgN2.jpg",
+        "gtin": 2870007805414,
+        "min_price": 2566,
+        "created_at": null,
+        "updated_at": null,
+        "supplier_id": 90
+    },
+    {
+        "id": 294,
+        "name": "Галеты Дымка Классические 4.6 кг",
+        "image_url": "https://e-catalog.gov.kz/media/products/1059822/D0B3D0B0D0BBD0B5D182.jpg",
+        "gtin": 2870007805407,
+        "min_price": 2092,
+        "created_at": null,
+        "updated_at": null,
+        "supplier_id": 90
+    },
+    {
+        "id": 295,
+        "name": "Печенье Дымка Африканские друзья 5 кг",
+        "image_url": "https://e-catalog.gov.kz/media/products/1059821/D0B0D184D180D0B8D0BAD0B0D0BDD181D0BAD0B8D0B520D0B4D180D183D0B7D18CD18F.jpg",
+        "gtin": 2870007805391,
+        "min_price": 2452,
+        "created_at": null,
+        "updated_at": null,
+        "supplier_id": 90
+    },
+    {
+        "id": 296,
+        "name": "Печенье Дымка Овсяное по-царски 2.8 кг",
+        "image_url": "https://e-catalog.gov.kz/media/products/1059820/D0BED0B2D181D18FD0BDD0BED0B520D0BFD0BE20D186D0B0D180D181D0BAD0B8.jpg",
+        "gtin": 2870007805384,
+        "min_price": 2119,
+        "created_at": null,
+        "updated_at": null,
+        "supplier_id": 90
+    },
+    {
+        "id": 297,
+        "name": "Печенье Дымка Курабье с малиновым джемом 3 кг",
+        "image_url": "https://e-catalog.gov.kz/media/products/1059817/D0BAD183D180D0B0D0B1D18CD0B5.jpg",
+        "gtin": 2870007805353,
+        "min_price": 748,
+        "created_at": null,
+        "updated_at": null,
+        "supplier_id": 90
+    },
+    {
+        "id": 298,
+        "name": "Печенье сдобное Дымка Задумка орех-шоколад 3.1 кг",
+        "image_url": "https://e-catalog.gov.kz/media/products/1059816/D0B7D0B0D0B4D183D0BCD0BAD0B020D0BED180D0B5D18520D188D0BED0BA.jpg",
+        "gtin": 2870007805346,
+        "min_price": 2947,
+        "created_at": null,
+        "updated_at": null,
+        "supplier_id": 90
+    },
+    {
+        "id": 299,
+        "name": "Печенье Дымка Задумка крем клубника со сливками 3.1 кг",
+        "image_url": "https://e-catalog.gov.kz/media/products/1059815/D0B7D0B0D0B4D183D0BAD0B020D0BAD0BBD183D0B1.jpg",
+        "gtin": 2870007805339,
+        "min_price": 4160,
+        "created_at": null,
+        "updated_at": null,
+        "supplier_id": 90
+    },
+    {
+        "id": 300,
+        "name": "Печенье Дымка Задумка крем вареная сгущенка 3.1 кг",
+        "image_url": "https://e-catalog.gov.kz/media/products/1059814/D0B7D0B0D0B4D183D0BCD0BAD0B020D0B2D0B0D180D0B5D0BDD0B0D18F20D181D0B3D183D189.jpg",
+        "gtin": 2870007805322,
+        "min_price": 3082,
+        "created_at": null,
+        "updated_at": null,
+        "supplier_id": 90
+    },
+    {
+        "id": 301,
+        "name": "Печенье Дымка Детское для детского питания",
+        "image_url": "https://e-catalog.gov.kz/media/products/1059813/D0B4D0B5D182D181D0BAD0BED0B5.jpg",
+        "gtin": 2870007805315,
+        "min_price": 4868,
+        "created_at": null,
+        "updated_at": null,
+        "supplier_id": 90
+    },
+    {
+        "id": 302,
+        "name": "Печенье Дымка Арабеска с клубничным конфитюром 3 кг",
+        "image_url": "https://e-catalog.gov.kz/media/products/1059812/D0B0D180D0B0D0B1D0B5D181D0BAD0B0.jpg",
+        "gtin": 2870007805308,
+        "min_price": 2231,
+        "created_at": null,
+        "updated_at": null,
+        "supplier_id": 90
+    },
+    {
+        "id": 303,
+        "name": "Печенье Дымка Овсяное классическое 4 кг",
+        "image_url": "https://e-catalog.gov.kz/media/products/1059811/D0BED0B2D181D18FD0BDD0BED0B520D0BAD0BBD0B0D181D181D0B8D187D0B5D181D0BAD0BED0B5.jpg",
+        "gtin": 2870007805292,
+        "min_price": 3169,
+        "created_at": null,
+        "updated_at": null,
+        "supplier_id": 90
+    },
+    {
+        "id": 304,
+        "name": "Печенье сахарное Дымка Юбилейная песенка 3.45 кг",
+        "image_url": "https://e-catalog.gov.kz/media/products/1059810/AnxDKX46nDmyLzD3nqwpy99wGRmUVIrRZDB7p011.png",
+        "gtin": 2870007805285,
+        "min_price": 2385,
+        "created_at": null,
+        "updated_at": null,
+        "supplier_id": 90
+    },
+    {
+        "id": 305,
+        "name": "Печенье Дымка К кофе люкс 2.85 кг, 10 пачек в упаковке",
+        "image_url": "https://e-catalog.gov.kz/media/products/1059808/kJWTcKDP3gajvXqMvjYBN5fZxeyFbtAWQtRbcAk2.jpg",
+        "gtin": 2870007805261,
+        "min_price": 3395,
+        "created_at": null,
+        "updated_at": null,
+        "supplier_id": 90
+    },
+    {
+        "id": 306,
+        "name": "Печенье Дымка Творожное для детского питания 4.5 кг",
+        "image_url": "https://e-catalog.gov.kz/media/products/1059807/D182D0B2D0BED180D0BED0B6D0BDD0BED0B52042C5.jpg",
+        "gtin": 2870007805254,
+        "min_price": 2090,
+        "created_at": null,
+        "updated_at": null,
+        "supplier_id": 90
+    },
+    {
+        "id": 307,
+        "name": "Печенье Дымка Топленое молоко 5.5 кг",
+        "image_url": "https://e-catalog.gov.kz/media/products/1059805/D182D0BED0BFD0BBD0B5D0BDD0BAD0B02052C5.jpg",
+        "gtin": 2870007805230,
+        "min_price": 509,
+        "created_at": null,
+        "updated_at": null,
+        "supplier_id": 90
+    },
+    {
+        "id": 308,
+        "name": "Печенье Дымка Сгущенное молоко 4.5 кг",
+        "image_url": "https://e-catalog.gov.kz/media/products/1059802/D181D0B3D183D189D0B5D0BDD0BDD0BED0B520D0BCD0BED0BBD0BED0BAD0BE2042C5.jpg",
+        "gtin": 2870007805209,
+        "min_price": 577,
+        "created_at": null,
+        "updated_at": null,
+        "supplier_id": 90
+    },
+    {
+        "id": 309,
+        "name": "Печенье Дымка \"К кофе\" топленое молоко, 10 пачек/уп, 2.9 кг",
+        "image_url": "https://e-catalog.gov.kz/media/products/1059800/lFP1vLHFhzkkDxGHdyqDqBqfHsp1Yv7kU0bwcI6U.jpg",
+        "gtin": 2870007805186,
+        "min_price": 3485,
+        "created_at": null,
+        "updated_at": null,
+        "supplier_id": 90
+    },
+    {
+        "id": 310,
+        "name": "Сушки Дымка \"Стайка рыбок\", 5.4 кг",
+        "image_url": "https://e-catalog.gov.kz/media/products/1059799/4xP5LytOlembK1yoTPapi18WpnFpEY8zc34RPJ6F.jpg",
+        "gtin": 2870007805179,
+        "min_price": 2100,
+        "created_at": null,
+        "updated_at": null,
+        "supplier_id": 90
+    },
+    {
+        "id": 311,
+        "name": "Сушки Дымка \"Маленькая\", 2.1 кг",
+        "image_url": "https://e-catalog.gov.kz/media/products/1059798/ztur46lv9ffCJmwCeubnMlQL7lvmxJPRfrFCjdcE.jpg",
+        "gtin": 2870007805162,
+        "min_price": 3181,
+        "created_at": null,
+        "updated_at": null,
+        "supplier_id": 90
+    },
+    {
+        "id": 312,
+        "name": "Сушки Дымка Звездочка 5.4 кг",
+        "image_url": "https://e-catalog.gov.kz/media/products/1059797/D0B7D0B2D0B5D0B7D0B4D0BED187D0BAD0B02052C4.jpg",
+        "gtin": 2870007805155,
+        "min_price": 1508,
+        "created_at": null,
+        "updated_at": null,
+        "supplier_id": 90
+    },
+    {
+        "id": 313,
+        "name": "Сушки Дымка \"Маленькая\" с маком, 5.4 кг",
+        "image_url": "https://e-catalog.gov.kz/media/products/1059796/43aJefKHAkt7AzQzaKfR06kw92DfC0m11AyiFdpY.jpg",
+        "gtin": 2870007805148,
+        "min_price": 4628,
+        "created_at": null,
+        "updated_at": null,
+        "supplier_id": 90
+    },
+    {
+        "id": 314,
+        "name": "Сушки Дымка \"Крошечная\", 2.2 кг",
+        "image_url": "https://e-catalog.gov.kz/media/products/1059795/I0JfdCXHUqdijrAAgXVvs9FQSEetaYNf98B7BlnX.jpg",
+        "gtin": 2870007805131,
+        "min_price": 2284,
+        "created_at": null,
+        "updated_at": null,
+        "supplier_id": 90
+    },
+    {
+        "id": 315,
+        "name": "Сушки Дымка Звездочка к чаю 2 кг",
+        "image_url": "https://e-catalog.gov.kz/media/products/1059794/D0B7D0B2D0B5D0B7D0B4D0BED187D0BAD0B020D0BA20D187D0B0D18E.jpg",
+        "gtin": 2870007805124,
+        "min_price": 1771,
+        "created_at": null,
+        "updated_at": null,
+        "supplier_id": 90
+    },
+    {
+        "id": 316,
+        "name": "Сушки Дымка \"Стайка рыбок\", 2.1 кг",
+        "image_url": "https://e-catalog.gov.kz/media/products/1059793/SeDfHklekGH9qhfuxxMNQ7qWeF2AVBKq6FUL9Kmv.jpg",
+        "gtin": 2870007805117,
+        "min_price": 1940,
+        "created_at": null,
+        "updated_at": null,
+        "supplier_id": 90
+    },
+    {
+        "id": 317,
+        "name": "Сушки Дымка \"Звездочка\", 2 кг",
+        "image_url": "https://e-catalog.gov.kz/media/products/1059792/UEayn7kpUJHPJ0cTmD5G5aEOAueI1S3e3ajY88HR.jpg",
+        "gtin": 2870007805100,
+        "min_price": 4592,
+        "created_at": null,
+        "updated_at": null,
+        "supplier_id": 90
+    },
+    {
+        "id": 318,
+        "name": "Новогодний подарок Common Market Кобояши, с мягкой игрушкой, 500 г",
+        "image_url": "https://e-catalog.gov.kz/media/products/1059264/D0BAD0BED0B1D0BED18FD188D0B8.png",
+        "gtin": 2870007799829,
+        "min_price": 2281,
+        "created_at": null,
+        "updated_at": null,
+        "supplier_id": 86
+    },
+    {
+        "id": 319,
+        "name": "Новогодний подарок Common Market Тоша, с мягкой игрушкой, 500 г",
+        "image_url": "https://e-catalog.gov.kz/media/products/1059263/D182D0BED188D0B0.png",
+        "gtin": 2870007799812,
+        "min_price": 1032,
+        "created_at": null,
+        "updated_at": null,
+        "supplier_id": 86
+    },
+    {
+        "id": 320,
+        "name": "Новогодний подарок Common Market \"Теплыш\" с мягкой игрушкой, 500 г",
+        "image_url": "https://e-catalog.gov.kz/media/products/1059262/D182D0B5D0BFD0BBD18BD188.png",
+        "gtin": 2870007799805,
+        "min_price": 2358,
+        "created_at": null,
+        "updated_at": null,
+        "supplier_id": 86
+    },
+    {
+        "id": 321,
+        "name": "Новогодний подарок Common Market Коржик, с мягкой игрушкой, 500 г",
+        "image_url": "https://e-catalog.gov.kz/media/products/1059260/D0BAD0BED180D0B6D0B8D0BA.png",
+        "gtin": 2870007799782,
+        "min_price": 886,
+        "created_at": null,
+        "updated_at": null,
+        "supplier_id": 86
+    },
+    {
+        "id": 322,
+        "name": "Новогодний подарок Common Market Желтопузик, с мягкой игрушкой, 500 г",
+        "image_url": "https://e-catalog.gov.kz/media/products/1059258/D0B6D0B5D0BBD182D0BED0BFD183D0B7D0B8D0BA.png",
+        "gtin": 2870007799768,
+        "min_price": 740,
+        "created_at": null,
+        "updated_at": null,
+        "supplier_id": 86
+    },
+    {
+        "id": 323,
+        "name": "Новогодний подарок Common Market \"Майя\" с мягкой игрушкой, 500 г",
+        "image_url": "https://e-catalog.gov.kz/media/products/1059257/D0BCD0B0D0B9D18F.png",
+        "gtin": 2870007799751,
+        "min_price": 4479,
+        "created_at": null,
+        "updated_at": null,
+        "supplier_id": 86
+    },
+    {
+        "id": 324,
+        "name": "Новогодний подарок Common Market \"Кумико\" мягкая игрушка, 500 г",
+        "image_url": "https://e-catalog.gov.kz/media/products/1059256/D0BAD183D0BCD0B8D0BAD0BE.png",
+        "gtin": 2870007799744,
+        "min_price": 1846,
+        "created_at": null,
+        "updated_at": null,
+        "supplier_id": 86
+    }
+]

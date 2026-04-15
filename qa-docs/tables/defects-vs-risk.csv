@@ -1,0 +1,6 @@
+"module_feature","high_risk_level","defects_found","runtime_dependent_failures","notes"
+"Authentication and authorization","High","0","0","Derived from parsed Playwright JSON failures"
+"Cart management","High","0","0","Derived from parsed Playwright JSON failures"
+"Checkout and payment initiation","High","0","0","Derived from parsed Playwright JSON failures"
+"Order lifecycle","High","0","0","Derived from parsed Playwright JSON failures"
+"Product catalog and listing","High","0","0","Derived from parsed Playwright JSON failures"

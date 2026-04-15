@@ -1,0 +1,6 @@
+"module","original_risk_score","observed_issues","likelihood","impact","detectability","updated_risk_score","justification"
+"Authentication and authorization","20","11 uncovered backend file(s); 4 performance anomaly/anomalies","3","5","4","15","Updated from empirical evidence: 11 uncovered backend file(s); 4 performance anomaly/anomalies. Backend coverage for this module is 43%."
+"Cart management","20","19 uncovered backend file(s); 3 performance anomaly/anomalies","4","5","2","20","Updated from empirical evidence: 19 uncovered backend file(s); 3 performance anomaly/anomalies. Backend coverage for this module is 14.19%."
+"Checkout and payment initiation","20","4 uncovered backend file(s)","3","5","3","15","Updated from empirical evidence: 4 uncovered backend file(s). Backend coverage for this module is 33.56%."
+"Order lifecycle","20","17 uncovered backend file(s); 1 performance anomaly/anomalies","4","5","2","20","Updated from empirical evidence: 17 uncovered backend file(s); 1 performance anomaly/anomalies. Backend coverage for this module is 9.02%."
+"Product catalog and listing","16","17 uncovered backend file(s); 2 performance anomaly/anomalies","4","4","2","16","Updated from empirical evidence: 17 uncovered backend file(s); 2 performance anomaly/anomalies. Backend coverage for this module is 5.58%."

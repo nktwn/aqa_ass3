@@ -1,0 +1,4 @@
+"metric","duration_seconds","notes"
+"Assignment 2 baseline","0","Derived from prior execution-time table"
+"Midterm parsed Playwright runtime","169.61","Sum of parsed Playwright report durations"
+"Midterm estimated pipeline runtime","213.91","Parsed Playwright time plus Go test elapsed time"

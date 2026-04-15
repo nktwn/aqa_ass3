@@ -1,0 +1,1599 @@
+definitions:
+  diploma_modules_auth_handler_model.ErrorResponse:
+    properties:
+      error:
+        type: string
+    type: object
+  diploma_modules_cart_handler_model.CheckoutRequest:
+    properties:
+      address_id:
+        type: integer
+    required:
+    - address_id
+    type: object
+  diploma_modules_cart_handler_model.CheckoutResponse:
+    properties:
+      checkout_url:
+        type: string
+      order_id:
+        type: string
+      payment_id:
+        type: string
+    type: object
+  diploma_modules_cart_handler_model.ErrorResponse:
+    properties:
+      error:
+        type: string
+    type: object
+  diploma_modules_cart_handler_model.MessageResponse:
+    properties:
+      message:
+        type: string
+    type: object
+  diploma_modules_cart_handler_model.Product:
+    properties:
+      id:
+        type: integer
+      image:
+        type: string
+      name:
+        type: string
+      price:
+        type: integer
+      quantity:
+        type: integer
+    type: object
+  diploma_modules_cart_handler_model.Supplier:
+    properties:
+      delivery_fee:
+        type: integer
+      free_delivery_amount:
+        type: integer
+      id:
+        type: integer
+      name:
+        type: string
+      order_amount:
+        type: integer
+      product_list:
+        items:
+          $ref: '#/definitions/diploma_modules_cart_handler_model.Product'
+        type: array
+      total_amount:
+        type: integer
+    type: object
+  diploma_modules_order_handler_model.ErrorResponse:
+    properties:
+      error:
+        type: string
+    type: object
+  diploma_modules_order_handler_model.Order:
+    properties:
+      delivery_address:
+        type: string
+      delivery_comment:
+        type: string
+      id:
+        type: integer
+      order_date:
+        type: string
+      payment_status:
+        type: string
+      product_list:
+        items:
+          $ref: '#/definitions/diploma_modules_order_handler_model.Product'
+        type: array
+      status:
+        type: string
+      supplier:
+        $ref: '#/definitions/diploma_modules_order_handler_model.Supplier'
+    type: object
+  diploma_modules_order_handler_model.Product:
+    properties:
+      id:
+        type: integer
+      image:
+        type: string
+      name:
+        type: string
+      price:
+        type: integer
+      quantity:
+        type: integer
+    type: object
+  diploma_modules_order_handler_model.Supplier:
+    properties:
+      id:
+        type: integer
+      name:
+        type: string
+    type: object
+  diploma_modules_product_handler_model.AdminProductInput:
+    properties:
+      gtin:
+        type: integer
+      image:
+        type: string
+      name:
+        type: string
+    required:
+    - name
+    type: object
+  diploma_modules_product_handler_model.DetailedProduct:
+    properties:
+      product:
+        $ref: '#/definitions/diploma_modules_product_handler_model.Product'
+      reviews:
+        items:
+          $ref: '#/definitions/diploma_modules_product_handler_model.Review'
+        type: array
+      suppliers:
+        items:
+          $ref: '#/definitions/diploma_modules_product_handler_model.ProductSupplier'
+        type: array
+    type: object
+  diploma_modules_product_handler_model.ErrorResponse:
+    properties:
+      error:
+        type: string
+    type: object
+  diploma_modules_product_handler_model.Product:
+    properties:
+      id:
+        type: integer
+      image:
+        type: string
+      lowest_product_supplier:
+        $ref: '#/definitions/diploma_modules_product_handler_model.ProductSupplier'
+      name:
+        type: string
+      rating_average:
+        type: number
+      rating_count:
+        type: integer
+    type: object
+  diploma_modules_product_handler_model.ProductSupplier:
+    properties:
+      price:
+        type: integer
+      sell_amount:
+        type: integer
+      supplier:
+        $ref: '#/definitions/diploma_modules_product_handler_model.Supplier'
+    type: object
+  diploma_modules_product_handler_model.Review:
+    properties:
+      comment:
+        type: string
+      created_at:
+        type: string
+      id:
+        type: integer
+      rating:
+        type: integer
+      user_id:
+        type: integer
+      user_name:
+        type: string
+    type: object
+  diploma_modules_product_handler_model.ReviewInput:
+    properties:
+      comment:
+        type: string
+      rating:
+        maximum: 5
+        minimum: 1
+        type: integer
+    required:
+    - rating
+    type: object
+  diploma_modules_product_handler_model.Supplier:
+    properties:
+      delivery_fee:
+        type: integer
+      free_delivery_amount:
+        type: integer
+      id:
+        type: integer
+      name:
+        type: string
+      order_amount:
+        type: integer
+    type: object
+  diploma_modules_user_handler_model.Address:
+    properties:
+      description:
+        type: string
+      id:
+        type: integer
+      street:
+        type: string
+    type: object
+  diploma_modules_user_handler_model.ErrorResponse:
+    properties:
+      error:
+        type: string
+    type: object
+  diploma_modules_user_handler_model.User:
+    properties:
+      address:
+        $ref: '#/definitions/diploma_modules_user_handler_model.Address'
+      id:
+        type: integer
+      name:
+        type: string
+      phone_number:
+        type: string
+    type: object
+  handler.ErrorResponse:
+    properties:
+      error:
+        type: string
+    type: object
+  handler.ListResponse:
+    properties:
+      notifications:
+        items:
+          $ref: '#/definitions/handler.Notification'
+        type: array
+    type: object
+  handler.MessageResponse:
+    properties:
+      message:
+        type: string
+    type: object
+  handler.Notification:
+    properties:
+      created_at:
+        type: string
+      id:
+        type: integer
+      is_read:
+        type: boolean
+      kind:
+        type: string
+      message:
+        type: string
+      order_id:
+        type: integer
+      title:
+        type: string
+    type: object
+  handler.UnreadCountResponse:
+    properties:
+      count:
+        type: integer
+    type: object
+  model.AddProductToCardResponse:
+    properties:
+      status:
+        type: string
+    type: object
+  model.AddProductToCartInput:
+    properties:
+      product_id:
+        type: integer
+      quantity:
+        type: integer
+      supplier_id:
+        type: integer
+    type: object
+  model.AdminProductResponse:
+    properties:
+      product:
+        $ref: '#/definitions/diploma_modules_product_handler_model.Product'
+    type: object
+  model.CancelOrderRequest:
+    properties:
+      order_id:
+        type: integer
+    required:
+    - order_id
+    type: object
+  model.ContractResponse:
+    properties:
+      content:
+        type: string
+      customer_signature:
+        type: string
+      id:
+        type: integer
+      status:
+        type: integer
+      supplier_signature:
+        type: string
+    type: object
+  model.FavoriteListResponse:
+    properties:
+      product_list:
+        items:
+          $ref: '#/definitions/diploma_modules_product_handler_model.Product'
+        type: array
+    type: object
+  model.FavoriteStatusResponse:
+    properties:
+      is_favorite:
+        type: boolean
+    type: object
+  model.GetAddressResponse:
+    properties:
+      address_list:
+        items:
+          $ref: '#/definitions/diploma_modules_user_handler_model.Address'
+        type: array
+    type: object
+  model.GetCartResponse:
+    properties:
+      customer_id:
+        type: integer
+      suppliers:
+        items:
+          $ref: '#/definitions/diploma_modules_cart_handler_model.Supplier'
+        type: array
+      total:
+        type: integer
+    type: object
+  model.GetOrdersResponse:
+    properties:
+      orders:
+        items:
+          $ref: '#/definitions/diploma_modules_order_handler_model.Order'
+        type: array
+    type: object
+  model.GetUserProfileResponse:
+    properties:
+      user:
+        $ref: '#/definitions/diploma_modules_user_handler_model.User'
+    type: object
+  model.LoginInput:
+    properties:
+      password:
+        example: secure123
+        type: string
+      phone_number:
+        example: "+123456789"
+        type: string
+    type: object
+  model.LoginResponse:
+    properties:
+      access_token:
+        type: string
+      refresh_token:
+        type: string
+    type: object
+  model.ProductListResponse:
+    properties:
+      product_list:
+        items:
+          $ref: '#/definitions/diploma_modules_product_handler_model.Product'
+        type: array
+      total:
+        type: integer
+    type: object
+  model.ProductMessageResponse:
+    properties:
+      message:
+        type: string
+    type: object
+  model.ProductResponse:
+    properties:
+      product:
+        $ref: '#/definitions/diploma_modules_product_handler_model.DetailedProduct'
+    type: object
+  model.ProductSuggestionResponse:
+    properties:
+      suggestions:
+        items:
+          type: string
+        type: array
+    type: object
+  model.RegisterInput:
+    properties:
+      confirm_password:
+        example: secure123
+        type: string
+      name:
+        example: John Doe
+        type: string
+      password:
+        example: secure123
+        type: string
+      phone_number:
+        example: "+123456789"
+        type: string
+    type: object
+  model.RegisterResponse:
+    properties:
+      id:
+        example: 1
+        type: integer
+    type: object
+  model.SetAddressInput:
+    properties:
+      address:
+        $ref: '#/definitions/diploma_modules_user_handler_model.Address'
+    type: object
+  model.SignRequest:
+    properties:
+      contract_id:
+        type: integer
+      signature:
+        type: string
+    required:
+    - contract_id
+    - signature
+    type: object
+  model.StatusResponse:
+    properties:
+      status:
+        type: string
+    type: object
+  model.UpdateOrderStatusRequest:
+    properties:
+      new_status_id:
+        type: integer
+      order_id:
+        type: integer
+    required:
+    - new_status_id
+    - order_id
+    type: object
+  model.UpdateUserProfileRequest:
+    properties:
+      name:
+        type: string
+      phone_number:
+        type: string
+    type: object
+  model.UserRoleResponse:
+    properties:
+      role:
+        type: integer
+    type: object
+info:
+  contact: {}
+  description: This is a sample server with JWT authorization.
+  title: Go JWT Swagger Example API
+  version: "1.0"
+paths:
+  /api/auth/login:
+    post:
+      consumes:
+      - application/json
+      description: Login user and return tokens
+      parameters:
+      - description: Login input
+        in: body
+        name: input
+        required: true
+        schema:
+          $ref: '#/definitions/model.LoginInput'
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            $ref: '#/definitions/model.LoginResponse'
+        "401":
+          description: Unauthorized
+          schema:
+            $ref: '#/definitions/diploma_modules_auth_handler_model.ErrorResponse'
+      summary: User login
+      tags:
+      - auth
+  /api/auth/register:
+    post:
+      consumes:
+      - application/json
+      description: Register a new user
+      parameters:
+      - description: Register input
+        in: body
+        name: input
+        required: true
+        schema:
+          $ref: '#/definitions/model.RegisterInput'
+      produces:
+      - application/json
+      responses:
+        "201":
+          description: Created
+          schema:
+            $ref: '#/definitions/model.RegisterResponse'
+        "400":
+          description: Bad Request
+          schema:
+            $ref: '#/definitions/diploma_modules_auth_handler_model.ErrorResponse'
+      summary: User registration
+      tags:
+      - auth
+  /api/callback/checkout:
+    post:
+      consumes:
+      - application/json
+      description: Receive payment provider callback and finalize checkout
+      parameters:
+      - description: Payment callback payload
+        in: body
+        name: payload
+        required: true
+        schema:
+          type: object
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            $ref: '#/definitions/diploma_modules_cart_handler_model.MessageResponse'
+        "400":
+          description: Bad Request
+          schema:
+            $ref: '#/definitions/diploma_modules_cart_handler_model.ErrorResponse'
+      summary: Process cart payment callback
+      tags:
+      - cart
+  /api/cart:
+    get:
+      consumes:
+      - application/json
+      description: --
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            $ref: '#/definitions/model.GetCartResponse'
+        "400":
+          description: Bad Request
+          schema:
+            $ref: '#/definitions/diploma_modules_cart_handler_model.ErrorResponse'
+      security:
+      - ApiKeyAuth: []
+      summary: get cart
+      tags:
+      - cart
+  /api/cart/add:
+    post:
+      consumes:
+      - application/json
+      description: --
+      parameters:
+      - description: Put Card input
+        in: body
+        name: input
+        required: true
+        schema:
+          $ref: '#/definitions/model.AddProductToCartInput'
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            $ref: '#/definitions/model.AddProductToCardResponse'
+        "400":
+          description: Bad Request
+          schema:
+            $ref: '#/definitions/diploma_modules_cart_handler_model.ErrorResponse'
+      security:
+      - ApiKeyAuth: []
+      summary: Put product to Card
+      tags:
+      - cart
+  /api/cart/checkout:
+    post:
+      consumes:
+      - application/json
+      description: Processes the checkout of the authenticated user's cart.
+      parameters:
+      - description: Checkout payload
+        in: body
+        name: input
+        required: true
+        schema:
+          $ref: '#/definitions/diploma_modules_cart_handler_model.CheckoutRequest'
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: Checkout status
+          schema:
+            $ref: '#/definitions/diploma_modules_cart_handler_model.CheckoutResponse'
+        "400":
+          description: Bad Request
+          schema:
+            $ref: '#/definitions/diploma_modules_cart_handler_model.ErrorResponse'
+        "401":
+          description: Unauthorized
+          schema:
+            $ref: '#/definitions/diploma_modules_cart_handler_model.ErrorResponse'
+        "500":
+          description: Internal Server Error
+          schema:
+            $ref: '#/definitions/diploma_modules_cart_handler_model.ErrorResponse'
+      security:
+      - ApiKeyAuth: []
+      summary: Process checkout operation
+      tags:
+      - cart
+  /api/cart/clear:
+    delete:
+      consumes:
+      - application/json
+      description: Deletes all products from the user's cart
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            $ref: '#/definitions/model.AddProductToCardResponse'
+        "401":
+          description: Unauthorized
+          schema:
+            $ref: '#/definitions/diploma_modules_cart_handler_model.ErrorResponse'
+        "500":
+          description: Internal Server Error
+          schema:
+            $ref: '#/definitions/diploma_modules_cart_handler_model.ErrorResponse'
+      security:
+      - ApiKeyAuth: []
+      summary: Clear cart
+      tags:
+      - cart
+  /api/cart/delete:
+    delete:
+      consumes:
+      - application/json
+      description: Deletes given quantity of product by product_id and supplier_id
+        from cart
+      parameters:
+      - description: Product ID
+        in: query
+        name: product_id
+        required: true
+        type: integer
+      - description: Supplier ID
+        in: query
+        name: supplier_id
+        required: true
+        type: integer
+      - description: Quantity to delete (default 1)
+        in: query
+        name: quantity
+        type: integer
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            additionalProperties:
+              type: string
+            type: object
+        "400":
+          description: Bad Request
+          schema:
+            additionalProperties:
+              type: string
+            type: object
+        "401":
+          description: Unauthorized
+          schema:
+            additionalProperties:
+              type: string
+            type: object
+        "500":
+          description: Internal Server Error
+          schema:
+            additionalProperties:
+              type: string
+            type: object
+      security:
+      - ApiKeyAuth: []
+      summary: Delete product from cart
+      tags:
+      - cart
+  /api/cart/mock-success:
+    get:
+      description: Debug endpoint that simulates successful payment for an order
+      parameters:
+      - description: Order ID
+        in: query
+        name: order_id
+        required: true
+        type: string
+      produces:
+      - application/json
+      responses:
+        "302":
+          description: Found
+        "400":
+          description: Bad Request
+          schema:
+            $ref: '#/definitions/diploma_modules_cart_handler_model.ErrorResponse'
+        "500":
+          description: Internal Server Error
+          schema:
+            $ref: '#/definitions/diploma_modules_cart_handler_model.ErrorResponse'
+      summary: Mock successful checkout
+      tags:
+      - cart
+  /api/contract:
+    get:
+      responses:
+        "200":
+          description: OK
+          schema:
+            items:
+              $ref: '#/definitions/model.ContractResponse'
+            type: array
+      security:
+      - ApiKeyAuth: []
+      summary: List of contracts for the current user
+      tags:
+      - contracts
+  /api/contract/{id}:
+    get:
+      consumes:
+      - application/json
+      description: Returns the contract by ID
+      parameters:
+      - description: Contract ID
+        in: path
+        name: id
+        required: true
+        type: integer
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: Contract
+          schema:
+            $ref: '#/definitions/model.ContractResponse'
+        "400":
+          description: Invalid ID
+          schema:
+            additionalProperties:
+              type: string
+            type: object
+        "401":
+          description: Unauthorized
+          schema:
+            additionalProperties:
+              type: string
+            type: object
+        "500":
+          description: Server error
+          schema:
+            additionalProperties:
+              type: string
+            type: object
+      security:
+      - ApiKeyAuth: []
+      summary: Get contract
+      tags:
+      - contracts
+  /api/contract/sign:
+    post:
+      consumes:
+      - application/json
+      description: Signing the contract (by client or supplier)
+      parameters:
+      - description: Contract ID and Signature
+        in: body
+        name: input
+        required: true
+        schema:
+          $ref: '#/definitions/model.SignRequest'
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: Signature saved
+          schema:
+            additionalProperties:
+              type: string
+            type: object
+        "400":
+          description: Validation error
+          schema:
+            additionalProperties:
+              type: string
+            type: object
+        "401":
+          description: Unauthorized
+          schema:
+            additionalProperties:
+              type: string
+            type: object
+        "500":
+          description: Server error
+          schema:
+            additionalProperties:
+              type: string
+            type: object
+      security:
+      - ApiKeyAuth: []
+      summary: Sign the contract
+      tags:
+      - contracts
+  /api/notifications:
+    get:
+      description: Retrieve notifications for the authenticated user
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            $ref: '#/definitions/handler.ListResponse'
+        "401":
+          description: Unauthorized
+          schema:
+            $ref: '#/definitions/handler.ErrorResponse'
+        "500":
+          description: Internal Server Error
+          schema:
+            $ref: '#/definitions/handler.ErrorResponse'
+      security:
+      - ApiKeyAuth: []
+      summary: Get notifications
+      tags:
+      - notifications
+  /api/notifications/{id}/read:
+    post:
+      description: Mark a single notification as read for the authenticated user
+      parameters:
+      - description: Notification ID
+        in: path
+        name: id
+        required: true
+        type: integer
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            $ref: '#/definitions/handler.MessageResponse'
+        "400":
+          description: Bad Request
+          schema:
+            $ref: '#/definitions/handler.ErrorResponse'
+        "401":
+          description: Unauthorized
+          schema:
+            $ref: '#/definitions/handler.ErrorResponse'
+        "500":
+          description: Internal Server Error
+          schema:
+            $ref: '#/definitions/handler.ErrorResponse'
+      security:
+      - ApiKeyAuth: []
+      summary: Mark notification as read
+      tags:
+      - notifications
+  /api/notifications/read-all:
+    post:
+      description: Mark all notifications as read for the authenticated user
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            $ref: '#/definitions/handler.MessageResponse'
+        "401":
+          description: Unauthorized
+          schema:
+            $ref: '#/definitions/handler.ErrorResponse'
+        "500":
+          description: Internal Server Error
+          schema:
+            $ref: '#/definitions/handler.ErrorResponse'
+      security:
+      - ApiKeyAuth: []
+      summary: Mark all notifications as read
+      tags:
+      - notifications
+  /api/notifications/unread-count:
+    get:
+      description: Retrieve unread notifications count for the authenticated user
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            $ref: '#/definitions/handler.UnreadCountResponse'
+        "401":
+          description: Unauthorized
+          schema:
+            $ref: '#/definitions/handler.ErrorResponse'
+        "500":
+          description: Internal Server Error
+          schema:
+            $ref: '#/definitions/handler.ErrorResponse'
+      security:
+      - ApiKeyAuth: []
+      summary: Get unread notifications count
+      tags:
+      - notifications
+  /api/order:
+    get:
+      consumes:
+      - application/json
+      description: Retrieves orders for the authenticated user using the provided
+        JWT claims.
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: List of orders
+          schema:
+            items:
+              $ref: '#/definitions/model.GetOrdersResponse'
+            type: array
+        "401":
+          description: 'Unauthorized: invalid or missing JWT token'
+          schema:
+            $ref: '#/definitions/diploma_modules_order_handler_model.ErrorResponse'
+        "500":
+          description: Internal server error while retrieving orders
+          schema:
+            $ref: '#/definitions/diploma_modules_order_handler_model.ErrorResponse'
+      security:
+      - ApiKeyAuth: []
+      summary: Retrieve orders for a user
+      tags:
+      - orders
+  /api/order/{id}:
+    get:
+      consumes:
+      - application/json
+      description: Retrieves an order by its ID.
+      parameters:
+      - description: Order ID
+        in: path
+        name: id
+        required: true
+        type: integer
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: Order details
+          schema:
+            $ref: '#/definitions/diploma_modules_order_handler_model.Order'
+        "400":
+          description: Invalid order ID
+          schema:
+            $ref: '#/definitions/diploma_modules_order_handler_model.ErrorResponse'
+        "401":
+          description: 'Unauthorized: invalid or missing JWT token'
+          schema:
+            $ref: '#/definitions/diploma_modules_order_handler_model.ErrorResponse'
+        "500":
+          description: Internal server error while retrieving order
+          schema:
+            $ref: '#/definitions/diploma_modules_order_handler_model.ErrorResponse'
+      security:
+      - ApiKeyAuth: []
+      summary: Get order by ID
+      tags:
+      - orders
+  /api/order/cancel:
+    post:
+      consumes:
+      - application/json
+      description: Allows a customer to cancel their own order only if it's in Pending
+        status.
+      parameters:
+      - description: Order ID to cancel
+        in: body
+        name: input
+        required: true
+        schema:
+          $ref: '#/definitions/model.CancelOrderRequest'
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: order cancelled
+          schema:
+            additionalProperties:
+              type: string
+            type: object
+        "400":
+          description: Invalid input or bad request
+          schema:
+            $ref: '#/definitions/diploma_modules_order_handler_model.ErrorResponse'
+        "401":
+          description: Unauthorized
+          schema:
+            $ref: '#/definitions/diploma_modules_order_handler_model.ErrorResponse'
+        "403":
+          description: Forbidden
+          schema:
+            $ref: '#/definitions/diploma_modules_order_handler_model.ErrorResponse'
+        "500":
+          description: Internal server error
+          schema:
+            $ref: '#/definitions/diploma_modules_order_handler_model.ErrorResponse'
+      security:
+      - ApiKeyAuth: []
+      summary: Cancel order by customer
+      tags:
+      - orders
+  /api/order/status:
+    post:
+      consumes:
+      - application/json
+      description: Supplier updates the status of their order
+      parameters:
+      - description: Order ID and New Status
+        in: body
+        name: input
+        required: true
+        schema:
+          $ref: '#/definitions/model.UpdateOrderStatusRequest'
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: status updated
+          schema:
+            additionalProperties:
+              type: string
+            type: object
+        "400":
+          description: Invalid input
+          schema:
+            $ref: '#/definitions/diploma_modules_order_handler_model.ErrorResponse'
+        "401":
+          description: Unauthorized
+          schema:
+            $ref: '#/definitions/diploma_modules_order_handler_model.ErrorResponse'
+        "500":
+          description: Internal error
+          schema:
+            $ref: '#/definitions/diploma_modules_order_handler_model.ErrorResponse'
+      security:
+      - ApiKeyAuth: []
+      summary: Update order status by supplier
+      tags:
+      - orders
+  /api/product/{id}:
+    get:
+      consumes:
+      - application/json
+      description: Retrieve product information by its ID
+      parameters:
+      - description: Product ID
+        in: path
+        name: id
+        required: true
+        type: integer
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            $ref: '#/definitions/model.ProductResponse'
+        "400":
+          description: Bad Request
+          schema:
+            $ref: '#/definitions/diploma_modules_product_handler_model.ErrorResponse'
+        "404":
+          description: Not Found
+          schema:
+            $ref: '#/definitions/diploma_modules_product_handler_model.ErrorResponse'
+      summary: Get product by ID
+      tags:
+      - product
+  /api/product/{id}/favorite:
+    delete:
+      description: Remove the selected product from the authenticated user's favorites
+      parameters:
+      - description: Product ID
+        in: path
+        name: id
+        required: true
+        type: integer
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            $ref: '#/definitions/model.ProductMessageResponse'
+        "400":
+          description: Bad Request
+          schema:
+            $ref: '#/definitions/diploma_modules_product_handler_model.ErrorResponse'
+        "401":
+          description: Unauthorized
+          schema:
+            $ref: '#/definitions/diploma_modules_product_handler_model.ErrorResponse'
+        "500":
+          description: Internal Server Error
+          schema:
+            $ref: '#/definitions/diploma_modules_product_handler_model.ErrorResponse'
+      security:
+      - ApiKeyAuth: []
+      summary: Remove product from favorites
+      tags:
+      - product
+    get:
+      description: Check whether the product is in the authenticated user's favorites
+      parameters:
+      - description: Product ID
+        in: path
+        name: id
+        required: true
+        type: integer
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            $ref: '#/definitions/model.FavoriteStatusResponse'
+        "400":
+          description: Bad Request
+          schema:
+            $ref: '#/definitions/diploma_modules_product_handler_model.ErrorResponse'
+        "401":
+          description: Unauthorized
+          schema:
+            $ref: '#/definitions/diploma_modules_product_handler_model.ErrorResponse'
+        "500":
+          description: Internal Server Error
+          schema:
+            $ref: '#/definitions/diploma_modules_product_handler_model.ErrorResponse'
+      security:
+      - ApiKeyAuth: []
+      summary: Get favorite status
+      tags:
+      - product
+    post:
+      description: Add the selected product to the authenticated user's favorites
+      parameters:
+      - description: Product ID
+        in: path
+        name: id
+        required: true
+        type: integer
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            $ref: '#/definitions/model.ProductMessageResponse'
+        "400":
+          description: Bad Request
+          schema:
+            $ref: '#/definitions/diploma_modules_product_handler_model.ErrorResponse'
+        "401":
+          description: Unauthorized
+          schema:
+            $ref: '#/definitions/diploma_modules_product_handler_model.ErrorResponse'
+        "500":
+          description: Internal Server Error
+          schema:
+            $ref: '#/definitions/diploma_modules_product_handler_model.ErrorResponse'
+      security:
+      - ApiKeyAuth: []
+      summary: Add product to favorites
+      tags:
+      - product
+  /api/product/{id}/reviews:
+    post:
+      consumes:
+      - application/json
+      description: Add a review for the selected product on behalf of the authenticated
+        user
+      parameters:
+      - description: Product ID
+        in: path
+        name: id
+        required: true
+        type: integer
+      - description: Review payload
+        in: body
+        name: input
+        required: true
+        schema:
+          $ref: '#/definitions/diploma_modules_product_handler_model.ReviewInput'
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            $ref: '#/definitions/model.ProductMessageResponse'
+        "400":
+          description: Bad Request
+          schema:
+            $ref: '#/definitions/diploma_modules_product_handler_model.ErrorResponse'
+        "401":
+          description: Unauthorized
+          schema:
+            $ref: '#/definitions/diploma_modules_product_handler_model.ErrorResponse'
+        "500":
+          description: Internal Server Error
+          schema:
+            $ref: '#/definitions/diploma_modules_product_handler_model.ErrorResponse'
+      security:
+      - ApiKeyAuth: []
+      summary: Add product review
+      tags:
+      - product
+  /api/product/admin:
+    post:
+      consumes:
+      - application/json
+      description: Create a new product. Admin access required.
+      parameters:
+      - description: Product payload
+        in: body
+        name: input
+        required: true
+        schema:
+          $ref: '#/definitions/diploma_modules_product_handler_model.AdminProductInput'
+      produces:
+      - application/json
+      responses:
+        "201":
+          description: Created
+          schema:
+            $ref: '#/definitions/model.AdminProductResponse'
+        "400":
+          description: Bad Request
+          schema:
+            $ref: '#/definitions/diploma_modules_product_handler_model.ErrorResponse'
+        "403":
+          description: Forbidden
+          schema:
+            $ref: '#/definitions/diploma_modules_product_handler_model.ErrorResponse'
+        "500":
+          description: Internal Server Error
+          schema:
+            $ref: '#/definitions/diploma_modules_product_handler_model.ErrorResponse'
+      security:
+      - ApiKeyAuth: []
+      summary: Create product
+      tags:
+      - product
+  /api/product/admin/{id}:
+    delete:
+      description: Delete an existing product. Admin access required.
+      parameters:
+      - description: Product ID
+        in: path
+        name: id
+        required: true
+        type: integer
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            $ref: '#/definitions/model.ProductMessageResponse'
+        "400":
+          description: Bad Request
+          schema:
+            $ref: '#/definitions/diploma_modules_product_handler_model.ErrorResponse'
+        "403":
+          description: Forbidden
+          schema:
+            $ref: '#/definitions/diploma_modules_product_handler_model.ErrorResponse'
+        "500":
+          description: Internal Server Error
+          schema:
+            $ref: '#/definitions/diploma_modules_product_handler_model.ErrorResponse'
+      security:
+      - ApiKeyAuth: []
+      summary: Delete product
+      tags:
+      - product
+    put:
+      consumes:
+      - application/json
+      description: Update an existing product. Admin access required.
+      parameters:
+      - description: Product ID
+        in: path
+        name: id
+        required: true
+        type: integer
+      - description: Product payload
+        in: body
+        name: input
+        required: true
+        schema:
+          $ref: '#/definitions/diploma_modules_product_handler_model.AdminProductInput'
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            $ref: '#/definitions/model.AdminProductResponse'
+        "400":
+          description: Bad Request
+          schema:
+            $ref: '#/definitions/diploma_modules_product_handler_model.ErrorResponse'
+        "403":
+          description: Forbidden
+          schema:
+            $ref: '#/definitions/diploma_modules_product_handler_model.ErrorResponse'
+        "500":
+          description: Internal Server Error
+          schema:
+            $ref: '#/definitions/diploma_modules_product_handler_model.ErrorResponse'
+      security:
+      - ApiKeyAuth: []
+      summary: Update product
+      tags:
+      - product
+  /api/product/favorites:
+    get:
+      description: Retrieve the authenticated user's favorite products
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            $ref: '#/definitions/model.FavoriteListResponse'
+        "401":
+          description: Unauthorized
+          schema:
+            $ref: '#/definitions/diploma_modules_product_handler_model.ErrorResponse'
+        "500":
+          description: Internal Server Error
+          schema:
+            $ref: '#/definitions/diploma_modules_product_handler_model.ErrorResponse'
+      security:
+      - ApiKeyAuth: []
+      summary: Get favorite products
+      tags:
+      - product
+  /api/product/featured:
+    get:
+      consumes:
+      - application/json
+      description: Retrieve a curated list of featured products
+      parameters:
+      - description: Limit number of featured products
+        in: query
+        name: limit
+        type: integer
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            $ref: '#/definitions/model.ProductListResponse'
+        "400":
+          description: Bad Request
+          schema:
+            $ref: '#/definitions/diploma_modules_product_handler_model.ErrorResponse'
+        "500":
+          description: Internal Server Error
+          schema:
+            $ref: '#/definitions/diploma_modules_product_handler_model.ErrorResponse'
+      summary: Get featured products
+      tags:
+      - product
+  /api/product/list:
+    get:
+      consumes:
+      - application/json
+      description: Retrieve a list of products with pagination support using limit
+        and offset
+      parameters:
+      - description: Limit number of products
+        in: query
+        name: limit
+        type: integer
+      - description: Offset for pagination
+        in: query
+        name: offset
+        type: integer
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            $ref: '#/definitions/model.ProductListResponse'
+        "400":
+          description: Bad Request
+          schema:
+            $ref: '#/definitions/diploma_modules_product_handler_model.ErrorResponse'
+      summary: Get product list
+      tags:
+      - product
+  /api/product/suggest:
+    get:
+      consumes:
+      - application/json
+      description: Retrieve product search suggestions by query string
+      parameters:
+      - description: Search query
+        in: query
+        name: q
+        type: string
+      - description: Limit number of suggestions
+        in: query
+        name: limit
+        type: integer
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            $ref: '#/definitions/model.ProductSuggestionResponse'
+        "400":
+          description: Bad Request
+          schema:
+            $ref: '#/definitions/diploma_modules_product_handler_model.ErrorResponse'
+        "500":
+          description: Internal Server Error
+          schema:
+            $ref: '#/definitions/diploma_modules_product_handler_model.ErrorResponse'
+      summary: Get product suggestions
+      tags:
+      - product
+  /api/user/address:
+    get:
+      description: Retrieve address list for a user
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            $ref: '#/definitions/model.GetAddressResponse'
+        "401":
+          description: Unauthorized
+          schema:
+            $ref: '#/definitions/diploma_modules_user_handler_model.ErrorResponse'
+        "500":
+          description: Internal Server Error
+          schema:
+            $ref: '#/definitions/diploma_modules_user_handler_model.ErrorResponse'
+      security:
+      - ApiKeyAuth: []
+      summary: Get address
+      tags:
+      - user
+    post:
+      consumes:
+      - application/json
+      description: --
+      parameters:
+      - description: something
+        in: body
+        name: input
+        required: true
+        schema:
+          $ref: '#/definitions/model.SetAddressInput'
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            $ref: '#/definitions/model.StatusResponse'
+        "400":
+          description: Bad Request
+          schema:
+            $ref: '#/definitions/diploma_modules_user_handler_model.ErrorResponse'
+        "401":
+          description: Unauthorized
+          schema:
+            $ref: '#/definitions/diploma_modules_user_handler_model.ErrorResponse'
+        "500":
+          description: Internal Server Error
+          schema:
+            $ref: '#/definitions/diploma_modules_user_handler_model.ErrorResponse'
+      security:
+      - ApiKeyAuth: []
+      summary: Set address
+      tags:
+      - user
+  /api/user/profile:
+    get:
+      description: Fetch the authenticated user's profile
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            $ref: '#/definitions/model.GetUserProfileResponse'
+        "401":
+          description: Unauthorized
+          schema:
+            $ref: '#/definitions/diploma_modules_user_handler_model.ErrorResponse'
+      security:
+      - ApiKeyAuth: []
+      summary: Get user profile
+      tags:
+      - user
+    put:
+      consumes:
+      - application/json
+      description: Update the authenticated user's profile
+      parameters:
+      - description: Update Profile Request
+        in: body
+        name: request
+        required: true
+        schema:
+          $ref: '#/definitions/model.UpdateUserProfileRequest'
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            $ref: '#/definitions/model.GetUserProfileResponse'
+        "400":
+          description: Bad Request
+          schema:
+            $ref: '#/definitions/diploma_modules_user_handler_model.ErrorResponse'
+        "401":
+          description: Unauthorized
+          schema:
+            $ref: '#/definitions/diploma_modules_user_handler_model.ErrorResponse'
+        "500":
+          description: Internal Server Error
+          schema:
+            $ref: '#/definitions/diploma_modules_user_handler_model.ErrorResponse'
+      security:
+      - ApiKeyAuth: []
+      summary: Update user profile
+      tags:
+      - user
+  /api/user/role:
+    get:
+      description: Returns role ID for authenticated user
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            $ref: '#/definitions/model.UserRoleResponse'
+        "401":
+          description: Unauthorized
+          schema:
+            $ref: '#/definitions/diploma_modules_user_handler_model.ErrorResponse'
+        "500":
+          description: Internal Server Error
+          schema:
+            $ref: '#/definitions/diploma_modules_user_handler_model.ErrorResponse'
+      security:
+      - ApiKeyAuth: []
+      summary: Get user role
+      tags:
+      - user
+securityDefinitions:
+  ApiKeyAuth:
+    in: header
+    name: Authorization
+    type: apiKey
+swagger: "2.0"

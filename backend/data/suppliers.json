@@ -1,0 +1,462 @@
+[
+    {
+        "user_id": 1,
+        "name": "МакМастер",
+        "condition_id": 1
+    },
+    {
+        "user_id": 2,
+        "name": "Sofra",
+        "condition_id": 2
+    },
+    {
+        "user_id": 3,
+        "name": "Vitaflo",
+        "condition_id": 3
+    },
+    {
+        "user_id": 4,
+        "name": "Нутриген (InfaPrim)",
+        "condition_id": 4
+    },
+    {
+        "user_id": 5,
+        "name": "Dr. Schar",
+        "condition_id": 5
+    },
+    {
+        "user_id": 6,
+        "name": "Bonduelle",
+        "condition_id": 1
+    },
+    {
+        "user_id": 7,
+        "name": "Milupa",
+        "condition_id": 2
+    },
+    {
+        "user_id": 8,
+        "name": "Taranis",
+        "condition_id": 3
+    },
+    {
+        "user_id": 9,
+        "name": "Loprofin",
+        "condition_id": 4
+    },
+    {
+        "user_id": 10,
+        "name": "Flavis",
+        "condition_id": 5
+    },
+    {
+        "user_id": 11,
+        "name": "Okovital",
+        "condition_id": 1
+    },
+    {
+        "user_id": 12,
+        "name": "Elite Fish",
+        "condition_id": 2
+    },
+    {
+        "user_id": 13,
+        "name": "Huber",
+        "condition_id": 3
+    },
+    {
+        "user_id": 14,
+        "name": "Schlagfix",
+        "condition_id": 4
+    },
+    {
+        "user_id": 15,
+        "name": "ТОО АRNNA MINERALS",
+        "condition_id": 5
+    },
+    {
+        "user_id": 16,
+        "name": "ТОО АRNNA MINERAL",
+        "condition_id": 1
+    },
+    {
+        "user_id": 17,
+        "name": "Ambassador",
+        "condition_id": 2
+    },
+    {
+        "user_id": 18,
+        "name": "Черная Карта",
+        "condition_id": 3
+    },
+    {
+        "user_id": 19,
+        "name": "Dr.Schar",
+        "condition_id": 4
+    },
+    {
+        "user_id": 20,
+        "name": "ТОО \"Тілекші\"",
+        "condition_id": 5
+    },
+    {
+        "user_id": 21,
+        "name": "NAN (Nestle)",
+        "condition_id": 1
+    },
+    {
+        "user_id": 22,
+        "name": "Масло-Дел",
+        "condition_id": 2
+    },
+    {
+        "user_id": 23,
+        "name": "Молочный Гостинец",
+        "condition_id": 3
+    },
+    {
+        "user_id": 24,
+        "name": "Пиала Gold",
+        "condition_id": 4
+    },
+    {
+        "user_id": 25,
+        "name": "UKPF",
+        "condition_id": 5
+    },
+    {
+        "user_id": 26,
+        "name": "ТОО DEMDE",
+        "condition_id": 1
+    },
+    {
+        "user_id": 27,
+        "name": "Miglior",
+        "condition_id": 2
+    },
+    {
+        "user_id": 28,
+        "name": "Asad",
+        "condition_id": 3
+    },
+    {
+        "user_id": 29,
+        "name": "ТОО \"Уштобе-Айдын\"",
+        "condition_id": 4
+    },
+    {
+        "user_id": 30,
+        "name": "Глубокое",
+        "condition_id": 5
+    },
+    {
+        "user_id": 31,
+        "name": "Цесна",
+        "condition_id": 1
+    },
+    {
+        "user_id": 32,
+        "name": "ООО \"Садон и Ко\"",
+        "condition_id": 2
+    },
+    {
+        "user_id": 33,
+        "name": "Natige",
+        "condition_id": 3
+    },
+    {
+        "user_id": 34,
+        "name": "Абицея",
+        "condition_id": 4
+    },
+    {
+        "user_id": 35,
+        "name": "СПК \"Айбек\"",
+        "condition_id": 5
+    },
+    {
+        "user_id": 36,
+        "name": "ТОО \"Ак-Булак продукт\"",
+        "condition_id": 1
+    },
+    {
+        "user_id": 37,
+        "name": "ИП \"Баширов А.К.\"",
+        "condition_id": 2
+    },
+    {
+        "user_id": 38,
+        "name": "Mami Lac",
+        "condition_id": 3
+    },
+    {
+        "user_id": 39,
+        "name": "Exponenta",
+        "condition_id": 4
+    },
+    {
+        "user_id": 40,
+        "name": "Nescafe",
+        "condition_id": 5
+    },
+    {
+        "user_id": 41,
+        "name": "Воронежские",
+        "condition_id": 1
+    },
+    {
+        "user_id": 42,
+        "name": "ООО \"Балашовский сахарный комбинат\"",
+        "condition_id": 2
+    },
+    {
+        "user_id": 43,
+        "name": "ТОО \"Мибеко\"",
+        "condition_id": 3
+    },
+    {
+        "user_id": 44,
+        "name": "ТОО \"Аза-Мир\"",
+        "condition_id": 4
+    },
+    {
+        "user_id": 45,
+        "name": "Белес",
+        "condition_id": 5
+    },
+    {
+        "user_id": 46,
+        "name": "ТОО \"Жаиық Агро LTD\"",
+        "condition_id": 1
+    },
+    {
+        "user_id": 47,
+        "name": "Food Master",
+        "condition_id": 2
+    },
+    {
+        "user_id": 48,
+        "name": "ООО \"Юговской Комбинат молочных продуктов\"",
+        "condition_id": 3
+    },
+    {
+        "user_id": 49,
+        "name": "КФХ Бурцев А.К.",
+        "condition_id": 4
+    },
+    {
+        "user_id": 50,
+        "name": "ИП Хаустов А.И.",
+        "condition_id": 5
+    },
+    {
+        "user_id": 51,
+        "name": "КХ \"Урожай\"",
+        "condition_id": 1
+    },
+    {
+        "user_id": 52,
+        "name": "ТОО Уральская птицефабрика",
+        "condition_id": 2
+    },
+    {
+        "user_id": 53,
+        "name": "Sterilgarda",
+        "condition_id": 3
+    },
+    {
+        "user_id": 54,
+        "name": "ТОО Tea House",
+        "condition_id": 4
+    },
+    {
+        "user_id": 55,
+        "name": "ТОО Kogaly foods",
+        "condition_id": 5
+    },
+    {
+        "user_id": 56,
+        "name": "Айсу",
+        "condition_id": 1
+    },
+    {
+        "user_id": 57,
+        "name": "Северная роса",
+        "condition_id": 2
+    },
+    {
+        "user_id": 58,
+        "name": "Семушка",
+        "condition_id": 3
+    },
+    {
+        "user_id": 59,
+        "name": "ООО \"Золотое Кольцо-Подарки\"",
+        "condition_id": 4
+    },
+    {
+        "user_id": 60,
+        "name": "Sen Soy",
+        "condition_id": 5
+    },
+    {
+        "user_id": 61,
+        "name": "ТОО Ордабасы кус",
+        "condition_id": 1
+    },
+    {
+        "user_id": 62,
+        "name": "КХ \"Чернояров А.В.\"",
+        "condition_id": 2
+    },
+    {
+        "user_id": 63,
+        "name": "Милкавита",
+        "condition_id": 3
+    },
+    {
+        "user_id": 64,
+        "name": "Моя Славита",
+        "condition_id": 4
+    },
+    {
+        "user_id": 65,
+        "name": "Садовое",
+        "condition_id": 5
+    },
+    {
+        "user_id": 66,
+        "name": "Яшкино",
+        "condition_id": 1
+    },
+    {
+        "user_id": 67,
+        "name": "Щучинский филиал ОАО \"Молочный Мир\"",
+        "condition_id": 2
+    },
+    {
+        "user_id": 68,
+        "name": "ОАО \"Бабушкина крынка\"",
+        "condition_id": 3
+    },
+    {
+        "user_id": 69,
+        "name": "Свежие новости",
+        "condition_id": 4
+    },
+    {
+        "user_id": 70,
+        "name": "Zvonka",
+        "condition_id": 5
+    },
+    {
+        "user_id": 71,
+        "name": "Eco Greco",
+        "condition_id": 1
+    },
+    {
+        "user_id": 72,
+        "name": "NESTLE",
+        "condition_id": 2
+    },
+    {
+        "user_id": 73,
+        "name": "Брестский мясокомбинат",
+        "condition_id": 3
+    },
+    {
+        "user_id": 74,
+        "name": "Белорусская традиция",
+        "condition_id": 4
+    },
+    {
+        "user_id": 75,
+        "name": "KDV",
+        "condition_id": 5
+    },
+    {
+        "user_id": 76,
+        "name": "Савушкин Продукт",
+        "condition_id": 1
+    },
+    {
+        "user_id": 77,
+        "name": "Mamba",
+        "condition_id": 2
+    },
+    {
+        "user_id": 78,
+        "name": "ГП “Мозырские молочные продукты”",
+        "condition_id": 3
+    },
+    {
+        "user_id": 79,
+        "name": "Брест-Литовск",
+        "condition_id": 4
+    },
+    {
+        "user_id": 80,
+        "name": "Ulker",
+        "condition_id": 5
+    },
+    {
+        "user_id": 81,
+        "name": "Баян Сулу",
+        "condition_id": 1
+    },
+    {
+        "user_id": 82,
+        "name": "Mondelez International",
+        "condition_id": 2
+    },
+    {
+        "user_id": 83,
+        "name": "ТОО «Текели ГМЗ»",
+        "condition_id": 3
+    },
+    {
+        "user_id": 84,
+        "name": "Kinder",
+        "condition_id": 4
+    },
+    {
+        "user_id": 85,
+        "name": "Сладонеж",
+        "condition_id": 5
+    },
+    {
+        "user_id": 86,
+        "name": "Common Market",
+        "condition_id": 1
+    },
+    {
+        "user_id": 87,
+        "name": "САДЫ ПРИДОНЬЯ",
+        "condition_id": 2
+    },
+    {
+        "user_id": 88,
+        "name": "Торговый дом \"Дилявер\"",
+        "condition_id": 3
+    },
+    {
+        "user_id": 89,
+        "name": "Рахат",
+        "condition_id": 4
+    },
+    {
+        "user_id": 90,
+        "name": "Дымка",
+        "condition_id": 5
+    },
+    {
+        "user_id": 91,
+        "name": "Бабаевский",
+        "condition_id": 1
+    },
+    {
+        "user_id": 92,
+        "name": "Ярмарка",
+        "condition_id": 2
+    }
+]

@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="840" height="360" viewBox="0 0 840 360">
+      <rect width="100%" height="100%" fill="#f8fafc" />
+      <text x="40" y="32" font-size="20" font-family="Arial" fill="#0f172a">Detected Defects Per High-Risk Module</text>
+      <line x1="40" y1="280" x2="780" y2="280" stroke="#cbd5e1" />
+      
+        <rect x="50" y="280" width="110" height="0" fill="#dc2626" rx="12" />
+        <text x="105" y="272" font-size="12" text-anchor="middle" fill="#0f172a">0</text>
+        <text x="105" y="305" font-size="12" text-anchor="middle" fill="#334155">Authentication</text>
+      
+        <rect x="188" y="280" width="110" height="0" fill="#dc2626" rx="12" />
+        <text x="243" y="272" font-size="12" text-anchor="middle" fill="#0f172a">0</text>
+        <text x="243" y="305" font-size="12" text-anchor="middle" fill="#334155">Cart</text>
+      
+        <rect x="326" y="280" width="110" height="0" fill="#dc2626" rx="12" />
+        <text x="381" y="272" font-size="12" text-anchor="middle" fill="#0f172a">0</text>
+        <text x="381" y="305" font-size="12" text-anchor="middle" fill="#334155">Checkout</text>
+      
+        <rect x="464" y="280" width="110" height="0" fill="#dc2626" rx="12" />
+        <text x="519" y="272" font-size="12" text-anchor="middle" fill="#0f172a">0</text>
+        <text x="519" y="305" font-size="12" text-anchor="middle" fill="#334155">Order</text>
+      
+        <rect x="602" y="280" width="110" height="0" fill="#dc2626" rx="12" />
+        <text x="657" y="272" font-size="12" text-anchor="middle" fill="#0f172a">0</text>
+        <text x="657" y="305" font-size="12" text-anchor="middle" fill="#334155">Product</text>
+      
+    </svg>

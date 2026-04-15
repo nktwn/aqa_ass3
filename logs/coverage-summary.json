@@ -1,0 +1,711 @@
+{
+  "moduleSummary": [
+    {
+      "module": "Authentication and authorization",
+      "coveredStatements": 89,
+      "totalStatements": 207,
+      "coveragePercent": 43,
+      "belowThreshold": true
+    },
+    {
+      "module": "Cart management",
+      "coveredStatements": 65,
+      "totalStatements": 458,
+      "coveragePercent": 14.19,
+      "belowThreshold": true
+    },
+    {
+      "module": "Checkout and payment initiation",
+      "coveredStatements": 49,
+      "totalStatements": 146,
+      "coveragePercent": 33.56,
+      "belowThreshold": true
+    },
+    {
+      "module": "Order lifecycle",
+      "coveredStatements": 35,
+      "totalStatements": 388,
+      "coveragePercent": 9.02,
+      "belowThreshold": true
+    },
+    {
+      "module": "Product catalog and listing",
+      "coveredStatements": 29,
+      "totalStatements": 520,
+      "coveragePercent": 5.58,
+      "belowThreshold": true
+    }
+  ],
+  "gapEntries": [
+    {
+      "module": "Authentication and authorization",
+      "file": "backend/modules/auth/handler/converter/user.go",
+      "coveragePercent": 0,
+      "uncoveredFunctions": [
+        "ToServiceFromRegisterInput"
+      ]
+    },
+    {
+      "module": "Authentication and authorization",
+      "file": "backend/modules/auth/handler/login.go",
+      "coveragePercent": 0,
+      "uncoveredFunctions": [
+        "Login"
+      ]
+    },
+    {
+      "module": "Authentication and authorization",
+      "file": "backend/modules/auth/handler/model/user.go",
+      "coveragePercent": 0,
+      "uncoveredFunctions": []
+    },
+    {
+      "module": "Authentication and authorization",
+      "file": "backend/modules/auth/handler/register.go",
+      "coveragePercent": 0,
+      "uncoveredFunctions": [
+        "Register"
+      ]
+    },
+    {
+      "module": "Authentication and authorization",
+      "file": "backend/modules/auth/handler/server.go",
+      "coveragePercent": 0,
+      "uncoveredFunctions": [
+        "NewHandler"
+      ]
+    },
+    {
+      "module": "Authentication and authorization",
+      "file": "backend/modules/auth/jwt/jwt.go",
+      "coveragePercent": 84.78,
+      "uncoveredFunctions": []
+    },
+    {
+      "module": "Authentication and authorization",
+      "file": "backend/modules/auth/middleware/auth.go",
+      "coveragePercent": 100,
+      "uncoveredFunctions": []
+    },
+    {
+      "module": "Authentication and authorization",
+      "file": "backend/modules/auth/middleware/server.go",
+      "coveragePercent": 100,
+      "uncoveredFunctions": []
+    },
+    {
+      "module": "Authentication and authorization",
+      "file": "backend/modules/auth/model/errors.go",
+      "coveragePercent": 0,
+      "uncoveredFunctions": []
+    },
+    {
+      "module": "Authentication and authorization",
+      "file": "backend/modules/auth/model/user.go",
+      "coveragePercent": 0,
+      "uncoveredFunctions": []
+    },
+    {
+      "module": "Authentication and authorization",
+      "file": "backend/modules/auth/repository/user/converter/user.go",
+      "coveragePercent": 0,
+      "uncoveredFunctions": [
+        "ToUserFromRepo",
+        "ToUserInfoFromRepo",
+        "ToAuthUserFromRepo"
+      ]
+    },
+    {
+      "module": "Authentication and authorization",
+      "file": "backend/modules/auth/repository/user/model/user.go",
+      "coveragePercent": 0,
+      "uncoveredFunctions": []
+    },
+    {
+      "module": "Authentication and authorization",
+      "file": "backend/modules/auth/repository/user/reposotiry.go",
+      "coveragePercent": 0,
+      "uncoveredFunctions": [
+        "NewRepository",
+        "Create",
+        "GetById",
+        "GetByPhoneNumber",
+        "Delete",
+        "Update"
+      ]
+    },
+    {
+      "module": "Authentication and authorization",
+      "file": "backend/modules/auth/routes.go",
+      "coveragePercent": 0,
+      "uncoveredFunctions": [
+        "RegisterRoutes"
+      ]
+    },
+    {
+      "module": "Authentication and authorization",
+      "file": "backend/modules/auth/service/auth/register.go",
+      "coveragePercent": 80.95,
+      "uncoveredFunctions": []
+    },
+    {
+      "module": "Authentication and authorization",
+      "file": "backend/modules/auth/service/auth/service.go",
+      "coveragePercent": 100,
+      "uncoveredFunctions": []
+    },
+    {
+      "module": "Cart management",
+      "file": "backend/modules/cart/client/order/order.go",
+      "coveragePercent": 0,
+      "uncoveredFunctions": [
+        "NewClient",
+        "CreateOrder",
+        "cartToOrder",
+        "cartProductListToOrderProductList"
+      ]
+    },
+    {
+      "module": "Checkout and payment initiation",
+      "file": "backend/modules/cart/client/payment/converter/checkout.go",
+      "coveragePercent": 0,
+      "uncoveredFunctions": [
+        "ToServiceCheckoutFromClient"
+      ]
+    },
+    {
+      "module": "Checkout and payment initiation",
+      "file": "backend/modules/cart/client/payment/model/model.go",
+      "coveragePercent": 0,
+      "uncoveredFunctions": [
+        "SetSignature",
+        "generateSignature"
+      ]
+    },
+    {
+      "module": "Checkout and payment initiation",
+      "file": "backend/modules/cart/client/payment/payment.go",
+      "coveragePercent": 0,
+      "uncoveredFunctions": [
+        "NewPaymentClient",
+        "PaymentRequest",
+        "mockCheckoutResponse"
+      ]
+    },
+    {
+      "module": "Cart management",
+      "file": "backend/modules/cart/client/supplier/supplier.go",
+      "coveragePercent": 0,
+      "uncoveredFunctions": [
+        "NewClient",
+        "SupplierListByIDList"
+      ]
+    },
+    {
+      "module": "Cart management",
+      "file": "backend/modules/cart/handler/cart.go",
+      "coveragePercent": 0,
+      "uncoveredFunctions": [
+        "AddProductToCard",
+        "GetCart",
+        "DeleteProductFromCart",
+        "ClearCart"
+      ]
+    },
+    {
+      "module": "Checkout and payment initiation",
+      "file": "backend/modules/cart/handler/checkout.go",
+      "coveragePercent": 0,
+      "uncoveredFunctions": [
+        "Checkout",
+        "CartPaymentCallback",
+        "MockCheckoutSuccess"
+      ]
+    },
+    {
+      "module": "Cart management",
+      "file": "backend/modules/cart/handler/converter/add-product.go",
+      "coveragePercent": 0,
+      "uncoveredFunctions": [
+        "ToServiceCardInputFromAPI",
+        "ToAPIGetCartFromService",
+        "ToAPISuppliersFromService",
+        "ToAPIProductsFromService"
+      ]
+    },
+    {
+      "module": "Cart management",
+      "file": "backend/modules/cart/handler/converter/checkout.go",
+      "coveragePercent": 0,
+      "uncoveredFunctions": [
+        "ToAPICheckoutFromService",
+        "ToServiceCheckoutFromApi"
+      ]
+    },
+    {
+      "module": "Cart management",
+      "file": "backend/modules/cart/handler/model/checkout.go",
+      "coveragePercent": 0,
+      "uncoveredFunctions": []
+    },
+    {
+      "module": "Cart management",
+      "file": "backend/modules/cart/handler/model/put-card-input.go",
+      "coveragePercent": 0,
+      "uncoveredFunctions": []
+    },
+    {
+      "module": "Cart management",
+      "file": "backend/modules/cart/handler/server.go",
+      "coveragePercent": 0,
+      "uncoveredFunctions": [
+        "NewHandler"
+      ]
+    },
+    {
+      "module": "Cart management",
+      "file": "backend/modules/cart/model/cart.go",
+      "coveragePercent": 0,
+      "uncoveredFunctions": []
+    },
+    {
+      "module": "Cart management",
+      "file": "backend/modules/cart/model/checkout.go",
+      "coveragePercent": 0,
+      "uncoveredFunctions": []
+    },
+    {
+      "module": "Cart management",
+      "file": "backend/modules/cart/model/errors.go",
+      "coveragePercent": 0,
+      "uncoveredFunctions": []
+    },
+    {
+      "module": "Cart management",
+      "file": "backend/modules/cart/redis/payment-order.go",
+      "coveragePercent": 0,
+      "uncoveredFunctions": [
+        "SavePaymentOrder",
+        "PaymentOrder",
+        "PaymentOrdersByPrefix"
+      ]
+    },
+    {
+      "module": "Cart management",
+      "file": "backend/modules/cart/redis/redis.go",
+      "coveragePercent": 0,
+      "uncoveredFunctions": [
+        "NewCartRedis"
+      ]
+    },
+    {
+      "module": "Cart management",
+      "file": "backend/modules/cart/repository/cart.go",
+      "coveragePercent": 0,
+      "uncoveredFunctions": [
+        "CreateCart",
+        "Cart",
+        "UpdateCartTotal",
+        "GetCartItems",
+        "DeleteCart"
+      ]
+    },
+    {
+      "module": "Cart management",
+      "file": "backend/modules/cart/repository/converter/cart.go",
+      "coveragePercent": 0,
+      "uncoveredFunctions": [
+        "ToServiceCartFromRepo",
+        "ToServiceSupplierFromRepo"
+      ]
+    },
+    {
+      "module": "Cart management",
+      "file": "backend/modules/cart/repository/item.go",
+      "coveragePercent": 0,
+      "uncoveredFunctions": [
+        "ItemQuantity",
+        "UpdateItemQuantity",
+        "AddItem",
+        "DeleteCartItems",
+        "DeleteItem"
+      ]
+    },
+    {
+      "module": "Cart management",
+      "file": "backend/modules/cart/repository/model/get-cart.go",
+      "coveragePercent": 0,
+      "uncoveredFunctions": []
+    },
+    {
+      "module": "Cart management",
+      "file": "backend/modules/cart/repository/repository.go",
+      "coveragePercent": 0,
+      "uncoveredFunctions": [
+        "NewRepository"
+      ]
+    },
+    {
+      "module": "Cart management",
+      "file": "backend/modules/cart/routes.go",
+      "coveragePercent": 0,
+      "uncoveredFunctions": [
+        "RegisterRoutes",
+        "RegisterPublicRoutes",
+        "RegisterRoutesCallback"
+      ]
+    },
+    {
+      "module": "Cart management",
+      "file": "backend/modules/cart/service/cart.go",
+      "coveragePercent": 35.96,
+      "uncoveredFunctions": []
+    },
+    {
+      "module": "Checkout and payment initiation",
+      "file": "backend/modules/cart/service/checkout.go",
+      "coveragePercent": 84.48,
+      "uncoveredFunctions": []
+    },
+    {
+      "module": "Cart management",
+      "file": "backend/modules/cart/service/service.go",
+      "coveragePercent": 100,
+      "uncoveredFunctions": []
+    },
+    {
+      "module": "Order lifecycle",
+      "file": "backend/modules/order/client/product/product.go",
+      "coveragePercent": 0,
+      "uncoveredFunctions": [
+        "NewClient",
+        "Product"
+      ]
+    },
+    {
+      "module": "Order lifecycle",
+      "file": "backend/modules/order/client/supplier/supplier.go",
+      "coveragePercent": 0,
+      "uncoveredFunctions": [
+        "NewClient",
+        "SupplierListByIDList",
+        "Supplier"
+      ]
+    },
+    {
+      "module": "Order lifecycle",
+      "file": "backend/modules/order/handler/converter/order.go",
+      "coveragePercent": 0,
+      "uncoveredFunctions": [
+        "ConvertOrderToAPI",
+        "convertOrderProductsToAPI",
+        "convertStatusIDToString",
+        "ConvertOrdersToAPI"
+      ]
+    },
+    {
+      "module": "Order lifecycle",
+      "file": "backend/modules/order/handler/handler.go",
+      "coveragePercent": 0,
+      "uncoveredFunctions": [
+        "NewHandler"
+      ]
+    },
+    {
+      "module": "Order lifecycle",
+      "file": "backend/modules/order/handler/model/order.go",
+      "coveragePercent": 0,
+      "uncoveredFunctions": []
+    },
+    {
+      "module": "Order lifecycle",
+      "file": "backend/modules/order/handler/order.go",
+      "coveragePercent": 0,
+      "uncoveredFunctions": [
+        "GetOrders",
+        "GetOrderByID",
+        "UpdateOrderStatus",
+        "CancelOrder"
+      ]
+    },
+    {
+      "module": "Order lifecycle",
+      "file": "backend/modules/order/model/errors.go",
+      "coveragePercent": 0,
+      "uncoveredFunctions": []
+    },
+    {
+      "module": "Order lifecycle",
+      "file": "backend/modules/order/model/order.go",
+      "coveragePercent": 0,
+      "uncoveredFunctions": []
+    },
+    {
+      "module": "Order lifecycle",
+      "file": "backend/modules/order/model/role.go",
+      "coveragePercent": 0,
+      "uncoveredFunctions": []
+    },
+    {
+      "module": "Order lifecycle",
+      "file": "backend/modules/order/repo/converter/order-product.go",
+      "coveragePercent": 0,
+      "uncoveredFunctions": [
+        "ToServiceOrderProductFromRepo",
+        "ToServiceOrderFromRepo"
+      ]
+    },
+    {
+      "module": "Order lifecycle",
+      "file": "backend/modules/order/repo/converter/order.go",
+      "coveragePercent": 0,
+      "uncoveredFunctions": []
+    },
+    {
+      "module": "Order lifecycle",
+      "file": "backend/modules/order/repo/model/order-product.go",
+      "coveragePercent": 0,
+      "uncoveredFunctions": []
+    },
+    {
+      "module": "Order lifecycle",
+      "file": "backend/modules/order/repo/model/order.go",
+      "coveragePercent": 0,
+      "uncoveredFunctions": []
+    },
+    {
+      "module": "Order lifecycle",
+      "file": "backend/modules/order/repo/order-product.go",
+      "coveragePercent": 0,
+      "uncoveredFunctions": [
+        "CreateOrderProduct",
+        "OrderProducts",
+        "UpdateOrderProduct",
+        "DeleteOrderProduct"
+      ]
+    },
+    {
+      "module": "Order lifecycle",
+      "file": "backend/modules/order/repo/order.go",
+      "coveragePercent": 0,
+      "uncoveredFunctions": [
+        "CreateOrder",
+        "OrdersByUserID",
+        "OrdersBySupplierID",
+        "GetOrderByID",
+        "UpdateOrderStatus"
+      ]
+    },
+    {
+      "module": "Order lifecycle",
+      "file": "backend/modules/order/repo/repo.go",
+      "coveragePercent": 0,
+      "uncoveredFunctions": [
+        "NewRepository"
+      ]
+    },
+    {
+      "module": "Order lifecycle",
+      "file": "backend/modules/order/routes.go",
+      "coveragePercent": 0,
+      "uncoveredFunctions": [
+        "RegisterRoutes"
+      ]
+    },
+    {
+      "module": "Order lifecycle",
+      "file": "backend/modules/order/service/order.go",
+      "coveragePercent": 19.65,
+      "uncoveredFunctions": []
+    },
+    {
+      "module": "Order lifecycle",
+      "file": "backend/modules/order/service/service.go",
+      "coveragePercent": 100,
+      "uncoveredFunctions": []
+    },
+    {
+      "module": "Product catalog and listing",
+      "file": "backend/modules/product/handler/admin.go",
+      "coveragePercent": 0,
+      "uncoveredFunctions": [
+        "CreateProduct",
+        "UpdateProduct",
+        "DeleteProduct"
+      ]
+    },
+    {
+      "module": "Product catalog and listing",
+      "file": "backend/modules/product/handler/converter/catalog.go",
+      "coveragePercent": 0,
+      "uncoveredFunctions": [
+        "ToServieProductQueryFromApi",
+        "ToApiProductResponeFromService",
+        "ToApiDetailedProductFromSerivce",
+        "ToApiProductSupplierListFromService",
+        "ToAPIProductFromService",
+        "ToAPIReviewsFromService",
+        "ToAPIProductSupplierFromService",
+        "ToAPISupplierFromService"
+      ]
+    },
+    {
+      "module": "Product catalog and listing",
+      "file": "backend/modules/product/handler/converter/product-list.go",
+      "coveragePercent": 0,
+      "uncoveredFunctions": [
+        "ToServiceProductListQueryFromAPI",
+        "ToProductListResponeFromService",
+        "ToProductsFromService"
+      ]
+    },
+    {
+      "module": "Product catalog and listing",
+      "file": "backend/modules/product/handler/engagement.go",
+      "coveragePercent": 0,
+      "uncoveredFunctions": [
+        "GetFavorites",
+        "GetFavoriteStatus",
+        "AddFavorite",
+        "RemoveFavorite",
+        "updateFavorite",
+        "AddReview"
+      ]
+    },
+    {
+      "module": "Product catalog and listing",
+      "file": "backend/modules/product/handler/getProduct.go",
+      "coveragePercent": 0,
+      "uncoveredFunctions": [
+        "GetProduct"
+      ]
+    },
+    {
+      "module": "Product catalog and listing",
+      "file": "backend/modules/product/handler/getProductList.go",
+      "coveragePercent": 0,
+      "uncoveredFunctions": [
+        "GetProductList",
+        "GetFeaturedProducts",
+        "GetSuggestions"
+      ]
+    },
+    {
+      "module": "Product catalog and listing",
+      "file": "backend/modules/product/handler/model/catalog.go",
+      "coveragePercent": 0,
+      "uncoveredFunctions": []
+    },
+    {
+      "module": "Product catalog and listing",
+      "file": "backend/modules/product/handler/model/page-count.go",
+      "coveragePercent": 0,
+      "uncoveredFunctions": []
+    },
+    {
+      "module": "Product catalog and listing",
+      "file": "backend/modules/product/handler/model/product.go",
+      "coveragePercent": 0,
+      "uncoveredFunctions": []
+    },
+    {
+      "module": "Product catalog and listing",
+      "file": "backend/modules/product/handler/server.go",
+      "coveragePercent": 0,
+      "uncoveredFunctions": [
+        "NewHandler"
+      ]
+    },
+    {
+      "module": "Product catalog and listing",
+      "file": "backend/modules/product/model/errors.go",
+      "coveragePercent": 0,
+      "uncoveredFunctions": []
+    },
+    {
+      "module": "Product catalog and listing",
+      "file": "backend/modules/product/model/page-count.go",
+      "coveragePercent": 0,
+      "uncoveredFunctions": []
+    },
+    {
+      "module": "Product catalog and listing",
+      "file": "backend/modules/product/model/product.go",
+      "coveragePercent": 0,
+      "uncoveredFunctions": []
+    },
+    {
+      "module": "Product catalog and listing",
+      "file": "backend/modules/product/repository/product/converter/product.go",
+      "coveragePercent": 0,
+      "uncoveredFunctions": [
+        "toProductFromRepo",
+        "ToProductListFromRepo",
+        "ToProductFromRepo",
+        "ToProductSupplierFromRepo",
+        "ToSupplierFromRepo"
+      ]
+    },
+    {
+      "module": "Product catalog and listing",
+      "file": "backend/modules/product/repository/product/model/product.go",
+      "coveragePercent": 0,
+      "uncoveredFunctions": []
+    },
+    {
+      "module": "Product catalog and listing",
+      "file": "backend/modules/product/repository/product/reposotiry.go",
+      "coveragePercent": 0,
+      "uncoveredFunctions": [
+        "NewRepository",
+        "GetProduct",
+        "GetProductListByIDList",
+        "GetSupplierProductListByProduct",
+        "GetProductList",
+        "GetReviewsByProduct",
+        "UpsertReview",
+        "GetFavoriteProductIDsByUser",
+        "IsFavorite",
+        "AddFavorite",
+        "RemoveFavorite",
+        "GetTotalProducts",
+        "GetProductSuggestions",
+        "CreateProduct",
+        "UpdateProduct",
+        "DeleteProduct",
+        "GetProductPriceBySupplier",
+        "applyProductListFilters",
+        "applyProductListSorting"
+      ]
+    },
+    {
+      "module": "Product catalog and listing",
+      "file": "backend/modules/product/routes.go",
+      "coveragePercent": 0,
+      "uncoveredFunctions": [
+        "RegisterRoutes",
+        "RegisterProtectedRoutes",
+        "RegisterAdminRoutes"
+      ]
+    },
+    {
+      "module": "Product catalog and listing",
+      "file": "backend/modules/product/service/product-list.go",
+      "coveragePercent": 50,
+      "uncoveredFunctions": []
+    },
+    {
+      "module": "Product catalog and listing",
+      "file": "backend/modules/product/service/product.go",
+      "coveragePercent": 27.5,
+      "uncoveredFunctions": []
+    },
+    {
+      "module": "Product catalog and listing",
+      "file": "backend/modules/product/service/service.go",
+      "coveragePercent": 100,
+      "uncoveredFunctions": []
+    }
+  ],
+  "averageCoveragePercent": 21.07
+}

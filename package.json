@@ -1,0 +1,29 @@
+{
+  "name": "aqa-assignment2",
+  "private": true,
+  "scripts": {
+    "qa:test": "playwright test",
+    "qa:test:e2e": "playwright test tests/e2e",
+    "qa:test:api": "playwright test tests/api",
+    "qa:test:e2e:json": "mkdir -p logs && playwright test tests/e2e --reporter=json > logs/e2e-report.json",
+    "qa:test:api:json": "mkdir -p logs && playwright test tests/api --reporter=json > logs/api-report.json",
+    "qa:test:smoke": "playwright test --grep @smoke",
+    "qa:test:critical": "playwright test --grep @critical",
+    "qa:test:regression": "playwright test --grep @regression",
+    "qa:test:live-api": "playwright test tests/api",
+    "qa:test:smoke:json": "mkdir -p logs && playwright test --grep @smoke --reporter=json > logs/smoke-report.json",
+    "qa:test:critical:json": "mkdir -p logs && playwright test --grep @critical --reporter=json > logs/critical-report.json",
+    "qa:test:regression:json": "mkdir -p logs && playwright test --grep @regression --reporter=json > logs/regression-report.json",
+    "qa:test:all:json": "npm run qa:test:smoke:json && npm run qa:test:critical:json && npm run qa:test:regression:json && npm run qa:test:e2e:json && npm run qa:test:api:json",
+    "qa:go:test": "cd backend && GOCACHE=/tmp/go-build GOMODCACHE=/tmp/go-mod go test ./...",
+    "qa:go:test:coverage": "mkdir -p logs && cd backend && GOCACHE=/tmp/go-build GOMODCACHE=/tmp/go-mod go test ./... -coverprofile=../logs/go-coverage.out -covermode=atomic -json > ../logs/go-test.json",
+    "qa:report": "playwright show-report",
+    "qa:install:browsers": "playwright install --with-deps chromium",
+    "qa:metrics": "node scripts/generate-midterm-artifacts.mjs",
+    "qa:quality-gates": "node scripts/check-quality-gates.mjs"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.53.0",
+    "dotenv": "^16.5.0"
+  }
+}

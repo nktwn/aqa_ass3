@@ -1,0 +1,40 @@
+@import "tailwindcss";
+
+:root {
+  --background: #f7f3ea;
+  --foreground: #1f2937;
+  --primary: #0f766e;
+  --primary-hover: #115e59;
+  --primary-soft: rgba(15, 118, 110, 0.1);
+  --secondary: #d97706;
+  --secondary-soft: #fff7ed;
+  --card-bg: rgba(255, 255, 255, 0.88);
+  --card-border: rgba(148, 163, 184, 0.28);
+  --navbar-bg: rgba(247, 243, 234, 0.78);
+}
+
+body {
+  background:
+    radial-gradient(circle at top left, rgba(217, 119, 6, 0.12), transparent 28%),
+    radial-gradient(circle at top right, rgba(15, 118, 110, 0.14), transparent 24%),
+    linear-gradient(180deg, #fffdf8 0%, var(--background) 48%, #f4efe4 100%);
+  color: var(--foreground);
+  font-family: 'Manrope', 'Segoe UI', sans-serif;
+  min-height: 100vh;
+}
+
+.btn-primary {
+  @apply inline-flex items-center gap-2 rounded-2xl px-4 py-3 text-sm font-semibold text-white shadow transition;
+  background: linear-gradient(135deg, var(--primary) 0%, var(--secondary) 100%);
+}
+
+.btn-outline-primary {
+  @apply inline-flex items-center gap-2 rounded-2xl border px-4 py-3 text-sm font-semibold shadow-sm transition;
+  border-color: color-mix(in srgb, var(--primary) 70%, white);
+  color: var(--primary);
+  background: rgba(255, 255, 255, 0.72);
+}
+
+.btn-danger {
+  @apply inline-flex items-center gap-2 rounded-2xl border border-red-500 px-4 py-3 text-sm font-semibold text-red-600 shadow-sm transition hover:bg-red-50;
+}

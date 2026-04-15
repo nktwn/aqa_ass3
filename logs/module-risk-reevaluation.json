@@ -1,0 +1,66 @@
+[
+  {
+    "module": "Authentication and authorization",
+    "originalRiskScore": 20,
+    "observedIssues": [
+      "11 uncovered backend file(s)",
+      "4 performance anomaly/anomalies"
+    ],
+    "likelihood": 3,
+    "impact": 5,
+    "detectability": 4,
+    "updatedRiskScore": 15,
+    "justification": "Updated from empirical evidence: 11 uncovered backend file(s); 4 performance anomaly/anomalies. Backend coverage for this module is 43%."
+  },
+  {
+    "module": "Cart management",
+    "originalRiskScore": 20,
+    "observedIssues": [
+      "19 uncovered backend file(s)",
+      "3 performance anomaly/anomalies"
+    ],
+    "likelihood": 4,
+    "impact": 5,
+    "detectability": 2,
+    "updatedRiskScore": 20,
+    "justification": "Updated from empirical evidence: 19 uncovered backend file(s); 3 performance anomaly/anomalies. Backend coverage for this module is 14.19%."
+  },
+  {
+    "module": "Checkout and payment initiation",
+    "originalRiskScore": 20,
+    "observedIssues": [
+      "4 uncovered backend file(s)"
+    ],
+    "likelihood": 3,
+    "impact": 5,
+    "detectability": 3,
+    "updatedRiskScore": 15,
+    "justification": "Updated from empirical evidence: 4 uncovered backend file(s). Backend coverage for this module is 33.56%."
+  },
+  {
+    "module": "Order lifecycle",
+    "originalRiskScore": 20,
+    "observedIssues": [
+      "17 uncovered backend file(s)",
+      "1 performance anomaly/anomalies"
+    ],
+    "likelihood": 4,
+    "impact": 5,
+    "detectability": 2,
+    "updatedRiskScore": 20,
+    "justification": "Updated from empirical evidence: 17 uncovered backend file(s); 1 performance anomaly/anomalies. Backend coverage for this module is 9.02%."
+  },
+  {
+    "module": "Product catalog and listing",
+    "originalRiskScore": 16,
+    "observedIssues": [
+      "17 uncovered backend file(s)",
+      "2 performance anomaly/anomalies"
+    ],
+    "likelihood": 4,
+    "impact": 4,
+    "detectability": 2,
+    "updatedRiskScore": 16,
+    "justification": "Updated from empirical evidence: 17 uncovered backend file(s); 2 performance anomaly/anomalies. Backend coverage for this module is 5.58%."
+  }
+]

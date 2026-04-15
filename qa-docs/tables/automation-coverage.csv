@@ -1,0 +1,6 @@
+"module_feature","coverage_percent","covered_statements","total_statements","below_70_percent"
+"Authentication and authorization","43","89","207","true"
+"Cart management","14.19","65","458","true"
+"Checkout and payment initiation","33.56","49","146","true"
+"Order lifecycle","9.02","35","388","true"
+"Product catalog and listing","5.58","29","520","true"
