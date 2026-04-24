@@ -1,0 +1,56 @@
+Mutant: ORDER-001
+Module: Order lifecycle
+Type: logical operator change
+Description: Allow unauthorized suppliers while rejecting the rightful owner.
+Outcome: killed
+Command: go test ./modules/order/service
+
+--- stdout ---
+2026-04-24T14:50:30.751+0500	[34mINFO[0m	service/order.go:169	Updating order status	{"service": "order", "supplier_id": 22, "order_id": 50, "new_status": 2}
+2026-04-24T14:50:30.751+0500	[34mINFO[0m	service/order.go:340	Cancelling order	{"service": "order", "customer_id": 10, "order_id": 60}
+2026-04-24T14:50:30.751+0500	[34mINFO[0m	service/order.go:169	Updating order status	{"service": "order", "supplier_id": 22, "order_id": 50, "new_status": 2}
+2026-04-24T14:50:30.752+0500	[33mWARN[0m	service/order.go:362	Invalid order status for cancellation	{"service": "order", "current_status": 2}
+2026-04-24T14:50:30.752+0500	[33mWARN[0m	service/order.go:185	Unauthorized status update attempt	{"service": "order", "supplier_id": 22, "order_id": 50, "actual_supplier_id": 22}
+--- FAIL: TestUpdateOrderStatusBySupplier_RejectsUnauthorizedSupplier (0.00s)
+panic: 
+	assert: mock: I don't know what to return because the method call was unexpected.
+		Either do Mock.On("UpdateOrderStatus").Return(...) first, or remove the UpdateOrderStatus() call.
+		This method was unexpected:
+			UpdateOrderStatus(context.backgroundCtx,int64,int)
+			0: context.backgroundCtx{emptyCtx:context.emptyCtx{}}
+			1: 50
+			2: 2
+		at: [/Users/sergazieff.n/VSCodeProjects/aqa_ass3/backend/modules/order/service/service_test.go:38 /Users/sergazieff.n/VSCodeProjects/aqa_ass3/backend/modules/order/service/order.go:213 /Users/sergazieff.n/VSCodeProjects/aqa_ass3/backend/modules/order/service/service_test.go:75 /Users/sergazieff.n/VSCodeProjects/aqa_ass3/backend/modules/order/service/order.go:175 /Users/sergazieff.n/VSCodeProjects/aqa_ass3/backend/modules/order/service/service_test.go:114] [recovered, repanicked]
+
+goroutine 22 [running]:
+testing.tRunner.func1.2({0x104a787c0, 0x1355b97902c0})
+	/opt/homebrew/Cellar/go/1.26.2/libexec/src/testing/testing.go:1974 +0x1a0
+testing.tRunner.func1()
+	/opt/homebrew/Cellar/go/1.26.2/libexec/src/testing/testing.go:1977 +0x318
+panic({0x104a787c0?, 0x1355b97902c0?})
+	/opt/homebrew/Cellar/go/1.26.2/libexec/src/runtime/panic.go:860 +0x12c
+github.com/stretchr/testify/mock.(*Mock).fail(0x1355b9796000, {0x10485a4a3?, 0x8?}, {0x1355b97984c0?, 0x3?, 0x3?})
+	/tmp/go-mod/github.com/stretchr/testify@v1.10.0/mock/mock.go:349 +0x138
+github.com/stretchr/testify/mock.(*Mock).MethodCalled(0x1355b9796000, {0x1048a8211, 0x11}, {0x1355b97942a0, 0x3, 0x3})
+	/tmp/go-mod/github.com/stretchr/testify@v1.10.0/mock/mock.go:517 +0x614
+github.com/stretchr/testify/mock.(*Mock).Called(0x1355b9796000, {0x1355b97942a0, 0x3, 0x3})
+	/tmp/go-mod/github.com/stretchr/testify@v1.10.0/mock/mock.go:481 +0xfc
+diploma/modules/order/service.(*mockOrderRepository).UpdateOrderStatus(0x1355b9796000, {0x104af3408, 0x104b9c020}, 0x32, 0x2)
+	/Users/sergazieff.n/VSCodeProjects/aqa_ass3/backend/modules/order/service/service_test.go:38 +0xf0
+diploma/modules/order/service.(*OrderService).UpdateOrderStatusBySupplier.func1({0x104af3408, 0x104b9c020})
+	/Users/sergazieff.n/VSCodeProjects/aqa_ass3/backend/modules/order/service/order.go:213 +0xd8
+diploma/modules/order/service.(*mockTxManager).ReadCommitted(0x1355b9796190, {0x104af3408, 0x104b9c020}, 0x1355b97940c0)
+	/Users/sergazieff.n/VSCodeProjects/aqa_ass3/backend/modules/order/service/service_test.go:75 +0xc8
+diploma/modules/order/service.(*OrderService).UpdateOrderStatusBySupplier(0x1355b980a000, {0x104af3408, 0x104b9c020}, 0x16, 0x32, 0x2)
+	/Users/sergazieff.n/VSCodeProjects/aqa_ass3/backend/modules/order/service/order.go:175 +0x220
+diploma/modules/order/service.TestUpdateOrderStatusBySupplier_RejectsUnauthorizedSupplier(0x1355b9714908)
+	/Users/sergazieff.n/VSCodeProjects/aqa_ass3/backend/modules/order/service/service_test.go:114 +0x2d8
+testing.tRunner(0x1355b9714908, 0x104aed168)
+	/opt/homebrew/Cellar/go/1.26.2/libexec/src/testing/testing.go:2036 +0xc4
+created by testing.(*T).Run in goroutine 1
+	/opt/homebrew/Cellar/go/1.26.2/libexec/src/testing/testing.go:2101 +0x3a8
+FAIL	diploma/modules/order/service	0.708s
+FAIL
+
+
+--- stderr ---

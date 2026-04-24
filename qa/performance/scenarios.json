@@ -1,0 +1,107 @@
+{
+  "selectedHighRiskModules": [
+    {
+      "module": "Cart management",
+      "updatedRiskScore": 25,
+      "rationale": "Highest Midterm risk score, thin backend coverage, and revenue impact."
+    },
+    {
+      "module": "Authentication and authorization",
+      "updatedRiskScore": 20,
+      "rationale": "High impact entry point with live API availability concerns."
+    },
+    {
+      "module": "Product catalog and listing",
+      "updatedRiskScore": 20,
+      "rationale": "Low direct backend coverage and customer-facing traffic concentration."
+    }
+  ],
+  "flows": [
+    {
+      "id": "auth_login",
+      "module": "Authentication and authorization",
+      "weight": 0.25,
+      "description": "Seeded customer login via POST /api/auth/login"
+    },
+    {
+      "id": "catalog_browse",
+      "module": "Product catalog and listing",
+      "weight": 0.45,
+      "description": "Anonymous catalog browse via GET /api/product/list?limit=12&offset=0"
+    },
+    {
+      "id": "cart_session",
+      "module": "Cart management",
+      "weight": 0.3,
+      "description": "Authenticated cart clear, add, fetch, and clear sequence"
+    }
+  ],
+  "scenarios": [
+    {
+      "id": "normal_load",
+      "type": "normal",
+      "description": "Steady daytime traffic approximation across the three selected high-risk modules.",
+      "durationSeconds": 15,
+      "stages": [
+        { "seconds": 15, "users": 4 }
+      ],
+      "thresholds": {
+        "averageResponseTimeMs": 450,
+        "medianResponseTimeMs": 350,
+        "p95ResponseTimeMs": 900,
+        "throughputRps": 6,
+        "errorRatePercent": 2
+      }
+    },
+    {
+      "id": "peak_load",
+      "type": "peak",
+      "description": "Higher sustained demand during a promotional period.",
+      "durationSeconds": 15,
+      "stages": [
+        { "seconds": 15, "users": 8 }
+      ],
+      "thresholds": {
+        "averageResponseTimeMs": 700,
+        "medianResponseTimeMs": 550,
+        "p95ResponseTimeMs": 1400,
+        "throughputRps": 10,
+        "errorRatePercent": 3
+      }
+    },
+    {
+      "id": "spike_load",
+      "type": "spike",
+      "description": "Sudden burst of requests after a campaign push or alert-driven user surge.",
+      "durationSeconds": 12,
+      "stages": [
+        { "seconds": 4, "users": 3 },
+        { "seconds": 4, "users": 12 },
+        { "seconds": 4, "users": 4 }
+      ],
+      "thresholds": {
+        "averageResponseTimeMs": 900,
+        "medianResponseTimeMs": 700,
+        "p95ResponseTimeMs": 1800,
+        "throughputRps": 9,
+        "errorRatePercent": 5
+      }
+    },
+    {
+      "id": "endurance_load",
+      "type": "endurance",
+      "description": "Lower concurrency but longer steady traffic to expose leaks and degradation.",
+      "durationSeconds": 30,
+      "stages": [
+        { "seconds": 30, "users": 3 }
+      ],
+      "thresholds": {
+        "averageResponseTimeMs": 650,
+        "medianResponseTimeMs": 500,
+        "p95ResponseTimeMs": 1200,
+        "throughputRps": 4,
+        "errorRatePercent": 2
+      }
+    }
+  ]
+}

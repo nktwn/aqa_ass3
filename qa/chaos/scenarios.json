@@ -1,0 +1,46 @@
+{
+  "selectedHighRiskModules": [
+    "Authentication and authorization",
+    "Cart management",
+    "Checkout and payment initiation",
+    "Product catalog and listing"
+  ],
+  "scenarios": [
+    {
+      "id": "app_downtime_catalog",
+      "module": "Product catalog and listing",
+      "faultType": "API downtime",
+      "description": "Stop the application container during repeated catalog probes and measure recovery after restart.",
+      "probe": "catalog",
+      "faultService": "app",
+      "faultDurationSeconds": 10
+    },
+    {
+      "id": "database_unavailable_auth",
+      "module": "Authentication and authorization",
+      "faultType": "database unavailability",
+      "description": "Stop PostgreSQL while repeatedly attempting customer login; then restore the database and observe recovery.",
+      "probe": "login",
+      "faultService": "pg",
+      "faultDurationSeconds": 10
+    },
+    {
+      "id": "redis_checkout_failure",
+      "module": "Checkout and payment initiation",
+      "faultType": "dependency failure",
+      "description": "Stop Redis during checkout so payment-order persistence fails, then restore Redis and retry.",
+      "probe": "checkout",
+      "faultService": "redis",
+      "faultDurationSeconds": 10
+    },
+    {
+      "id": "injected_latency_proxy",
+      "module": "Authentication and authorization / Product catalog and listing",
+      "faultType": "injected network latency",
+      "description": "Run a local proxy that adds 1200ms latency before forwarding login and catalog requests.",
+      "probe": "latency_proxy",
+      "latencyMs": 1200,
+      "iterations": 6
+    }
+  ]
+}

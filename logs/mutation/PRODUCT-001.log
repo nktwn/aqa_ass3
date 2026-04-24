@@ -1,0 +1,69 @@
+Mutant: PRODUCT-001
+Module: Product catalog and listing
+Type: constant change
+Description: Stop defaulting the suggestion limit when the input value is zero.
+Outcome: killed
+Command: go test ./modules/product/service
+
+--- stdout ---
+2026-04-24T14:50:28.862+0500	[34mINFO[0m	service/product-list.go:12	Fetching product list	{"service": "product", "offset": 0, "limit": 10}
+2026-04-24T14:50:28.862+0500	[34mINFO[0m	service/product-list.go:34	Successfully fetched product list	{"service": "product", "total_products": 1, "returned_products": 1}
+--- FAIL: TestProductService (0.00s)
+    --- FAIL: TestProductService/TestSuggestions_TrimsQueryAndDefaultsLimit (0.00s)
+        mock.go:349: test panicked: 
+            
+            mock: Unexpected Method Call
+            -----------------------------
+            
+            GetProductSuggestions(context.backgroundCtx,*model.SuggestionQuery)
+            		0: context.backgroundCtx{emptyCtx:context.emptyCtx{}}
+            		1: &model.SuggestionQuery{Query:"coffee", Limit:0}
+            
+            The closest call I have is: 
+            
+            GetProductSuggestions(string,mock.argumentMatcher)
+            		0: "mock.Anything"
+            		1: mock.argumentMatcher{fn:reflect.Value{typ_:(*abi.Type)(0x104ae5e80), ptr:(unsafe.Pointer)(0x104b95b08), flag:0x13}}
+            
+            
+            Diff: 0: PASS:  (context.backgroundCtx=context.Background) == (string=mock.Anything)
+            	1: FAIL:  (*model.SuggestionQuery=&{coffee 0}) not matched by func(*model.SuggestionQuery) bool
+            at: [/Users/sergazieff.n/VSCodeProjects/aqa_ass3/backend/modules/product/service/service_test.go:46 /Users/sergazieff.n/VSCodeProjects/aqa_ass3/backend/modules/product/service/product-list.go:69 /Users/sergazieff.n/VSCodeProjects/aqa_ass3/backend/modules/product/service/service_test.go:141]
+            
+            goroutine 8 [running]:
+            runtime/debug.Stack()
+            	/opt/homebrew/Cellar/go/1.26.2/libexec/src/runtime/debug/stack.go:26 +0x64
+            github.com/stretchr/testify/suite.failOnPanic(0x226fbf129688, {0x104adbba0, 0x226fbf1a9270})
+            	/tmp/go-mod/github.com/stretchr/testify@v1.10.0/suite/suite.go:89 +0x38
+            github.com/stretchr/testify/suite.Run.func1.1()
+            	/tmp/go-mod/github.com/stretchr/testify@v1.10.0/suite/suite.go:188 +0x208
+            panic({0x104adbba0?, 0x226fbf1a9270?})
+            	/opt/homebrew/Cellar/go/1.26.2/libexec/src/runtime/panic.go:860 +0x12c
+            github.com/stretchr/testify/mock.(*Mock).fail(0x226fbf1b5220, {0x1046eefa5?, 0x4?}, {0x226fbf1b52c0?, 0x2?, 0x2?})
+            	/tmp/go-mod/github.com/stretchr/testify@v1.10.0/mock/mock.go:349 +0x138
+            github.com/stretchr/testify/mock.(*Mock).MethodCalled(0x226fbf1b5220, {0x104786e3d, 0x15}, {0x226fbf1ac900, 0x2, 0x2})
+            	/tmp/go-mod/github.com/stretchr/testify@v1.10.0/mock/mock.go:509 +0x4c8
+            github.com/stretchr/testify/mock.(*Mock).Called(0x226fbf1b5220, {0x226fbf1ac900, 0x2, 0x2})
+            	/tmp/go-mod/github.com/stretchr/testify@v1.10.0/mock/mock.go:481 +0xfc
+            diploma/modules/product/service.(*mockProductRepository).GetProductSuggestions(0x226fbf1b5220, {0x104b9fb18, 0x104c5fa80}, 0x226fbefed410)
+            	/Users/sergazieff.n/VSCodeProjects/aqa_ass3/backend/modules/product/service/service_test.go:46 +0x98
+            diploma/modules/product/service.(*ProductService).Suggestions(0x226fbf1e0330, {0x104b9fb18, 0x104c5fa80}, 0x226fbf1ac8c0?)
+            	/Users/sergazieff.n/VSCodeProjects/aqa_ass3/backend/modules/product/service/product-list.go:69 +0x94
+            diploma/modules/product/service.(*ProductServiceTestSuite).TestSuggestions_TrimsQueryAndDefaultsLimit(0x226fbf0785a0)
+            	/Users/sergazieff.n/VSCodeProjects/aqa_ass3/backend/modules/product/service/service_test.go:141 +0x1a4
+            reflect.Value.call({0x226fbf180900?, 0x226fbefdeef0?, 0x226fbf078501?}, {0x1046ce183, 0x4}, {0x226fbf064f20, 0x1, 0x1046775a0?})
+            	/opt/homebrew/Cellar/go/1.26.2/libexec/src/reflect/value.go:586 +0xabc
+            reflect.Value.Call({0x226fbf180900?, 0x226fbefdeef0?, 0x10439d4a0?}, {0x226fbf064f20?, 0x104bb4300?, 0x10494bec0?})
+            	/opt/homebrew/Cellar/go/1.26.2/libexec/src/reflect/value.go:369 +0x94
+            github.com/stretchr/testify/suite.Run.func1(0x226fbf129688)
+            	/tmp/go-mod/github.com/stretchr/testify@v1.10.0/suite/suite.go:202 +0x370
+            testing.tRunner(0x226fbf129688, 0x226fbf14c480)
+            	/opt/homebrew/Cellar/go/1.26.2/libexec/src/testing/testing.go:2036 +0xc4
+            created by testing.(*T).Run in goroutine 4
+            	/opt/homebrew/Cellar/go/1.26.2/libexec/src/testing/testing.go:2101 +0x3a8
+FAIL
+FAIL	diploma/modules/product/service	0.566s
+FAIL
+
+
+--- stderr ---

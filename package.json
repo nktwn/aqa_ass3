@@ -20,7 +20,13 @@
     "qa:report": "playwright show-report",
     "qa:install:browsers": "playwright install --with-deps chromium",
     "qa:metrics": "node scripts/generate-midterm-artifacts.mjs",
-    "qa:quality-gates": "node scripts/check-quality-gates.mjs"
+    "qa:quality-gates": "node scripts/check-quality-gates.mjs",
+    "qa:env:up": "docker compose -f backend/docker-compose.yaml up -d pg redis migrator data-seeder app",
+    "qa:env:down": "docker compose -f backend/docker-compose.yaml down -v",
+    "qa:performance": "node scripts/run-performance-tests.mjs",
+    "qa:mutation": "node scripts/run-mutation-tests.mjs",
+    "qa:chaos": "node scripts/run-chaos-tests.mjs",
+    "qa:metrics:assignment3": "node scripts/generate-assignment3-artifacts.mjs"
   },
   "devDependencies": {
     "@playwright/test": "^1.53.0",

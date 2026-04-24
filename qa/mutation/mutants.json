@@ -1,0 +1,101 @@
+[
+  {
+    "id": "AUTH-001",
+    "module": "Authentication and authorization",
+    "mutantType": "logical operator change",
+    "file": "backend/modules/auth/service/auth/register.go",
+    "search": "if user.Info.Role == model.AdminRole {",
+    "replace": "if user.Info.Role != model.AdminRole {",
+    "description": "Invert the admin-role registration guard so valid customer registration is rejected.",
+    "testCommand": [
+      "go",
+      "test",
+      "./modules/auth/service/auth"
+    ]
+  },
+  {
+    "id": "AUTH-002",
+    "module": "Authentication and authorization",
+    "mutantType": "modified return value",
+    "file": "backend/modules/auth/service/auth/register.go",
+    "search": "return \"\", \"\", model.ErrInvalidCredentials",
+    "replace": "return accessToken, refreshToken, nil",
+    "description": "Return a false success path when password validation fails.",
+    "occurrence": 2,
+    "testCommand": [
+      "go",
+      "test",
+      "./modules/auth/service/auth"
+    ]
+  },
+  {
+    "id": "CART-001",
+    "module": "Cart management",
+    "mutantType": "logical operator change",
+    "file": "backend/modules/cart/service/checkout.go",
+    "search": "if supplier.TotalAmount < supplier.OrderAmount {",
+    "replace": "if supplier.TotalAmount <= supplier.OrderAmount {",
+    "description": "Require cart totals to strictly exceed the supplier minimum instead of meeting it.",
+    "testCommand": [
+      "go",
+      "test",
+      "./modules/cart/service"
+    ]
+  },
+  {
+    "id": "PRODUCT-001",
+    "module": "Product catalog and listing",
+    "mutantType": "constant change",
+    "file": "backend/modules/product/service/product-list.go",
+    "search": "if query.Limit <= 0 {",
+    "replace": "if query.Limit < 0 {",
+    "description": "Stop defaulting the suggestion limit when the input value is zero.",
+    "testCommand": [
+      "go",
+      "test",
+      "./modules/product/service"
+    ]
+  },
+  {
+    "id": "PRODUCT-002",
+    "module": "Product catalog and listing",
+    "mutantType": "modified return value",
+    "file": "backend/modules/product/service/product-list.go",
+    "search": "return []string{}, nil",
+    "replace": "return nil, nil",
+    "description": "Return nil rather than an explicit empty suggestion list for blank input.",
+    "testCommand": [
+      "go",
+      "test",
+      "./modules/product/service"
+    ]
+  },
+  {
+    "id": "ORDER-001",
+    "module": "Order lifecycle",
+    "mutantType": "logical operator change",
+    "file": "backend/modules/order/service/order.go",
+    "search": "if order.SupplierID != supplierID {",
+    "replace": "if order.SupplierID == supplierID {",
+    "description": "Allow unauthorized suppliers while rejecting the rightful owner.",
+    "testCommand": [
+      "go",
+      "test",
+      "./modules/order/service"
+    ]
+  },
+  {
+    "id": "ORDER-002",
+    "module": "Order lifecycle",
+    "mutantType": "constant change",
+    "file": "backend/modules/order/service/order.go",
+    "search": "if newStatusID == model.InProgress {",
+    "replace": "if newStatusID == model.Completed {",
+    "description": "Break the only valid supplier transition from Pending to InProgress.",
+    "testCommand": [
+      "go",
+      "test",
+      "./modules/order/service"
+    ]
+  }
+]

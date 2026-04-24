@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="920" height="420" viewBox="0 0 920 420">
+  <rect width="920" height="420" fill="#f7fbf9" />
+  <text x="70" y="18" font-size="20" font-weight="700" fill="#0f172a">Assignment 3 Performance Response Times</text>
+  
+        <rect x="70" y="22" width="14" height="14" fill="#0b6e4f" rx="3" />
+        <text x="92" y="34" font-size="12" fill="#334155">Average</text>
+      
+        <rect x="250" y="22" width="14" height="14" fill="#c84c09" rx="3" />
+        <text x="272" y="34" font-size="12" fill="#334155">Median</text>
+      
+        <rect x="430" y="22" width="14" height="14" fill="#1d4ed8" rx="3" />
+        <text x="452" y="34" font-size="12" fill="#334155">p95</text>
+      
+  
+      <line x1="70" y1="320" x2="890" y2="320" stroke="#d7e3dd" stroke-width="1" />
+      <text x="60" y="324" text-anchor="end" font-size="12" fill="#334155">0</text>
+    
+      <line x1="70" y1="268" x2="890" y2="268" stroke="#d7e3dd" stroke-width="1" />
+      <text x="60" y="272" text-anchor="end" font-size="12" fill="#334155">18.4</text>
+    
+      <line x1="70" y1="216" x2="890" y2="216" stroke="#d7e3dd" stroke-width="1" />
+      <text x="60" y="220" text-anchor="end" font-size="12" fill="#334155">36.8</text>
+    
+      <line x1="70" y1="164" x2="890" y2="164" stroke="#d7e3dd" stroke-width="1" />
+      <text x="60" y="168" text-anchor="end" font-size="12" fill="#334155">55.2</text>
+    
+      <line x1="70" y1="112.00000000000003" x2="890" y2="112.00000000000003" stroke="#d7e3dd" stroke-width="1" />
+      <text x="60" y="116.00000000000003" text-anchor="end" font-size="12" fill="#334155">73.6</text>
+    
+      <line x1="70" y1="60" x2="890" y2="60" stroke="#d7e3dd" stroke-width="1" />
+      <text x="60" y="64" text-anchor="end" font-size="12" fill="#334155">92</text>
+    
+  <line x1="70" y1="320" x2="890" y2="320" stroke="#64748b" stroke-width="1.5" />
+  <line x1="70" y1="60" x2="70" y2="320" stroke="#64748b" stroke-width="1.5" />
+  <rect x="80" y="265.42826086956524" width="38" height="54.57173913043478" fill="#0b6e4f" rx="4" /><text x="99" y="257.42826086956524" text-anchor="middle" font-size="11" fill="#0f172a">19.31</text><rect x="122" y="314.3478260869565" width="38" height="5.6521739130434785" fill="#c84c09" rx="4" /><text x="141" y="306.3478260869565" text-anchor="middle" font-size="11" fill="#0f172a">2</text><rect x="164" y="122.17391304347825" width="38" height="197.82608695652175" fill="#1d4ed8" rx="4" /><text x="183" y="114.17391304347825" text-anchor="middle" font-size="11" fill="#0f172a">70</text><rect x="285" y="253.05" width="38" height="66.95" fill="#0b6e4f" rx="4" /><text x="304" y="245.05" text-anchor="middle" font-size="11" fill="#0f172a">23.69</text><rect x="327" y="308.69565217391306" width="38" height="11.304347826086957" fill="#c84c09" rx="4" /><text x="346" y="300.69565217391306" text-anchor="middle" font-size="11" fill="#0f172a">4</text><rect x="369" y="65.65217391304347" width="38" height="254.34782608695653" fill="#1d4ed8" rx="4" /><text x="388" y="57.65217391304347" text-anchor="middle" font-size="11" fill="#0f172a">90</text><rect x="490" y="246.60652173913044" width="38" height="73.39347826086956" fill="#0b6e4f" rx="4" /><text x="509" y="238.60652173913044" text-anchor="middle" font-size="11" fill="#0f172a">25.97</text><rect x="532" y="300.2173913043478" width="38" height="19.782608695652176" fill="#c84c09" rx="4" /><text x="551" y="292.2173913043478" text-anchor="middle" font-size="11" fill="#0f172a">7</text><rect x="574" y="60" width="38" height="260" fill="#1d4ed8" rx="4" /><text x="593" y="52" text-anchor="middle" font-size="11" fill="#0f172a">92</text><rect x="695" y="267.12391304347824" width="38" height="52.87608695652174" fill="#0b6e4f" rx="4" /><text x="714" y="259.12391304347824" text-anchor="middle" font-size="11" fill="#0f172a">18.71</text><rect x="737" y="314.3478260869565" width="38" height="5.6521739130434785" fill="#c84c09" rx="4" /><text x="756" y="306.3478260869565" text-anchor="middle" font-size="11" fill="#0f172a">2</text><rect x="779" y="125" width="38" height="195" fill="#1d4ed8" rx="4" /><text x="798" y="117" text-anchor="middle" font-size="11" fill="#0f172a">69</text>
+  <text x="172.5" y="385" text-anchor="middle" font-size="12" fill="#334155">normal_load</text><text x="377.5" y="385" text-anchor="middle" font-size="12" fill="#334155">peak_load</text><text x="582.5" y="385" text-anchor="middle" font-size="12" fill="#334155">spike_load</text><text x="787.5" y="385" text-anchor="middle" font-size="12" fill="#334155">endurance_load</text>
+  <text x="20" y="48" font-size="12" fill="#475569">Milliseconds</text>
+</svg>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="920" height="420" viewBox="0 0 920 420">
+  <rect width="920" height="420" fill="#f7fbf9" />
+  <text x="70" y="18" font-size="20" font-weight="700" fill="#0f172a">Assignment 3 Chaos Availability During Fault</text>
+  
+        <rect x="70" y="22" width="14" height="14" fill="#0b6e4f" rx="3" />
+        <text x="92" y="34" font-size="12" fill="#334155">Availability During Fault %</text>
+      
+  
+      <line x1="70" y1="320" x2="890" y2="320" stroke="#d7e3dd" stroke-width="1" />
+      <text x="60" y="324" text-anchor="end" font-size="12" fill="#334155">0</text>
+    
+      <line x1="70" y1="268" x2="890" y2="268" stroke="#d7e3dd" stroke-width="1" />
+      <text x="60" y="272" text-anchor="end" font-size="12" fill="#334155">20</text>
+    
+      <line x1="70" y1="216" x2="890" y2="216" stroke="#d7e3dd" stroke-width="1" />
+      <text x="60" y="220" text-anchor="end" font-size="12" fill="#334155">40</text>
+    
+      <line x1="70" y1="164" x2="890" y2="164" stroke="#d7e3dd" stroke-width="1" />
+      <text x="60" y="168" text-anchor="end" font-size="12" fill="#334155">60</text>
+    
+      <line x1="70" y1="112" x2="890" y2="112" stroke="#d7e3dd" stroke-width="1" />
+      <text x="60" y="116" text-anchor="end" font-size="12" fill="#334155">80</text>
+    
+      <line x1="70" y1="60" x2="890" y2="60" stroke="#d7e3dd" stroke-width="1" />
+      <text x="60" y="64" text-anchor="end" font-size="12" fill="#334155">100</text>
+    
+  <line x1="70" y1="320" x2="890" y2="320" stroke="#64748b" stroke-width="1.5" />
+  <line x1="70" y1="60" x2="70" y2="320" stroke="#64748b" stroke-width="1.5" />
+  <rect x="80" y="320" width="38" height="0" fill="#0b6e4f" rx="4" /><text x="99" y="312" text-anchor="middle" font-size="11" fill="#0f172a">0</text><rect x="285" y="320" width="38" height="0" fill="#0b6e4f" rx="4" /><text x="304" y="312" text-anchor="middle" font-size="11" fill="#0f172a">0</text><rect x="490" y="320" width="38" height="0" fill="#0b6e4f" rx="4" /><text x="509" y="312" text-anchor="middle" font-size="11" fill="#0f172a">0</text><rect x="695" y="60" width="38" height="260" fill="#0b6e4f" rx="4" /><text x="714" y="52" text-anchor="middle" font-size="11" fill="#0f172a">100</text>
+  <text x="172.5" y="385" text-anchor="middle" font-size="12" fill="#334155">app_downtime_catalog</text><text x="377.5" y="385" text-anchor="middle" font-size="12" fill="#334155">database_unavailable_auth</text><text x="582.5" y="385" text-anchor="middle" font-size="12" fill="#334155">redis_checkout_failure</text><text x="787.5" y="385" text-anchor="middle" font-size="12" fill="#334155">injected_latency_proxy</text>
+  <text x="20" y="48" font-size="12" fill="#475569">Percent</text>
+</svg>

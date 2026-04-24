@@ -1,0 +1,56 @@
+Mutant: AUTH-002
+Module: Authentication and authorization
+Type: modified return value
+Description: Return a false success path when password validation fails.
+Outcome: killed
+Command: go test ./modules/auth/service/auth
+
+--- stdout ---
+2026-04-24T14:50:25.817+0500	[34mINFO[0m	auth/register.go:59	Attempting user login	{"service": "auth", "phone_number": "+1234567890"}
+2026-04-24T14:50:25.817+0500	[33mWARN[0m	auth/register.go:64	Login attempt with non-existent phone number	{"service": "auth", "phone_number": "+1234567890"}
+2026-04-24T14:50:25.894+0500	[34mINFO[0m	auth/register.go:59	Attempting user login	{"service": "auth", "phone_number": "+1234567890"}
+2026-04-24T14:50:25.956+0500	[34mINFO[0m	auth/register.go:82	User login successful	{"service": "auth", "user_id": 1, "phone_number": "+1234567890", "name": "testuser"}
+2026-04-24T14:50:26.017+0500	[34mINFO[0m	auth/register.go:59	Attempting user login	{"service": "auth", "phone_number": "+1234567890"}
+2026-04-24T14:50:26.077+0500	[33mWARN[0m	auth/register.go:72	Invalid password attempt	{"service": "auth", "phone_number": "+1234567890"}
+2026-04-24T14:50:26.077+0500	[34mINFO[0m	auth/register.go:14	Starting user registration	{"service": "auth", "phone_number": "+1234567890"}
+2026-04-24T14:50:26.137+0500	[33mWARN[0m	auth/register.go:25	Attempted to register with admin role	{"service": "auth", "phone_number": "+1234567890"}
+2026-04-24T14:50:26.137+0500	[34mINFO[0m	auth/register.go:14	Starting user registration	{"service": "auth", "phone_number": "+1234567890"}
+2026-04-24T14:50:26.197+0500	[31mERROR[0m	auth/register.go:33	Failed to create user	{"service": "auth", "phone_number": "+1234567890", "error": "database error"}
+diploma/modules/auth/service/auth.(*authServ).Register.func1
+	/Users/sergazieff.n/VSCodeProjects/aqa_ass3/backend/modules/auth/service/auth/register.go:33
+diploma/modules/auth/service/auth.(*mockTxManager).ReadCommitted
+	/Users/sergazieff.n/VSCodeProjects/aqa_ass3/backend/modules/auth/service/auth/service_test.go:49
+diploma/modules/auth/service/auth.(*authServ).Register
+	/Users/sergazieff.n/VSCodeProjects/aqa_ass3/backend/modules/auth/service/auth/register.go:29
+diploma/modules/auth/service/auth.(*AuthServiceTestSuite).TestRegister_RepositoryError
+	/Users/sergazieff.n/VSCodeProjects/aqa_ass3/backend/modules/auth/service/auth/service_test.go:223
+reflect.Value.call
+	/opt/homebrew/Cellar/go/1.26.2/libexec/src/reflect/value.go:586
+reflect.Value.Call
+	/opt/homebrew/Cellar/go/1.26.2/libexec/src/reflect/value.go:369
+github.com/stretchr/testify/suite.Run.func1
+	/tmp/go-mod/github.com/stretchr/testify@v1.10.0/suite/suite.go:202
+testing.tRunner
+	/opt/homebrew/Cellar/go/1.26.2/libexec/src/testing/testing.go:2036
+2026-04-24T14:50:26.197+0500	[34mINFO[0m	auth/register.go:14	Starting user registration	{"service": "auth", "phone_number": "+1234567890"}
+2026-04-24T14:50:26.256+0500	[34mINFO[0m	auth/register.go:50	User registration successful	{"service": "auth", "user_id": 1, "phone_number": "+1234567890", "name": "testuser"}
+--- FAIL: TestAuthService (0.44s)
+    --- FAIL: TestAuthService/TestLogin_WrongPassword (0.12s)
+        test_helper.go:58: 
+            	Error Trace:	/Users/sergazieff.n/VSCodeProjects/aqa_ass3/backend/internal/testutils/test_helper.go:58
+            	            				/Users/sergazieff.n/VSCodeProjects/aqa_ass3/backend/modules/auth/service/auth/service_test.go:202
+            	Error:      	An error is expected but got nil.
+            	Test:       	TestAuthService/TestLogin_WrongPassword
+        test_helper.go:48: 
+            	Error Trace:	/Users/sergazieff.n/VSCodeProjects/aqa_ass3/backend/internal/testutils/test_helper.go:48
+            	            				/Users/sergazieff.n/VSCodeProjects/aqa_ass3/backend/modules/auth/service/auth/service_test.go:203
+            	Error:      	Not equal: 
+            	            	expected: *errors.errorString(&errors.errorString{s:"models: invalid credentials"})
+            	            	actual  : <nil>(<nil>)
+            	Test:       	TestAuthService/TestLogin_WrongPassword
+FAIL
+FAIL	diploma/modules/auth/service/auth	0.940s
+FAIL
+
+
+--- stderr ---

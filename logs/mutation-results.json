@@ -1,0 +1,176 @@
+{
+  "generatedAt": "2026-04-24T09:50:31.736Z",
+  "baseUrl": "http://127.0.0.1:8080/api",
+  "results": [
+    {
+      "id": "AUTH-001",
+      "module": "Authentication and authorization",
+      "mutantType": "logical operator change",
+      "file": "backend/modules/auth/service/auth/register.go",
+      "search": "if user.Info.Role == model.AdminRole {",
+      "replace": "if user.Info.Role != model.AdminRole {",
+      "description": "Invert the admin-role registration guard so valid customer registration is rejected.",
+      "testCommand": [
+        "go",
+        "test",
+        "./modules/auth/service/auth"
+      ],
+      "generatedAt": "2026-04-24T09:50:24.674Z",
+      "testPackage": "test ./modules/auth/service/auth",
+      "exitCode": 1,
+      "outcome": "killed",
+      "logPath": "/Users/sergazieff.n/VSCodeProjects/aqa_ass3/logs/mutation/AUTH-001.log"
+    },
+    {
+      "id": "AUTH-002",
+      "module": "Authentication and authorization",
+      "mutantType": "modified return value",
+      "file": "backend/modules/auth/service/auth/register.go",
+      "search": "return \"\", \"\", model.ErrInvalidCredentials",
+      "replace": "return accessToken, refreshToken, nil",
+      "description": "Return a false success path when password validation fails.",
+      "occurrence": 2,
+      "testCommand": [
+        "go",
+        "test",
+        "./modules/auth/service/auth"
+      ],
+      "generatedAt": "2026-04-24T09:50:26.276Z",
+      "testPackage": "test ./modules/auth/service/auth",
+      "exitCode": 1,
+      "outcome": "killed",
+      "logPath": "/Users/sergazieff.n/VSCodeProjects/aqa_ass3/logs/mutation/AUTH-002.log"
+    },
+    {
+      "id": "CART-001",
+      "module": "Cart management",
+      "mutantType": "logical operator change",
+      "file": "backend/modules/cart/service/checkout.go",
+      "search": "if supplier.TotalAmount < supplier.OrderAmount {",
+      "replace": "if supplier.TotalAmount <= supplier.OrderAmount {",
+      "description": "Require cart totals to strictly exceed the supplier minimum instead of meeting it.",
+      "testCommand": [
+        "go",
+        "test",
+        "./modules/cart/service"
+      ],
+      "generatedAt": "2026-04-24T09:50:27.940Z",
+      "testPackage": "test ./modules/cart/service",
+      "exitCode": 0,
+      "outcome": "survived",
+      "logPath": "/Users/sergazieff.n/VSCodeProjects/aqa_ass3/logs/mutation/CART-001.log"
+    },
+    {
+      "id": "PRODUCT-001",
+      "module": "Product catalog and listing",
+      "mutantType": "constant change",
+      "file": "backend/modules/product/service/product-list.go",
+      "search": "if query.Limit <= 0 {",
+      "replace": "if query.Limit < 0 {",
+      "description": "Stop defaulting the suggestion limit when the input value is zero.",
+      "testCommand": [
+        "go",
+        "test",
+        "./modules/product/service"
+      ],
+      "generatedAt": "2026-04-24T09:50:28.891Z",
+      "testPackage": "test ./modules/product/service",
+      "exitCode": 1,
+      "outcome": "killed",
+      "logPath": "/Users/sergazieff.n/VSCodeProjects/aqa_ass3/logs/mutation/PRODUCT-001.log"
+    },
+    {
+      "id": "PRODUCT-002",
+      "module": "Product catalog and listing",
+      "mutantType": "modified return value",
+      "file": "backend/modules/product/service/product-list.go",
+      "search": "return []string{}, nil",
+      "replace": "return nil, nil",
+      "description": "Return nil rather than an explicit empty suggestion list for blank input.",
+      "testCommand": [
+        "go",
+        "test",
+        "./modules/product/service"
+      ],
+      "generatedAt": "2026-04-24T09:50:29.758Z",
+      "testPackage": "test ./modules/product/service",
+      "exitCode": 0,
+      "outcome": "survived",
+      "logPath": "/Users/sergazieff.n/VSCodeProjects/aqa_ass3/logs/mutation/PRODUCT-002.log"
+    },
+    {
+      "id": "ORDER-001",
+      "module": "Order lifecycle",
+      "mutantType": "logical operator change",
+      "file": "backend/modules/order/service/order.go",
+      "search": "if order.SupplierID != supplierID {",
+      "replace": "if order.SupplierID == supplierID {",
+      "description": "Allow unauthorized suppliers while rejecting the rightful owner.",
+      "testCommand": [
+        "go",
+        "test",
+        "./modules/order/service"
+      ],
+      "generatedAt": "2026-04-24T09:50:30.790Z",
+      "testPackage": "test ./modules/order/service",
+      "exitCode": 1,
+      "outcome": "killed",
+      "logPath": "/Users/sergazieff.n/VSCodeProjects/aqa_ass3/logs/mutation/ORDER-001.log"
+    },
+    {
+      "id": "ORDER-002",
+      "module": "Order lifecycle",
+      "mutantType": "constant change",
+      "file": "backend/modules/order/service/order.go",
+      "search": "if newStatusID == model.InProgress {",
+      "replace": "if newStatusID == model.Completed {",
+      "description": "Break the only valid supplier transition from Pending to InProgress.",
+      "testCommand": [
+        "go",
+        "test",
+        "./modules/order/service"
+      ],
+      "generatedAt": "2026-04-24T09:50:31.736Z",
+      "testPackage": "test ./modules/order/service",
+      "exitCode": 1,
+      "outcome": "killed",
+      "logPath": "/Users/sergazieff.n/VSCodeProjects/aqa_ass3/logs/mutation/ORDER-002.log"
+    }
+  ],
+  "moduleScores": [
+    {
+      "module": "Authentication and authorization",
+      "totalMutants": 2,
+      "killedMutants": 2,
+      "survivedMutants": 0,
+      "mutationScorePercent": 100
+    },
+    {
+      "module": "Cart management",
+      "totalMutants": 1,
+      "killedMutants": 0,
+      "survivedMutants": 1,
+      "mutationScorePercent": 0
+    },
+    {
+      "module": "Product catalog and listing",
+      "totalMutants": 2,
+      "killedMutants": 1,
+      "survivedMutants": 1,
+      "mutationScorePercent": 50
+    },
+    {
+      "module": "Order lifecycle",
+      "totalMutants": 2,
+      "killedMutants": 2,
+      "survivedMutants": 0,
+      "mutationScorePercent": 100
+    }
+  ],
+  "totals": {
+    "totalMutants": 7,
+    "killedMutants": 5,
+    "survivedMutants": 2,
+    "overallMutationScorePercent": 71.43
+  }
+}

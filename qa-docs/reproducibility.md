@@ -23,13 +23,30 @@
 ## Live API Reproduction
 
 1. Start the backend stack:
-   `cd backend && docker compose up -d pg redis migrator data-seeder app`
+   `npm run qa:env:up`
 2. Wait for metrics readiness:
    `curl -fsS http://127.0.0.1:8080/metrics`
 3. Enable live API toggles in `.env.qa` or use env overrides:
    `QA_RUN_API_SMOKE=true QA_RUN_API_TESTS=true npm run qa:test:api:json`
 4. Stop the stack when finished:
-   `cd backend && docker compose down -v`
+   `npm run qa:env:down`
+
+## Assignment 3 Experimental Reproduction
+
+1. Start the live backend stack:
+   `npm run qa:env:up`
+2. Run performance experiments:
+   `npm run qa:performance`
+3. Run mutation experiments:
+   `npm run qa:mutation`
+4. Run chaos experiments:
+   `npm run qa:chaos`
+5. Generate Assignment 3 tables, charts, and markdown summaries:
+   `npm run qa:metrics:assignment3`
+6. Stop the stack when finished:
+   `npm run qa:env:down`
+
+The performance and chaos scripts require a live backend stack. The mutation harness only requires the backend Go test packages.
 
 ## Known Local Limitation in This Session
 

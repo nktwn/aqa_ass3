@@ -1,0 +1,8 @@
+"mutant_id","module","mutant_type","description","outcome","file"
+"AUTH-001","Authentication and authorization","logical operator change","Invert the admin-role registration guard so valid customer registration is rejected.","killed","backend/modules/auth/service/auth/register.go"
+"AUTH-002","Authentication and authorization","modified return value","Return a false success path when password validation fails.","killed","backend/modules/auth/service/auth/register.go"
+"CART-001","Cart management","logical operator change","Require cart totals to strictly exceed the supplier minimum instead of meeting it.","survived","backend/modules/cart/service/checkout.go"
+"PRODUCT-001","Product catalog and listing","constant change","Stop defaulting the suggestion limit when the input value is zero.","killed","backend/modules/product/service/product-list.go"
+"PRODUCT-002","Product catalog and listing","modified return value","Return nil rather than an explicit empty suggestion list for blank input.","survived","backend/modules/product/service/product-list.go"
+"ORDER-001","Order lifecycle","logical operator change","Allow unauthorized suppliers while rejecting the rightful owner.","killed","backend/modules/order/service/order.go"
+"ORDER-002","Order lifecycle","constant change","Break the only valid supplier transition from Pending to InProgress.","killed","backend/modules/order/service/order.go"

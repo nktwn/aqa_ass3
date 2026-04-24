@@ -1,0 +1,266 @@
+[
+  {
+    "scenarioId": "normal_load",
+    "phase": "before",
+    "collectedAt": "2026-04-24T09:48:37.139Z",
+    "supported": true,
+    "error": null,
+    "samples": [
+      {
+        "container": "backend-app-1",
+        "cpuPercent": 0,
+        "memoryUsageMiB": 27.87,
+        "blockIo": "0B / 0B"
+      },
+      {
+        "container": "backend-pg-1",
+        "cpuPercent": 0.03,
+        "memoryUsageMiB": 38.84,
+        "blockIo": "13.5MB / 92.1MB"
+      },
+      {
+        "container": "backend-prometheus-1",
+        "cpuPercent": 0,
+        "memoryUsageMiB": 88,
+        "blockIo": "53.4MB / 143kB"
+      },
+      {
+        "container": "backend-redis-1",
+        "cpuPercent": 0.91,
+        "memoryUsageMiB": 9.42,
+        "blockIo": "0B / 8.19kB"
+      }
+    ]
+  },
+  {
+    "scenarioId": "normal_load",
+    "phase": "after",
+    "collectedAt": "2026-04-24T09:48:52.116Z",
+    "supported": true,
+    "error": null,
+    "samples": [
+      {
+        "container": "backend-app-1",
+        "cpuPercent": 0,
+        "memoryUsageMiB": 34.18,
+        "blockIo": "0B / 0B"
+      },
+      {
+        "container": "backend-pg-1",
+        "cpuPercent": 0.04,
+        "memoryUsageMiB": 45.26,
+        "blockIo": "13.5MB / 101MB"
+      },
+      {
+        "container": "backend-prometheus-1",
+        "cpuPercent": 0,
+        "memoryUsageMiB": 88.11,
+        "blockIo": "53.4MB / 143kB"
+      },
+      {
+        "container": "backend-redis-1",
+        "cpuPercent": 1.02,
+        "memoryUsageMiB": 9.42,
+        "blockIo": "0B / 8.19kB"
+      }
+    ]
+  },
+  {
+    "scenarioId": "peak_load",
+    "phase": "before",
+    "collectedAt": "2026-04-24T09:48:54.145Z",
+    "supported": true,
+    "error": null,
+    "samples": [
+      {
+        "container": "backend-app-1",
+        "cpuPercent": 0,
+        "memoryUsageMiB": 34.18,
+        "blockIo": "0B / 0B"
+      },
+      {
+        "container": "backend-pg-1",
+        "cpuPercent": 0.04,
+        "memoryUsageMiB": 45.26,
+        "blockIo": "13.5MB / 101MB"
+      },
+      {
+        "container": "backend-prometheus-1",
+        "cpuPercent": 0.3,
+        "memoryUsageMiB": 88.11,
+        "blockIo": "53.4MB / 143kB"
+      },
+      {
+        "container": "backend-redis-1",
+        "cpuPercent": 0.92,
+        "memoryUsageMiB": 9.17,
+        "blockIo": "0B / 8.19kB"
+      }
+    ]
+  },
+  {
+    "scenarioId": "peak_load",
+    "phase": "after",
+    "collectedAt": "2026-04-24T09:49:10.050Z",
+    "supported": true,
+    "error": null,
+    "samples": [
+      {
+        "container": "backend-app-1",
+        "cpuPercent": 0,
+        "memoryUsageMiB": 36.42,
+        "blockIo": "0B / 0B"
+      },
+      {
+        "container": "backend-pg-1",
+        "cpuPercent": 0.04,
+        "memoryUsageMiB": 47.71,
+        "blockIo": "13.5MB / 115MB"
+      },
+      {
+        "container": "backend-prometheus-1",
+        "cpuPercent": 0.05,
+        "memoryUsageMiB": 88.36,
+        "blockIo": "53.4MB / 152kB"
+      },
+      {
+        "container": "backend-redis-1",
+        "cpuPercent": 1.08,
+        "memoryUsageMiB": 9.17,
+        "blockIo": "0B / 8.19kB"
+      }
+    ]
+  },
+  {
+    "scenarioId": "spike_load",
+    "phase": "before",
+    "collectedAt": "2026-04-24T09:49:12.092Z",
+    "supported": true,
+    "error": null,
+    "samples": [
+      {
+        "container": "backend-app-1",
+        "cpuPercent": 0.54,
+        "memoryUsageMiB": 38.55,
+        "blockIo": "0B / 0B"
+      },
+      {
+        "container": "backend-pg-1",
+        "cpuPercent": 0.03,
+        "memoryUsageMiB": 47.71,
+        "blockIo": "13.5MB / 115MB"
+      },
+      {
+        "container": "backend-prometheus-1",
+        "cpuPercent": 0.83,
+        "memoryUsageMiB": 88.37,
+        "blockIo": "53.4MB / 152kB"
+      },
+      {
+        "container": "backend-redis-1",
+        "cpuPercent": 1.14,
+        "memoryUsageMiB": 9.42,
+        "blockIo": "0B / 8.19kB"
+      }
+    ]
+  },
+  {
+    "scenarioId": "spike_load",
+    "phase": "after",
+    "collectedAt": "2026-04-24T09:49:25.113Z",
+    "supported": true,
+    "error": null,
+    "samples": [
+      {
+        "container": "backend-app-1",
+        "cpuPercent": 0,
+        "memoryUsageMiB": 43.06,
+        "blockIo": "0B / 0B"
+      },
+      {
+        "container": "backend-pg-1",
+        "cpuPercent": 0.08,
+        "memoryUsageMiB": 52.58,
+        "blockIo": "13.5MB / 124MB"
+      },
+      {
+        "container": "backend-prometheus-1",
+        "cpuPercent": 0,
+        "memoryUsageMiB": 88.47,
+        "blockIo": "53.4MB / 160kB"
+      },
+      {
+        "container": "backend-redis-1",
+        "cpuPercent": 1.01,
+        "memoryUsageMiB": 9.17,
+        "blockIo": "0B / 8.19kB"
+      }
+    ]
+  },
+  {
+    "scenarioId": "endurance_load",
+    "phase": "before",
+    "collectedAt": "2026-04-24T09:49:27.136Z",
+    "supported": true,
+    "error": null,
+    "samples": [
+      {
+        "container": "backend-app-1",
+        "cpuPercent": 0.28,
+        "memoryUsageMiB": 43.21,
+        "blockIo": "0B / 0B"
+      },
+      {
+        "container": "backend-pg-1",
+        "cpuPercent": 0.04,
+        "memoryUsageMiB": 52.58,
+        "blockIo": "13.5MB / 124MB"
+      },
+      {
+        "container": "backend-prometheus-1",
+        "cpuPercent": 1.61,
+        "memoryUsageMiB": 88.47,
+        "blockIo": "53.4MB / 160kB"
+      },
+      {
+        "container": "backend-redis-1",
+        "cpuPercent": 0.94,
+        "memoryUsageMiB": 9.17,
+        "blockIo": "0B / 8.19kB"
+      }
+    ]
+  },
+  {
+    "scenarioId": "endurance_load",
+    "phase": "after",
+    "collectedAt": "2026-04-24T09:49:58.082Z",
+    "supported": true,
+    "error": null,
+    "samples": [
+      {
+        "container": "backend-app-1",
+        "cpuPercent": 0.75,
+        "memoryUsageMiB": 43.75,
+        "blockIo": "0B / 0B"
+      },
+      {
+        "container": "backend-pg-1",
+        "cpuPercent": 0.03,
+        "memoryUsageMiB": 52.6,
+        "blockIo": "13.5MB / 139MB"
+      },
+      {
+        "container": "backend-prometheus-1",
+        "cpuPercent": 0,
+        "memoryUsageMiB": 88.62,
+        "blockIo": "53.4MB / 168kB"
+      },
+      {
+        "container": "backend-redis-1",
+        "cpuPercent": 0.89,
+        "memoryUsageMiB": 9.17,
+        "blockIo": "0B / 8.19kB"
+      }
+    ]
+  }
+]

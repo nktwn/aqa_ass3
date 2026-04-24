@@ -1,0 +1,36 @@
+Mutant: ORDER-002
+Module: Order lifecycle
+Type: constant change
+Description: Break the only valid supplier transition from Pending to InProgress.
+Outcome: killed
+Command: go test ./modules/order/service
+
+--- stdout ---
+2026-04-24T14:50:31.704+0500	[34mINFO[0m	service/order.go:340	Cancelling order	{"service": "order", "customer_id": 10, "order_id": 60}
+2026-04-24T14:50:31.704+0500	[34mINFO[0m	service/order.go:169	Updating order status	{"service": "order", "supplier_id": 22, "order_id": 50, "new_status": 2}
+2026-04-24T14:50:31.704+0500	[34mINFO[0m	service/order.go:169	Updating order status	{"service": "order", "supplier_id": 22, "order_id": 50, "new_status": 2}
+2026-04-24T14:50:31.704+0500	[33mWARN[0m	service/order.go:362	Invalid order status for cancellation	{"service": "order", "current_status": 2}
+2026-04-24T14:50:31.704+0500	[33mWARN[0m	service/order.go:206	Invalid status transition	{"service": "order", "current_status": 1, "new_status": 2}
+2026-04-24T14:50:31.705+0500	[33mWARN[0m	service/order.go:185	Unauthorized status update attempt	{"service": "order", "supplier_id": 22, "order_id": 50, "actual_supplier_id": 99}
+--- FAIL: TestUpdateOrderStatusBySupplier_CreatesContractForPendingOrder (0.00s)
+    service_test.go:100: 
+        	Error Trace:	/Users/sergazieff.n/VSCodeProjects/aqa_ass3/backend/modules/order/service/service_test.go:100
+        	Error:      	Received unexpected error:
+        	            	invalid status transition from 1 to 2
+        	Test:       	TestUpdateOrderStatusBySupplier_CreatesContractForPendingOrder
+    service_test.go:101: FAIL:	UpdateOrderStatus(string,int64,int)
+        		at: [/Users/sergazieff.n/VSCodeProjects/aqa_ass3/backend/modules/order/service/service_test.go:94]
+    service_test.go:101: FAIL: 1 out of 2 expectation(s) were met.
+        	The code you are testing needs to make 1 more call(s).
+        	at: [/Users/sergazieff.n/VSCodeProjects/aqa_ass3/backend/modules/order/service/service_test.go:101]
+    service_test.go:102: FAIL:	CreateContract(string,int64,int64,int64,string)
+        		at: [/Users/sergazieff.n/VSCodeProjects/aqa_ass3/backend/modules/order/service/service_test.go:95]
+    service_test.go:102: FAIL: 0 out of 1 expectation(s) were met.
+        	The code you are testing needs to make 1 more call(s).
+        	at: [/Users/sergazieff.n/VSCodeProjects/aqa_ass3/backend/modules/order/service/service_test.go:102]
+FAIL
+FAIL	diploma/modules/order/service	0.621s
+FAIL
+
+
+--- stderr ---

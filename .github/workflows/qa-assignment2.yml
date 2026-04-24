@@ -7,6 +7,12 @@ on:
       - master
   pull_request:
   workflow_dispatch:
+    inputs:
+      run_experimental:
+        description: "Run Assignment 3 experimental engineering job"
+        required: false
+        default: false
+        type: boolean
 
 jobs:
   midterm-qa:
@@ -176,3 +182,118 @@ jobs:
         if: always()
         working-directory: backend
         run: docker compose down -v || true
+
+  assignment3-experiments:
+    if: ${{ github.event_name == 'workflow_dispatch' && inputs.run_experimental == true }}
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+          cache-dependency-path: |
+            package-lock.json
+            frontend/package-lock.json
+
+      - name: Set up Go
+        uses: actions/setup-go@v5
+        with:
+          go-version-file: backend/go.mod
+
+      - name: Install frontend dependencies
+        working-directory: frontend
+        run: npm ci
+
+      - name: Install root QA dependencies
+        run: npm ci
+
+      - name: Install Playwright Chromium
+        run: npm run qa:install:browsers
+
+      - name: Prepare QA environment
+        run: |
+          if [ -f .env.qa.example ]; then
+            cp .env.qa.example .env.qa
+          elif [ -f .env.qa ]; then
+            echo "Using tracked .env.qa"
+          else
+            echo "Neither .env.qa.example nor .env.qa exists" >&2
+            exit 1
+          fi
+
+      - name: Start backend stack
+        run: npm run qa:env:up
+
+      - name: Wait for backend metrics endpoint
+        run: |
+          for attempt in $(seq 1 40); do
+            if curl -fsS http://127.0.0.1:8080/metrics >/dev/null; then
+              exit 0
+            fi
+            sleep 5
+          done
+          echo "Backend did not become ready in time" >&2
+          docker compose -f backend/docker-compose.yaml ps >&2 || true
+          exit 1
+
+      - name: Wait for seeded auth readiness
+        run: |
+          QA_API_BASE_URL="$(grep '^QA_API_BASE_URL=' .env.qa | head -n 1 | cut -d= -f2-)"
+          QA_API_LOGIN_PHONE="$(grep '^QA_API_LOGIN_PHONE=' .env.qa | head -n 1 | cut -d= -f2-)"
+          QA_API_LOGIN_PASSWORD="$(grep '^QA_API_LOGIN_PASSWORD=' .env.qa | head -n 1 | cut -d= -f2-)"
+
+          for attempt in $(seq 1 30); do
+            response="$(curl -sS -X POST "${QA_API_BASE_URL}/auth/login" \
+              -H 'Content-Type: application/json' \
+              -d "{\"phone_number\":\"${QA_API_LOGIN_PHONE}\",\"password\":\"${QA_API_LOGIN_PASSWORD}\"}")"
+
+            if printf '%s' "$response" | grep -q '"access_token"'; then
+              exit 0
+            fi
+
+            sleep 4
+          done
+
+          echo "Seeded auth user did not become ready in time" >&2
+          echo "Last login response: $response" >&2
+          docker compose -f backend/docker-compose.yaml ps >&2 || true
+          docker compose -f backend/docker-compose.yaml logs --no-color data-seeder app >&2 || true
+          exit 1
+
+      - name: Run Assignment 3 performance experiments
+        run: npm run qa:performance
+
+      - name: Run Assignment 3 mutation experiments
+        run: npm run qa:mutation
+
+      - name: Run Assignment 3 chaos experiments
+        run: npm run qa:chaos
+
+      - name: Generate Assignment 3 artifacts
+        run: npm run qa:metrics:assignment3
+
+      - name: Upload Assignment 3 artifacts
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: qa-assignment3-artifacts
+          path: |
+            logs
+            qa-docs
+            evidence/charts
+          if-no-files-found: ignore
+
+      - name: Dump backend stack logs on failure
+        if: failure()
+        working-directory: backend
+        run: docker compose logs --no-color || true
+
+      - name: Stop backend stack
+        if: always()
+        run: npm run qa:env:down

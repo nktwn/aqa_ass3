@@ -1,0 +1,12 @@
+Mutant: PRODUCT-002
+Module: Product catalog and listing
+Type: modified return value
+Description: Return nil rather than an explicit empty suggestion list for blank input.
+Outcome: survived
+Command: go test ./modules/product/service
+
+--- stdout ---
+ok  	diploma/modules/product/service	0.491s
+
+
+--- stderr ---

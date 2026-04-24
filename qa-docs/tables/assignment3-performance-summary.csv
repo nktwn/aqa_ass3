@@ -1,0 +1,5 @@
+"scenario_id","type","duration_seconds","average_response_time_ms","median_response_time_ms","p95_response_time_ms","throughput_rps","error_rate_percent","passed"
+"normal_load","normal","15","19.31","2","70","164","0.28","true"
+"peak_load","peak","15","23.69","4","90","289.4","1.11","true"
+"spike_load","spike","12","25.97","7","92","220.17","1.85","true"
+"endurance_load","endurance","30","18.71","2","69","148.03","0.14","true"

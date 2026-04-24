@@ -65,6 +65,18 @@ Midterm implementation extends the existing Assignment 2 baseline with:
   `npm run qa:metrics`
 - Enforce quality gates:
   `npm run qa:quality-gates`
+- Start the live backend stack for Assignment 3 experiments:
+  `npm run qa:env:up`
+- Run Assignment 3 performance experiments:
+  `npm run qa:performance`
+- Run Assignment 3 mutation experiments:
+  `npm run qa:mutation`
+- Run Assignment 3 chaos experiments:
+  `npm run qa:chaos`
+- Generate Assignment 3 tables, charts, and markdown summaries:
+  `npm run qa:metrics:assignment3`
+- Stop the live backend stack:
+  `npm run qa:env:down`
 
 ## Reproducibility Notes
 
@@ -88,3 +100,21 @@ Midterm implementation extends the existing Assignment 2 baseline with:
 - `logs/flaky-tests-summary.json`
 - `logs/unexpected-behavior-summary.json`
 - `logs/quality-gates-summary.json`
+
+## Assignment 3 Artifacts
+
+- `qa/performance/plan.md`
+- `qa/mutation/plan.md`
+- `qa/chaos/plan.md`
+- `qa-docs/performance-results.md`
+- `qa-docs/mutation-results.md`
+- `qa-docs/chaos-results.md`
+- `qa-docs/assignment3-experimental-engineering-report.md`
+- `logs/performance-summary.json`
+- `logs/mutation-results.json`
+- `logs/chaos-summary.json`
+- `qa-docs/tables/assignment3-*.csv`
+- `evidence/charts/performance-response-time.svg`
+- `evidence/charts/performance-throughput.svg`
+- `evidence/charts/mutation-score.svg`
+- `evidence/charts/chaos-availability.svg`

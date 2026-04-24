@@ -1,0 +1,13 @@
+Mutant: CART-001
+Module: Cart management
+Type: logical operator change
+Description: Require cart totals to strictly exceed the supplier minimum instead of meeting it.
+Outcome: survived
+Command: go test ./modules/cart/service
+
+--- stdout ---
+ok  	diploma/modules/cart/service	0.492s
+
+
+--- stderr ---
+go: downloading github.com/google/uuid v1.6.0
